@@ -9,7 +9,7 @@ mri_image=${4:-"Case${case_num}-FLAIR.nii.gz"}
 tag_file=${5:-"Case${case_num}-MRI-beforeUS.tag"}
 
 # Resample images into a common reference frame and isotropic voxel size of 0.5x0.5x0.5 mm
-c3d $image_folder/$us_image $image_folder/$mri_image -reslice-identity -resample-mm 0.5x0.5x0.5mm -o $image_folder/Case${case_num}-MRI_in_US.nii.gz
+c3d $image_folder/$us_image $image_folder/$mri_image -reslice-identity -resample-mm 0.5x0.5x0.5mm -o $image_folder/"Case${case_num}-MRI_in_US.nii.gz"
 c3d $image_folder/$us_image -resample-mm 0.5x0.5x0.5mm -o $image_folder/Case${case_num}-US.nii.gz
 
 
