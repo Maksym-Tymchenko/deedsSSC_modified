@@ -146,7 +146,7 @@ int main (int argc, char * const argv[]) {
     int m=image_m; int n=image_n; int o=image_o; int sz=m*n*o;
     
     //assume we are working with CT scans (add 1024 HU)
-     float thresholdF=-0; float thresholdM=-0;
+     float thresholdF=-1024; float thresholdM=-1024;
     
     for(int i=0;i<sz;i++){
         im1b[i]-=thresholdF;
