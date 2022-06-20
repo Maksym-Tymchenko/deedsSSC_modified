@@ -15,7 +15,6 @@ mkdir -p $image_folder/output
 c3d $image_folder/$us_image $image_folder/$mri_image -reslice-identity -resample-mm 0.5x0.5x0.5mm -o $image_folder/output/Case${case_num}-MRI_in_US.nii.gz
 c3d $image_folder/$us_image -resample-mm 0.5x0.5x0.5mm -o $image_folder/output/Case${case_num}-US.nii.gz
 
-
 # Apply linear rigid pre-registration
 ./linearBCV -F $image_folder/output/Case${case_num}-US.nii.gz -M $image_folder/output/Case${case_num}-MRI_in_US.nii.gz -R 1 -O $image_folder/output/affine${case_num}
 
