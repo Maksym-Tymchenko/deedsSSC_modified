@@ -2,7 +2,7 @@
 
 # Input arguments
 
-case_num=${1-"4"}
+case_num=${1-"1"}
 image_folder=${2:-"bucket/RESECT/RESECT/NIFTI/Case${case_num}"}
 us_image=${3:-"US/Case${case_num}-US-before.nii.gz"}
 mri_image=${4:-"MRI/Case${case_num}-FLAIR.nii.gz"}
