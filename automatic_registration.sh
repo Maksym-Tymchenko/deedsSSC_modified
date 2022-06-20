@@ -26,7 +26,7 @@ c3d $image_folder/output/Case${case_num}-MRI_in_US.nii.gz -scale 0 -landmarks-to
 c3d $image_folder/output/Case${case_num}-US.nii.gz -scale 0 -landmarks-to-spheres $image_folder/output/Case${case_num}_lm_us.txt 1 -o $image_folder/output/Case${case_num}-US-landmarks.nii.gz
 
 # Perform non linear registration
-./deedsBCV -F $image_folder/output/Case${case_num}-MRI_in_US.nii.gz -M $image_folder/output/Case${case_num}-US.nii.gz -O $image_folder/output/Case${case_num}-deeds -S $image_folder/output/Case${case_num}-US-landmarks.nii.gz -A $image_folder/output/affine${case_num}_matrix.txt
+./deedsBCV -M $image_folder/output/Case${case_num}-MRI_in_US.nii.gz -F $image_folder/output/Case${case_num}-US.nii.gz -O $image_folder/output/Case${case_num}-deeds -S $image_folder/output/Case${case_num}-MRI-landmarks.nii.gz -A $image_folder/output/affine${case_num}_matrix.txt
 
 # Calculate mTRE
-python3 ./landmarks_centre_mass.py --inputnii $image_folder/output/Case${case_num}-MRI-landmarks.nii.gz --movingnii $image_folder/output/Case${case_num}-deeds_deformed_seg.nii.gz --savetxt $image_folder/output/Case${case_num}-results
+python3 ./landmarks_centre_mass.py --inputnii $image_folder/output/Case${case_num}-US-landmarks.nii.gz --movingnii $image_folder/output/Case${case_num}-deeds_deformed_seg.nii.gz --savetxt $image_folder/output/Case${case_num}-results
