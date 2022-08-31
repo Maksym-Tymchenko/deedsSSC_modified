@@ -1,0 +1,3560 @@
+[reg_aladin] 
+[reg_aladin] Command line:
+[reg_aladin] 	 reg_aladin -ref bucket/RESECT/RESECT/NIFTI/Case1/output/nifty_deeds/after/Case1-US.nii.gz -flo bucket/RESECT/RESECT/NIFTI/Case1/output/nifty_deeds/after/Case1-MRI_in_US.nii.gz -res bucket/RESECT/RESECT/NIFTI/Case1/output/nifty_deeds/after/Case1-MRI_to_US_result_rigid.nii.gz -rmask bucket/RESECT/RESECT/NIFTI/Case1/output/nifty_deeds/after/mask_US.nii.gz -fmask bucket/RESECT/RESECT/NIFTI/Case1/output/nifty_deeds/after/mask_US.nii.gz -aff bucket/RESECT/RESECT/NIFTI/Case1/output/nifty_deeds/after/affine_matrix.txt
+[reg_aladin] 
+[reg_aladin] OpenMP is used with 8 thread(s)
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Platform: cpu_platform
+[reg_aladin_sym] Reference image name: bucket/RESECT/RESECT/NIFTI/Case1/output/nifty_deeds/after/Case1-US.nii.gz
+[reg_aladin_sym] 	135x134x128 voxels
+[reg_aladin_sym] 	0.49715x0.499275x0.499448 mm
+[reg_aladin_sym] Floating image name: bucket/RESECT/RESECT/NIFTI/Case1/output/nifty_deeds/after/Case1-MRI_in_US.nii.gz
+[reg_aladin_sym] 	135x134x128 voxels
+[reg_aladin_sym] 	0.49715x0.499275x0.499448 mm
+[reg_aladin_sym] Maximum iteration number: 5
+[reg_aladin_sym] 	(10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	34x34x32 voxels	1.9886x1.9971x1.99779 mm
+[reg_aladin_sym] floating image size: 	34x34x32 voxels	1.9886x1.9971x1.99779 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [9 9 8]
+[reg_aladin_sym] Backward Block number = [9 9 8]
+[reg_aladin_sym] Initial forward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.144144	0.1033027	0.07039078	0.3394174
+-0.4681073	1.188864	-0.08464589	25.32982
+-0.2066348	-0.06817059	0.8728869	11.055
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.8293726	-0.0763253	-0.07428318	2.473003
+0.342443	0.8143283	0.05135226	-21.31072
+0.2230779	0.04552913	1.13205	-13.74377
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	68x67x64 voxels	0.9943x0.99855x0.998897 mm
+[reg_aladin_sym] floating image size: 	68x67x64 voxels	0.9943x0.99855x0.998897 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [17 17 16]
+[reg_aladin_sym] Backward Block number = [17 17 16]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.144144	0.1033027	0.07039078	0.3394174
+-0.4681073	1.188864	-0.08464589	25.32982
+-0.2066348	-0.06817059	0.8728869	11.055
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.8293726	-0.0763253	-0.07428318	2.473003
+0.342443	0.8143283	0.05135226	-21.31072
+0.2230779	0.04552913	1.13205	-13.74377
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.130625	0.1347739	0.1357788	-3.393723
+-0.4004835	1.235061	-0.1013727	24.79803
+-0.1456372	-0.07415075	1.041832	2.394752
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.8344576	-0.09816147	-0.1183036	5.549438
+0.2818037	0.7812845	0.03929418	-18.51205
+0.1367053	0.04188474	0.9461065	-2.84041
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	135x134x128 voxels	0.49715x0.499275x0.499448 mm
+[reg_aladin_sym] floating image size: 	135x134x128 voxels	0.49715x0.499275x0.499448 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [34 34 32]
+[reg_aladin_sym] Backward Block number = [34 34 32]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.130625	0.1347739	0.1357788	-3.393723
+-0.4004835	1.235061	-0.1013727	24.79803
+-0.1456372	-0.07415075	1.041832	2.394752
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.8344576	-0.09816147	-0.1183036	5.549438
+0.2818037	0.7812845	0.03929418	-18.51205
+0.1367053	0.04188474	0.9461065	-2.84041
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.127577	0.180005	0.1142327	-1.445325
+-0.3761064	1.186288	-0.07958999	21.41854
+-0.1461844	-0.0187625	1.092833	2.093084
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.8317733	-0.1277339	-0.09624716	4.139509
+0.2714869	0.8022457	0.03004855	-16.85344
+0.1159244	-0.003313	0.9026942	-1.650906
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin] Registration performed in 0 min 10 sec
+[reg_aladin] Have a good day !
+Transforming Case1-MRI-landmarks.nii.gz into Case1-MRI-landmarks_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.128 | +0.180 | +0.114 | -1.445 
+-0.376 | +1.186 | -0.080 | +21.419 
+-0.146 | -0.019 | +1.093 | +2.093 
++0.000 | +0.000 | +0.000 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case1/output/nifty_deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Transforming Case1-MRI_in_US.nii.gz into Case1-MRI_in_US_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.128 | +0.180 | +0.114 | -1.445 
+-0.376 | +1.186 | -0.080 | +21.419 
+-0.146 | -0.019 | +1.093 | +2.093 
++0.000 | +0.000 | +0.000 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case1/output/nifty_deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Starting registration of Case1-US.nii.gz and Case1-MRI_in_US.nii.gz
+=============================================================
+Reading affine matrix file: affine_matrix.txt
++1.128 | +0.180 | +0.114 | -1.445 
+-0.376 | +1.186 | -0.080 | +21.419 
+-0.146 | -0.019 | +1.093 | +2.093 
++0.000 | +0.000 | +0.000 | +1.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 16x16x16 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.426814, data=1.18322, MST-reg=0.421859, transf.=0.297658
+ speed=2.50749e+07 dof/s
+std(J)=1.1 (J<0)=0e-7  SSD before registration: 8237.47 and after 8237.47
+
+==========================================================
+Level 1 grid=7 with sizes: 19x19x18 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.213305, data=0.90882, MST-reg=0.456948, transf.=0.296918
+ speed=3.21149e+07 dof/s
+std(J)=1.45 (J<0)=0e-7  SSD before registration: 8237.47 and after 6607.64
+
+==========================================================
+Level 2 grid=6 with sizes: 22x22x21 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.417773, data=0.543501, MST-reg=0.434989, transf.=0.295456
+ speed=4.56424e+07 dof/s
+std(J)=1.47 (J<0)=0e-7  SSD before registration: 8237.47 and after 6148.95
+
+==========================================================
+Level 3 grid=5 with sizes: 27x26x25 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.207029, data=0.463741, MST-reg=0.401557, transf.=0.29526
+ speed=5.39908e+07 dof/s
+std(J)=1.46 (J<0)=0e-7  SSD before registration: 8237.47 and after 5876.15
+
+==========================================================
+Level 4 grid=4 with sizes: 33x33x32 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.378953, data=0.577115, MST-reg=0.401526, transf.=0.28659
+ speed=5.19173e+07 dof/s
+std(J)=1.34 (J<0)=0e-7  SSD before registration: 8237.47 and after 5885.1
+
+SSD before registration: 9652.31 and after 7698.83
+outputseg /vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case1/output/nifty_deeds/after/Case1-deeds_deformed_seg.nii.gz
+Finished. Total time: 8.99604 sec. (0 sec. for MIND+data+reg+trans)
+('landmark error (vox)', 28.130618226575564)
+[reg_aladin] 
+[reg_aladin] Command line:
+[reg_aladin] 	 reg_aladin -ref bucket/RESECT/RESECT/NIFTI/Case2/output/nifty_deeds/after/Case2-US.nii.gz -flo bucket/RESECT/RESECT/NIFTI/Case2/output/nifty_deeds/after/Case2-MRI_in_US.nii.gz -res bucket/RESECT/RESECT/NIFTI/Case2/output/nifty_deeds/after/Case2-MRI_to_US_result_rigid.nii.gz -rmask bucket/RESECT/RESECT/NIFTI/Case2/output/nifty_deeds/after/mask_US.nii.gz -fmask bucket/RESECT/RESECT/NIFTI/Case2/output/nifty_deeds/after/mask_US.nii.gz -aff bucket/RESECT/RESECT/NIFTI/Case2/output/nifty_deeds/after/affine_matrix.txt
+[reg_aladin] 
+[reg_aladin] OpenMP is used with 8 thread(s)
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Platform: cpu_platform
+[reg_aladin_sym] Reference image name: bucket/RESECT/RESECT/NIFTI/Case2/output/nifty_deeds/after/Case2-US.nii.gz
+[reg_aladin_sym] 	123x126x112 voxels
+[reg_aladin_sym] 	0.499187x0.5x0.498214 mm
+[reg_aladin_sym] Floating image name: bucket/RESECT/RESECT/NIFTI/Case2/output/nifty_deeds/after/Case2-MRI_in_US.nii.gz
+[reg_aladin_sym] 	123x126x112 voxels
+[reg_aladin_sym] 	0.499187x0.5x0.498214 mm
+[reg_aladin_sym] Maximum iteration number: 5
+[reg_aladin_sym] 	(10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	62x63x56 voxels	0.998374x1x0.996429 mm
+[reg_aladin_sym] floating image size: 	62x63x56 voxels	0.998374x1x0.996429 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [16 16 14]
+[reg_aladin_sym] Backward Block number = [16 16 14]
+[reg_aladin_sym] Initial forward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.159762	-0.1547336	-0.01724636	11.67502
+0.02164974	1.15809	0.01676033	-11.70867
+0.0455923	0.156576	1.159647	-17.58393
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.8596919	0.1133573	0.01114705	-8.513646
+-0.01561274	0.8631231	-0.01270687	10.06486
+-0.03169132	-0.1209959	0.8636087	14.13893
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	62x63x56 voxels	0.998374x1x0.996429 mm
+[reg_aladin_sym] floating image size: 	62x63x56 voxels	0.998374x1x0.996429 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [16 16 14]
+[reg_aladin_sym] Backward Block number = [16 16 14]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.159762	-0.1547336	-0.01724636	11.67502
+0.02164974	1.15809	0.01676033	-11.70867
+0.0455923	0.156576	1.159647	-17.58393
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.8596919	0.1133573	0.01114705	-8.513646
+-0.01561274	0.8631231	-0.01270687	10.06486
+-0.03169132	-0.1209959	0.8636087	14.13893
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.164726	-0.1520145	-0.01121616	10.85163
+0.01216703	1.095907	-0.01076223	-6.545581
+0.01143638	0.1391797	1.162194	-16.64233
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.8572494	0.1177209	0.009363318	-8.376173
+-0.009588959	0.9100977	0.008335209	6.199891
+-0.007287288	-0.1101481	0.8593515	13.65971
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	123x126x112 voxels	0.499187x0.5x0.498214 mm
+[reg_aladin_sym] floating image size: 	123x126x112 voxels	0.499187x0.5x0.498214 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [31 32 28]
+[reg_aladin_sym] Backward Block number = [31 32 28]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.164726	-0.1520145	-0.01121616	10.85163
+0.01216703	1.095907	-0.01076223	-6.545581
+0.01143638	0.1391797	1.162194	-16.64233
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.8572494	0.1177209	0.009363318	-8.376173
+-0.009588959	0.9100977	0.008335209	6.199891
+-0.007287288	-0.1101481	0.8593515	13.65971
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.121796	-0.1158603	-0.01340202	9.059597
+0.02439053	1.10976	-0.03246254	-7.129956
+0.03002924	0.1332174	1.141799	-16.01471
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.889095	0.09125841	0.01303044	-7.195495
+-0.02015591	0.8959617	0.02523654	6.974928
+-0.02103148	-0.1069349	0.8725237	13.40131
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin] Registration performed in 0 min 20 sec
+[reg_aladin] Have a good day !
+Transforming Case2-MRI-landmarks.nii.gz into Case2-MRI-landmarks_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.122 | -0.116 | -0.013 | +9.060 
++0.024 | +1.110 | -0.032 | -7.130 
++0.030 | +0.133 | +1.142 | -16.015 
++0.000 | +0.000 | +0.000 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case2/output/nifty_deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Transforming Case2-MRI_in_US.nii.gz into Case2-MRI_in_US_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.122 | -0.116 | -0.013 | +9.060 
++0.024 | +1.110 | -0.032 | -7.130 
++0.030 | +0.133 | +1.142 | -16.015 
++0.000 | +0.000 | +0.000 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case2/output/nifty_deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Starting registration of Case2-US.nii.gz and Case2-MRI_in_US.nii.gz
+=============================================================
+Reading affine matrix file: affine_matrix.txt
++1.122 | -0.116 | -0.013 | +9.060 
++0.024 | +1.110 | -0.032 | -7.130 
++0.030 | +0.133 | +1.142 | -16.015 
++0.000 | +0.000 | +0.000 | +1.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 15x15x14 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.319968, data=0.92798, MST-reg=0.315623, transf.=0.222407
+ speed=2.48889e+07 dof/s
+std(J)=0.75 (J<0)=0e-7  SSD before registration: 8159.58 and after 8159.58
+
+==========================================================
+Level 1 grid=7 with sizes: 17x18x16 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.14535, data=0.597312, MST-reg=0.356397, transf.=0.214947
+ speed=3.46521e+07 dof/s
+std(J)=1.12 (J<0)=0e-7  SSD before registration: 8159.58 and after 7260.02
+
+==========================================================
+Level 2 grid=6 with sizes: 20x21x18 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.283236, data=0.390331, MST-reg=0.335111, transf.=0.216456
+ speed=4.57909e+07 dof/s
+std(J)=1.23 (J<0)=13.23e-7  SSD before registration: 8159.58 and after 6759.85
+
+==========================================================
+Level 3 grid=5 with sizes: 24x25x22 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.141918, data=0.320648, MST-reg=0.308731, transf.=0.215544
+ speed=5.58302e+07 dof/s
+std(J)=1.2 (J<0)=0e-7  SSD before registration: 8159.58 and after 6515.32
+
+==========================================================
+Level 4 grid=4 with sizes: 30x31x28 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.281544, data=0.472512, MST-reg=0.299048, transf.=0.21606
+ speed=4.92072e+07 dof/s
+std(J)=1.13 (J<0)=0e-7  SSD before registration: 8159.58 and after 6354.6
+
+SSD before registration: 8505.53 and after 7741.63
+outputseg /vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case2/output/nifty_deeds/after/Case2-deeds_deformed_seg.nii.gz
+Finished. Total time: 6.65085 sec. (0 sec. for MIND+data+reg+trans)
+('landmark error (vox)', 7.079741198823596)
+[reg_aladin] 
+[reg_aladin] Command line:
+[reg_aladin] 	 reg_aladin -ref bucket/RESECT/RESECT/NIFTI/Case3/output/nifty_deeds/after/Case3-US.nii.gz -flo bucket/RESECT/RESECT/NIFTI/Case3/output/nifty_deeds/after/Case3-MRI_in_US.nii.gz -res bucket/RESECT/RESECT/NIFTI/Case3/output/nifty_deeds/after/Case3-MRI_to_US_result_rigid.nii.gz -rmask bucket/RESECT/RESECT/NIFTI/Case3/output/nifty_deeds/after/mask_US.nii.gz -fmask bucket/RESECT/RESECT/NIFTI/Case3/output/nifty_deeds/after/mask_US.nii.gz -aff bucket/RESECT/RESECT/NIFTI/Case3/output/nifty_deeds/after/affine_matrix.txt
+[reg_aladin] 
+[reg_aladin] OpenMP is used with 8 thread(s)
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Platform: cpu_platform
+[reg_aladin_sym] Reference image name: bucket/RESECT/RESECT/NIFTI/Case3/output/nifty_deeds/after/Case3-US.nii.gz
+[reg_aladin_sym] 	137x140x134 voxels
+[reg_aladin_sym] 	0.499627x0.499926x0.497673 mm
+[reg_aladin_sym] Floating image name: bucket/RESECT/RESECT/NIFTI/Case3/output/nifty_deeds/after/Case3-MRI_in_US.nii.gz
+[reg_aladin_sym] 	137x140x134 voxels
+[reg_aladin_sym] 	0.499627x0.499926x0.497673 mm
+[reg_aladin_sym] Maximum iteration number: 5
+[reg_aladin_sym] 	(10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	35x35x34 voxels	1.99851x1.9997x1.99069 mm
+[reg_aladin_sym] floating image size: 	35x35x34 voxels	1.99851x1.9997x1.99069 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [9 9 9]
+[reg_aladin_sym] Backward Block number = [9 9 9]
+[reg_aladin_sym] Initial forward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.223446	0.1467178	0.08420581	9.28869
+0.0835766	1.186587	-0.1205245	8.859447
+0.02691568	0.1382572	0.9942947	5.633479
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.8254752	-0.09261392	-0.08113496	-6.390003
+-0.05957027	0.8376999	0.1065877	-7.468688
+-0.01406244	-0.1139756	0.9931133	-4.454301
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	69x70x67 voxels	0.999254x0.999851x0.995345 mm
+[reg_aladin_sym] floating image size: 	69x70x67 voxels	0.999254x0.999851x0.995345 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [18 18 17]
+[reg_aladin_sym] Backward Block number = [18 18 17]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.223446	0.1467178	0.08420581	9.28869
+0.0835766	1.186587	-0.1205245	8.859447
+0.02691568	0.1382572	0.9942947	5.633479
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.8254752	-0.09261392	-0.08113496	-6.390003
+-0.05957027	0.8376999	0.1065877	-7.468688
+-0.01406244	-0.1139756	0.9931133	-4.454301
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.137889	0.01137453	0.05232221	8.890012
+0.0672498	1.160938	-0.1535972	9.650481
+0.04853977	0.08604623	1.021275	4.971933
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.8810882	-0.005228669	-0.0459265	-7.554082
+-0.05595567	0.8522087	0.1310368	-8.378284
+-0.03716242	-0.07155325	0.9703106	-3.803422
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	137x140x134 voxels	0.499627x0.499926x0.497673 mm
+[reg_aladin_sym] floating image size: 	137x140x134 voxels	0.499627x0.499926x0.497673 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [35 35 34]
+[reg_aladin_sym] Backward Block number = [35 35 34]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.137889	0.01137453	0.05232221	8.890012
+0.0672498	1.160938	-0.1535972	9.650481
+0.04853977	0.08604623	1.021275	4.971933
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.8810882	-0.005228669	-0.0459265	-7.554082
+-0.05595567	0.8522087	0.1310368	-8.378284
+-0.03716242	-0.07155325	0.9703106	-3.803422
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.135714	0.005658667	0.03993414	9.234562
+0.03327989	1.132142	-0.1463094	7.691287
+0.02295202	0.09520157	1.018615	3.842498
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.881249	-0.001481559	-0.03476162	-7.992982
+-0.02813114	0.8727878	0.1264664	-6.93903
+-0.01722763	-0.08153898	0.9706892	-2.943641
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin] Registration performed in 0 min 12 sec
+[reg_aladin] Have a good day !
+Transforming Case3-MRI-landmarks.nii.gz into Case3-MRI-landmarks_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.136 | +0.006 | +0.040 | +9.235 
++0.033 | +1.132 | -0.146 | +7.691 
++0.023 | +0.095 | +1.019 | +3.842 
++0.000 | +0.000 | +0.000 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case3/output/nifty_deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Transforming Case3-MRI_in_US.nii.gz into Case3-MRI_in_US_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.136 | +0.006 | +0.040 | +9.235 
++0.033 | +1.132 | -0.146 | +7.691 
++0.023 | +0.095 | +1.019 | +3.842 
++0.000 | +0.000 | +0.000 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case3/output/nifty_deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Starting registration of Case3-US.nii.gz and Case3-MRI_in_US.nii.gz
+=============================================================
+Reading affine matrix file: affine_matrix.txt
++1.136 | +0.006 | +0.040 | +9.235 
++0.033 | +1.132 | -0.146 | +7.691 
++0.023 | +0.095 | +1.019 | +3.842 
++0.000 | +0.000 | +0.000 | +1.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 17x17x16 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.444259, data=1.31526, MST-reg=0.468909, transf.=0.323307
+ speed=2.54659e+07 dof/s
+std(J)=0.82 (J<0)=0e-7  SSD before registration: 3742.64 and after 3742.64
+
+==========================================================
+Level 1 grid=7 with sizes: 19x20x19 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.215367, data=0.972087, MST-reg=0.557451, transf.=0.326436
+ speed=3.18626e+07 dof/s
+std(J)=1.1 (J<0)=0e-7  SSD before registration: 3742.64 and after 3213.89
+
+==========================================================
+Level 2 grid=6 with sizes: 22x23x22 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.463079, data=0.603518, MST-reg=0.460259, transf.=0.332208
+ speed=4.59815e+07 dof/s
+std(J)=1.25 (J<0)=0e-7  SSD before registration: 3742.64 and after 2965.28
+
+==========================================================
+Level 3 grid=5 with sizes: 27x28x26 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.21747, data=0.50184, MST-reg=0.461197, transf.=0.325313
+ speed=5.43326e+07 dof/s
+std(J)=1.25 (J<0)=0e-7  SSD before registration: 3742.64 and after 2842.71
+
+==========================================================
+Level 4 grid=4 with sizes: 34x35x33 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.41976, data=0.70516, MST-reg=0.444095, transf.=0.317608
+ speed=4.98198e+07 dof/s
+std(J)=1.18 (J<0)=0e-7  SSD before registration: 3742.64 and after 2829.04
+
+SSD before registration: 4002.23 and after 3808.13
+outputseg /vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case3/output/nifty_deeds/after/Case3-deeds_deformed_seg.nii.gz
+Finished. Total time: 9.97124 sec. (0 sec. for MIND+data+reg+trans)
+('landmark error (vox)', 4.671174307705469)
+[reg_aladin] 
+[reg_aladin] Command line:
+[reg_aladin] 	 reg_aladin -ref bucket/RESECT/RESECT/NIFTI/Case4/output/nifty_deeds/after/Case4-US.nii.gz -flo bucket/RESECT/RESECT/NIFTI/Case4/output/nifty_deeds/after/Case4-MRI_in_US.nii.gz -res bucket/RESECT/RESECT/NIFTI/Case4/output/nifty_deeds/after/Case4-MRI_to_US_result_rigid.nii.gz -rmask bucket/RESECT/RESECT/NIFTI/Case4/output/nifty_deeds/after/mask_US.nii.gz -fmask bucket/RESECT/RESECT/NIFTI/Case4/output/nifty_deeds/after/mask_US.nii.gz -aff bucket/RESECT/RESECT/NIFTI/Case4/output/nifty_deeds/after/affine_matrix.txt
+[reg_aladin] 
+[reg_aladin] OpenMP is used with 8 thread(s)
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Platform: cpu_platform
+[reg_aladin_sym] Reference image name: bucket/RESECT/RESECT/NIFTI/Case4/output/nifty_deeds/after/Case4-US.nii.gz
+[reg_aladin_sym] 	136x124x145 voxels
+[reg_aladin_sym] 	0.498706x0.498194x0.497545 mm
+[reg_aladin_sym] Floating image name: bucket/RESECT/RESECT/NIFTI/Case4/output/nifty_deeds/after/Case4-MRI_in_US.nii.gz
+[reg_aladin_sym] 	136x124x145 voxels
+[reg_aladin_sym] 	0.498706x0.498194x0.497545 mm
+[reg_aladin_sym] Maximum iteration number: 5
+[reg_aladin_sym] 	(10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	34x62x37 voxels	1.99482x0.996387x1.99018 mm
+[reg_aladin_sym] floating image size: 	34x62x37 voxels	1.99482x0.996387x1.99018 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [9 16 10]
+[reg_aladin_sym] Backward Block number = [9 16 10]
+[reg_aladin_sym] Initial forward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.096416	0.009261269	0.03002455	1.271538
+0.03960611	0.9728985	-0.06522541	-4.373248
+0.03579513	-0.0438532	0.9897811	0.5030723
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9133489	-0.009972865	-0.02836321	-1.190703
+-0.03951372	1.03135	0.06916339	4.525798
+-0.03478167	0.04605562	1.014415	-0.264685
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	68x62x73 voxels	0.997412x0.996387x0.99509 mm
+[reg_aladin_sym] floating image size: 	68x62x73 voxels	0.997412x0.996387x0.99509 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [17 16 19]
+[reg_aladin_sym] Backward Block number = [17 16 19]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.096416	0.009261269	0.03002455	1.271538
+0.03960611	0.9728985	-0.06522541	-4.373248
+0.03579513	-0.0438532	0.9897811	0.5030723
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.9133489	-0.009972865	-0.02836321	-1.190703
+-0.03951372	1.03135	0.06916339	4.525798
+-0.03478167	0.04605562	1.014415	-0.264685
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.155265	-0.00591932	0.04746567	-1.882427
+-0.0167974	0.9914717	-0.04893148	-0.8467351
+0.01225863	-0.009463589	1.031554	2.656742
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.8660924	0.004792557	-0.03962484	1.739686
+0.0141717	1.009137	0.04721605	0.755708
+-0.01016233	0.009200981	0.9703155	-2.589216
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	136x124x145 voxels	0.498706x0.498194x0.497545 mm
+[reg_aladin_sym] floating image size: 	136x124x145 voxels	0.498706x0.498194x0.497545 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [34 31 37]
+[reg_aladin_sym] Backward Block number = [34 31 37]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.155265	-0.00591932	0.04746567	-1.882427
+-0.0167974	0.9914717	-0.04893148	-0.8467351
+0.01225863	-0.009463589	1.031554	2.656742
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.8660924	0.004792557	-0.03962484	1.739686
+0.0141717	1.009137	0.04721605	0.755708
+-0.01016233	0.009200981	0.9703155	-2.589216
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.139265	0.02182106	0.0648848	-1.502307
+-0.05453064	1.002689	-0.01399716	1.38633
+0.0370851	0.01008726	1.022117	0.9708874
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.8786944	-0.0185589	-0.05603437	1.400201
+0.04733569	0.9961809	0.01063708	-1.32025
+-0.0323485	-0.009157935	0.9802896	-0.9876522
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin] Registration performed in 0 min 14 sec
+[reg_aladin] Have a good day !
+Transforming Case4-MRI-landmarks.nii.gz into Case4-MRI-landmarks_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.139 | +0.022 | +0.065 | -1.502 
+-0.055 | +1.003 | -0.014 | +1.386 
++0.037 | +0.010 | +1.022 | +0.971 
++0.000 | +0.000 | +0.000 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case4/output/nifty_deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Transforming Case4-MRI_in_US.nii.gz into Case4-MRI_in_US_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.139 | +0.022 | +0.065 | -1.502 
+-0.055 | +1.003 | -0.014 | +1.386 
++0.037 | +0.010 | +1.022 | +0.971 
++0.000 | +0.000 | +0.000 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case4/output/nifty_deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Starting registration of Case4-US.nii.gz and Case4-MRI_in_US.nii.gz
+=============================================================
+Reading affine matrix file: affine_matrix.txt
++1.139 | +0.022 | +0.065 | -1.502 
+-0.055 | +1.003 | -0.014 | +1.386 
++0.037 | +0.010 | +1.022 | +0.971 
++0.000 | +0.000 | +0.000 | +1.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 17x15x18 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.428249, data=1.42555, MST-reg=0.488276, transf.=0.310632
+ speed=2.3566e+07 dof/s
+std(J)=1.02 (J<0)=21.79e-7  SSD before registration: 4548.89 and after 4548.89
+
+==========================================================
+Level 1 grid=7 with sizes: 19x17x20 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.208204, data=0.867439, MST-reg=0.464689, transf.=0.310846
+ speed=3.27333e+07 dof/s
+std(J)=1.12 (J<0)=0e-7  SSD before registration: 4548.89 and after 3930.09
+
+==========================================================
+Level 2 grid=6 with sizes: 22x20x24 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.412516, data=0.503925, MST-reg=0.454009, transf.=0.311609
+ speed=4.84383e+07 dof/s
+std(J)=1.24 (J<0)=94.7e-7  SSD before registration: 4548.89 and after 3880.94
+
+==========================================================
+Level 3 grid=5 with sizes: 27x24x29 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.205798, data=0.471671, MST-reg=0.431967, transf.=0.312803
+ speed=5.53588e+07 dof/s
+std(J)=1.29 (J<0)=180.93e-7  SSD before registration: 4548.89 and after 3838.81
+
+==========================================================
+Level 4 grid=4 with sizes: 34x31x36 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.403954, data=0.682173, MST-reg=0.437578, transf.=0.304759
+ speed=4.94059e+07 dof/s
+std(J)=1.23 (J<0)=0e-7  SSD before registration: 4548.89 and after 3853.78
+
+SSD before registration: 4751.17 and after 4247.81
+outputseg /vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case4/output/nifty_deeds/after/Case4-deeds_deformed_seg.nii.gz
+Finished. Total time: 9.52889 sec. (0 sec. for MIND+data+reg+trans)
+('landmark error (vox)', 4.426353340991532)
+[reg_aladin] 
+[reg_aladin] Command line:
+[reg_aladin] 	 reg_aladin -ref bucket/RESECT/RESECT/NIFTI/Case6/output/nifty_deeds/after/Case6-US.nii.gz -flo bucket/RESECT/RESECT/NIFTI/Case6/output/nifty_deeds/after/Case6-MRI_in_US.nii.gz -res bucket/RESECT/RESECT/NIFTI/Case6/output/nifty_deeds/after/Case6-MRI_to_US_result_rigid.nii.gz -rmask bucket/RESECT/RESECT/NIFTI/Case6/output/nifty_deeds/after/mask_US.nii.gz -fmask bucket/RESECT/RESECT/NIFTI/Case6/output/nifty_deeds/after/mask_US.nii.gz -aff bucket/RESECT/RESECT/NIFTI/Case6/output/nifty_deeds/after/affine_matrix.txt
+[reg_aladin] 
+[reg_aladin] OpenMP is used with 8 thread(s)
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Platform: cpu_platform
+[reg_aladin_sym] Reference image name: bucket/RESECT/RESECT/NIFTI/Case6/output/nifty_deeds/after/Case6-US.nii.gz
+[reg_aladin_sym] 	121x192x172 voxels
+[reg_aladin_sym] 	0.499324x0.499236x0.499483 mm
+[reg_aladin_sym] Floating image name: bucket/RESECT/RESECT/NIFTI/Case6/output/nifty_deeds/after/Case6-MRI_in_US.nii.gz
+[reg_aladin_sym] 	121x192x172 voxels
+[reg_aladin_sym] 	0.499324x0.499236x0.499483 mm
+[reg_aladin_sym] Maximum iteration number: 5
+[reg_aladin_sym] 	(10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	61x48x43 voxels	0.998648x1.99694x1.99793 mm
+[reg_aladin_sym] floating image size: 	61x48x43 voxels	0.998648x1.99694x1.99793 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [16 12 11]
+[reg_aladin_sym] Backward Block number = [16 12 11]
+[reg_aladin_sym] Initial forward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.123116	0.08011169	-0.01348688	-2.158455
+-0.05970052	0.9774952	-0.05794873	-0.5240543
+0.001043906	0.01996898	1.007786	-0.9797977
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.8865024	-0.0728111	0.007677065	1.882841
+0.05402524	1.017385	0.05922372	0.7078035
+-0.00198877	-0.02008377	0.9910929	0.956253
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	61x96x86 voxels	0.998648x0.998472x0.998966 mm
+[reg_aladin_sym] floating image size: 	61x96x86 voxels	0.998648x0.998472x0.998966 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [16 24 22]
+[reg_aladin_sym] Backward Block number = [16 24 22]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.123116	0.08011169	-0.01348688	-2.158455
+-0.05970052	0.9774952	-0.05794873	-0.5240543
+0.001043906	0.01996898	1.007786	-0.9797977
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.8865024	-0.0728111	0.007677065	1.882841
+0.05402524	1.017385	0.05922372	0.7078035
+-0.00198877	-0.02008377	0.9910929	0.956253
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.178739	0.113006	0.04771297	-1.766645
+-0.06349102	0.9890214	-0.0779024	-1.192756
+-0.01403155	0.01740887	0.9701428	-1.385966
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.8426399	-0.09541601	-0.0491041	1.306781
+0.0549762	1.003448	0.077873	1.401922
+0.01120089	-0.01938656	1.028668	1.422364
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	121x192x172 voxels	0.499324x0.499236x0.499483 mm
+[reg_aladin_sym] floating image size: 	121x192x172 voxels	0.499324x0.499236x0.499483 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [31 48 43]
+[reg_aladin_sym] Backward Block number = [31 48 43]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.178739	0.113006	0.04771297	-1.766645
+-0.06349102	0.9890214	-0.0779024	-1.192756
+-0.01403155	0.01740887	0.9701428	-1.385966
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.8426399	-0.09541601	-0.0491041	1.306781
+0.0549762	1.003448	0.077873	1.401922
+0.01120089	-0.01938656	1.028668	1.422364
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.175552	0.0917124	0.06356253	-1.917395
+-0.08761217	0.9779913	-0.05261399	0.2146377
+-0.004643518	0.01723862	1.015385	-0.1481106
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.8446113	-0.07820113	-0.05692434	1.627807
+0.07580204	1.014552	0.0478257	-0.0653353
+0.00257562	-0.01758212	0.9837762	0.1544199
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin] Registration performed in 0 min 18 sec
+[reg_aladin] Have a good day !
+Transforming Case6-MRI-landmarks.nii.gz into Case6-MRI-landmarks_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.176 | +0.092 | +0.064 | -1.917 
+-0.088 | +0.978 | -0.053 | +0.215 
+-0.005 | +0.017 | +1.015 | -0.148 
++0.000 | +0.000 | +0.000 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case6/output/nifty_deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Transforming Case6-MRI_in_US.nii.gz into Case6-MRI_in_US_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.176 | +0.092 | +0.064 | -1.917 
+-0.088 | +0.978 | -0.053 | +0.215 
+-0.005 | +0.017 | +1.015 | -0.148 
++0.000 | +0.000 | +0.000 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case6/output/nifty_deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Starting registration of Case6-US.nii.gz and Case6-MRI_in_US.nii.gz
+=============================================================
+Reading affine matrix file: affine_matrix.txt
++1.176 | +0.092 | +0.064 | -1.917 
+-0.088 | +0.978 | -0.053 | +0.215 
+-0.005 | +0.017 | +1.015 | -0.148 
++0.000 | +0.000 | +0.000 | +1.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 15x24x21 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.764074, data=2.36114, MST-reg=0.754453, transf.=0.547139
+ speed=2.38428e+07 dof/s
+std(J)=0.97 (J<0)=0e-7  SSD before registration: 3055.55 and after 3055.55
+
+==========================================================
+Level 1 grid=7 with sizes: 17x27x24 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.377409, data=1.37794, MST-reg=0.792044, transf.=0.55009
+ speed=3.42666e+07 dof/s
+std(J)=1.22 (J<0)=0e-7  SSD before registration: 3055.55 and after 2716.46
+
+==========================================================
+Level 2 grid=6 with sizes: 20x32x28 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.755679, data=0.943686, MST-reg=0.75022, transf.=0.547905
+ speed=4.64846e+07 dof/s
+std(J)=1.33 (J<0)=0e-7  SSD before registration: 3055.55 and after 2472.37
+
+==========================================================
+Level 3 grid=5 with sizes: 24x38x34 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.377776, data=0.804889, MST-reg=0.71458, transf.=0.551722
+ speed=5.43238e+07 dof/s
+std(J)=1.34 (J<0)=0e-7  SSD before registration: 3055.55 and after 2349.12
+
+==========================================================
+Level 4 grid=4 with sizes: 30x48x43 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.766317, data=1.08296, MST-reg=0.705631, transf.=0.561584
+ speed=5.0475e+07 dof/s
+std(J)=1.25 (J<0)=0e-7  SSD before registration: 3055.55 and after 2314.93
+
+SSD before registration: 3161.05 and after 2729.2
+outputseg /vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case6/output/nifty_deeds/after/Case6-deeds_deformed_seg.nii.gz
+Finished. Total time: 16.2327 sec. (0 sec. for MIND+data+reg+trans)
+('landmark error (vox)', 8.428182526503253)
+[reg_aladin] 
+[reg_aladin] Command line:
+[reg_aladin] 	 reg_aladin -ref bucket/RESECT/RESECT/NIFTI/Case7/output/nifty_deeds/after/Case7-US.nii.gz -flo bucket/RESECT/RESECT/NIFTI/Case7/output/nifty_deeds/after/Case7-MRI_in_US.nii.gz -res bucket/RESECT/RESECT/NIFTI/Case7/output/nifty_deeds/after/Case7-MRI_to_US_result_rigid.nii.gz -rmask bucket/RESECT/RESECT/NIFTI/Case7/output/nifty_deeds/after/mask_US.nii.gz -fmask bucket/RESECT/RESECT/NIFTI/Case7/output/nifty_deeds/after/mask_US.nii.gz -aff bucket/RESECT/RESECT/NIFTI/Case7/output/nifty_deeds/after/affine_matrix.txt
+[reg_aladin] 
+[reg_aladin] OpenMP is used with 8 thread(s)
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Platform: cpu_platform
+[reg_aladin_sym] Reference image name: bucket/RESECT/RESECT/NIFTI/Case7/output/nifty_deeds/after/Case7-US.nii.gz
+[reg_aladin_sym] 	174x175x176 voxels
+[reg_aladin_sym] 	0.497426x0.497785x0.49814 mm
+[reg_aladin_sym] Floating image name: bucket/RESECT/RESECT/NIFTI/Case7/output/nifty_deeds/after/Case7-MRI_in_US.nii.gz
+[reg_aladin_sym] 	174x175x176 voxels
+[reg_aladin_sym] 	0.497426x0.497785x0.49814 mm
+[reg_aladin_sym] Maximum iteration number: 5
+[reg_aladin_sym] 	(10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	44x44x44 voxels	1.9897x1.99114x1.99256 mm
+[reg_aladin_sym] floating image size: 	44x44x44 voxels	1.9897x1.99114x1.99256 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [11 11 11]
+[reg_aladin_sym] Backward Block number = [11 11 11]
+[reg_aladin_sym] Initial forward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.131754	0.02042521	0.1499288	0.9518195
+0.1772256	1.137405	-0.01806219	-5.190248
+0.07095683	0.1037406	1.073292	-1.000395
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.8921299	-0.004646947	-0.1247003	-0.9980151
+-0.13973	0.878575	0.0343043	4.727338
+-0.04547413	-0.08461267	0.936641	0.5411335
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	87x88x88 voxels	0.994852x0.99557x0.996279 mm
+[reg_aladin_sym] floating image size: 	87x88x88 voxels	0.994852x0.99557x0.996279 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [22 22 22]
+[reg_aladin_sym] Backward Block number = [22 22 22]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.131754	0.02042521	0.1499288	0.9518195
+0.1772256	1.137405	-0.01806219	-5.190248
+0.07095683	0.1037406	1.073292	-1.000395
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.8921299	-0.004646947	-0.1247003	-0.9980151
+-0.13973	0.878575	0.0343043	4.727338
+-0.04547413	-0.08461267	0.936641	0.5411335
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.188147	0.02096771	0.1463587	-1.410139
+0.08908927	1.024513	-0.01872405	-2.873773
+0.03394705	0.06476805	1.101096	0.3355317
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.8456271	-0.01018983	-0.1125747	1.200941
+-0.07393076	0.9759161	0.02642231	2.691443
+-0.02172216	-0.05709062	0.9101022	-0.5000648
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	174x175x176 voxels	0.497426x0.497785x0.49814 mm
+[reg_aladin_sym] floating image size: 	174x175x176 voxels	0.497426x0.497785x0.49814 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [44 44 44]
+[reg_aladin_sym] Backward Block number = [44 44 44]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.188147	0.02096771	0.1463587	-1.410139
+0.08908927	1.024513	-0.01872405	-2.873773
+0.03394705	0.06476805	1.101096	0.3355317
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.8456271	-0.01018983	-0.1125747	1.200941
+-0.07393076	0.9759161	0.02642231	2.691443
+-0.02172216	-0.05709062	0.9101022	-0.5000648
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.162342	0.0101377	0.1373833	-0.6357286
+0.08966309	1.016682	-0.03120978	-2.55559
+0.0291229	0.06855847	1.093516	0.1867707
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.8631495	-0.001291703	-0.1084782	0.5656883
+-0.07668085	0.9818171	0.03765558	2.453341
+-0.01818016	-0.06152107	0.9150099	-0.3396773
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin] Registration performed in 0 min 29 sec
+[reg_aladin] Have a good day !
+Transforming Case7-MRI-landmarks.nii.gz into Case7-MRI-landmarks_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.162 | +0.010 | +0.137 | -0.636 
++0.090 | +1.017 | -0.031 | -2.556 
++0.029 | +0.069 | +1.094 | +0.187 
++0.000 | +0.000 | +0.000 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case7/output/nifty_deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Transforming Case7-MRI_in_US.nii.gz into Case7-MRI_in_US_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.162 | +0.010 | +0.137 | -0.636 
++0.090 | +1.017 | -0.031 | -2.556 
++0.029 | +0.069 | +1.094 | +0.187 
++0.000 | +0.000 | +0.000 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case7/output/nifty_deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Starting registration of Case7-US.nii.gz and Case7-MRI_in_US.nii.gz
+=============================================================
+Reading affine matrix file: affine_matrix.txt
++1.162 | +0.010 | +0.137 | -0.636 
++0.090 | +1.017 | -0.031 | -2.556 
++0.029 | +0.069 | +1.094 | +0.187 
++0.000 | +0.000 | +0.000 | +1.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 21x21x22 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.978882, data=4.6066, MST-reg=0.963107, transf.=0.733142
+ speed=1.71161e+07 dof/s
+std(J)=1.02 (J<0)=0e-7  SSD before registration: 2738.45 and after 2738.45
+
+==========================================================
+Level 1 grid=7 with sizes: 24x25x25 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.486437, data=2.16353, MST-reg=1.03986, transf.=0.734211
+ speed=3.16072e+07 dof/s
+std(J)=1.21 (J<0)=0e-7  SSD before registration: 2738.45 and after 2470.81
+
+==========================================================
+Level 2 grid=6 with sizes: 29x29x29 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.965513, data=1.33054, MST-reg=1.03826, transf.=0.733965
+ speed=4.52403e+07 dof/s
+std(J)=1.39 (J<0)=0e-7  SSD before registration: 2738.45 and after 2390.43
+
+==========================================================
+Level 3 grid=5 with sizes: 34x35x35 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.502968, data=1.0319, MST-reg=0.929143, transf.=0.735651
+ speed=5.65373e+07 dof/s
+std(J)=1.43 (J<0)=0e-7  SSD before registration: 2738.45 and after 2338.18
+
+==========================================================
+Level 4 grid=4 with sizes: 43x43x44 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.963086, data=1.38713, MST-reg=0.907286, transf.=0.74105
+ speed=5.16982e+07 dof/s
+std(J)=1.34 (J<0)=0e-7  SSD before registration: 2738.45 and after 2323.64
+
+SSD before registration: 3230.64 and after 2445.99
+outputseg /vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case7/output/nifty_deeds/after/Case7-deeds_deformed_seg.nii.gz
+Finished. Total time: 23.1575 sec. (0 sec. for MIND+data+reg+trans)
+('landmark error (vox)', 6.763633837585696)
+[reg_aladin] 
+[reg_aladin] Command line:
+[reg_aladin] 	 reg_aladin -ref bucket/RESECT/RESECT/NIFTI/Case8/output/nifty_deeds/after/Case8-US.nii.gz -flo bucket/RESECT/RESECT/NIFTI/Case8/output/nifty_deeds/after/Case8-MRI_in_US.nii.gz -res bucket/RESECT/RESECT/NIFTI/Case8/output/nifty_deeds/after/Case8-MRI_to_US_result_rigid.nii.gz -rmask bucket/RESECT/RESECT/NIFTI/Case8/output/nifty_deeds/after/mask_US.nii.gz -fmask bucket/RESECT/RESECT/NIFTI/Case8/output/nifty_deeds/after/mask_US.nii.gz -aff bucket/RESECT/RESECT/NIFTI/Case8/output/nifty_deeds/after/affine_matrix.txt
+[reg_aladin] 
+[reg_aladin] OpenMP is used with 8 thread(s)
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Platform: cpu_platform
+[reg_aladin_sym] Reference image name: bucket/RESECT/RESECT/NIFTI/Case8/output/nifty_deeds/after/Case8-US.nii.gz
+[reg_aladin_sym] 	133x120x129 voxels
+[reg_aladin_sym] 	0.499797x0.497868x0.496327 mm
+[reg_aladin_sym] Floating image name: bucket/RESECT/RESECT/NIFTI/Case8/output/nifty_deeds/after/Case8-MRI_in_US.nii.gz
+[reg_aladin_sym] 	133x120x129 voxels
+[reg_aladin_sym] 	0.499797x0.497868x0.496327 mm
+[reg_aladin_sym] Maximum iteration number: 5
+[reg_aladin_sym] 	(10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	34x60x33 voxels	1.99919x0.995736x1.98531 mm
+[reg_aladin_sym] floating image size: 	34x60x33 voxels	1.99919x0.995736x1.98531 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [9 15 9]
+[reg_aladin_sym] Backward Block number = [9 15 9]
+[reg_aladin_sym] Initial forward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.388925	-0.1322549	-0.1914327	18.48023
+-0.01193548	1.033611	-0.07739378	0.25748
+0.107559	-0.07777681	1.08146	0.8821428
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.7105492	0.1009256	0.1329992	-13.27442
+0.002929236	0.9731358	0.07016014	-0.3665873
+-0.07045858	0.05994851	0.9164936	0.4781769
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	67x60x65 voxels	0.999594x0.995736x0.992654 mm
+[reg_aladin_sym] floating image size: 	67x60x65 voxels	0.999594x0.995736x0.992654 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [17 15 17]
+[reg_aladin_sym] Backward Block number = [17 15 17]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.388925	-0.1322549	-0.1914327	18.48023
+-0.01193548	1.033611	-0.07739378	0.25748
+0.107559	-0.07777681	1.08146	0.8821428
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.7105492	0.1009256	0.1329992	-13.27442
+0.002929236	0.9731358	0.07016014	-0.3665873
+-0.07045858	0.05994851	0.9164936	0.4781769
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.150265	0.01236434	-0.0565154	8.91633
+-0.0624283	1.043536	0.006758524	-2.343829
+-0.003656938	0.01439336	1.051055	-0.7652461
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.8689197	-0.01094081	0.04679229	-7.737411
+0.05196714	0.9577113	-0.00336402	1.778781
+0.002311585	-0.01315315	0.9516335	0.6767942
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	133x120x129 voxels	0.499797x0.497868x0.496327 mm
+[reg_aladin_sym] floating image size: 	133x120x129 voxels	0.499797x0.497868x0.496327 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [34 30 33]
+[reg_aladin_sym] Backward Block number = [34 30 33]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.150265	0.01236434	-0.0565154	8.91633
+-0.0624283	1.043536	0.006758524	-2.343829
+-0.003656938	0.01439336	1.051055	-0.7652461
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.8689197	-0.01094081	0.04679229	-7.737411
+0.05196714	0.9577113	-0.00336402	1.778781
+0.002311585	-0.01315315	0.9516335	0.6767942
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.122348	0.05952901	-0.02164731	8.59867
+-0.001857336	1.026457	0.009051816	-0.1728707
+-0.04865194	0.0272302	1.031826	-1.479424
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.8917335	-0.05222424	0.01916636	-7.648395
+0.001243062	0.9743792	-0.008521775	0.1451456
+0.04201358	-0.02817659	0.9702839	1.06933
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin] Registration performed in 0 min 11 sec
+[reg_aladin] Have a good day !
+Transforming Case8-MRI-landmarks.nii.gz into Case8-MRI-landmarks_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.122 | +0.060 | -0.022 | +8.599 
+-0.002 | +1.026 | +0.009 | -0.173 
+-0.049 | +0.027 | +1.032 | -1.479 
++0.000 | +0.000 | +0.000 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case8/output/nifty_deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Transforming Case8-MRI_in_US.nii.gz into Case8-MRI_in_US_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.122 | +0.060 | -0.022 | +8.599 
+-0.002 | +1.026 | +0.009 | -0.173 
+-0.049 | +0.027 | +1.032 | -1.479 
++0.000 | +0.000 | +0.000 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case8/output/nifty_deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Starting registration of Case8-US.nii.gz and Case8-MRI_in_US.nii.gz
+=============================================================
+Reading affine matrix file: affine_matrix.txt
++1.122 | +0.060 | -0.022 | +8.599 
+-0.002 | +1.026 | +0.009 | -0.173 
+-0.049 | +0.027 | +1.032 | -1.479 
++0.000 | +0.000 | +0.000 | +1.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 16x15x16 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.385505, data=1.11773, MST-reg=0.410416, transf.=0.256511
+ speed=2.46912e+07 dof/s
+std(J)=1.1 (J<0)=0e-7  SSD before registration: 4871.56 and after 4871.56
+
+==========================================================
+Level 1 grid=7 with sizes: 19x17x18 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.191871, data=0.821078, MST-reg=0.413617, transf.=0.258261
+ speed=3.17848e+07 dof/s
+std(J)=1.29 (J<0)=0e-7  SSD before registration: 4871.56 and after 3768.85
+
+==========================================================
+Level 2 grid=6 with sizes: 22x20x21 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.378956, data=0.487535, MST-reg=0.383416, transf.=0.259055
+ speed=4.66163e+07 dof/s
+std(J)=1.34 (J<0)=0e-7  SSD before registration: 4871.56 and after 3113.55
+
+==========================================================
+Level 3 grid=5 with sizes: 26x24x25 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.187119, data=0.412835, MST-reg=0.355011, transf.=0.257138
+ speed=5.40827e+07 dof/s
+std(J)=1.31 (J<0)=0e-7  SSD before registration: 4871.56 and after 2957.68
+
+==========================================================
+Level 4 grid=4 with sizes: 33x30x32 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.340385, data=0.524085, MST-reg=0.369827, transf.=0.251706
+ speed=5.16711e+07 dof/s
+std(J)=1.22 (J<0)=0e-7  SSD before registration: 4871.56 and after 3006.87
+
+SSD before registration: 5036.5 and after 4107.05
+outputseg /vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case8/output/nifty_deeds/after/Case8-deeds_deformed_seg.nii.gz
+Finished. Total time: 8.14417 sec. (0 sec. for MIND+data+reg+trans)
+('landmark error (vox)', 4.536880199887479)
+[reg_aladin] 
+[reg_aladin] Command line:
+[reg_aladin] 	 reg_aladin -ref bucket/RESECT/RESECT/NIFTI/Case11/output/nifty_deeds/after/Case11-US.nii.gz -flo bucket/RESECT/RESECT/NIFTI/Case11/output/nifty_deeds/after/Case11-MRI_in_US.nii.gz -res bucket/RESECT/RESECT/NIFTI/Case11/output/nifty_deeds/after/Case11-MRI_to_US_result_rigid.nii.gz -rmask bucket/RESECT/RESECT/NIFTI/Case11/output/nifty_deeds/after/mask_US.nii.gz -fmask bucket/RESECT/RESECT/NIFTI/Case11/output/nifty_deeds/after/mask_US.nii.gz -aff bucket/RESECT/RESECT/NIFTI/Case11/output/nifty_deeds/after/affine_matrix.txt
+[reg_aladin] 
+[reg_aladin] OpenMP is used with 8 thread(s)
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Platform: cpu_platform
+[reg_aladin_sym] Reference image name: bucket/RESECT/RESECT/NIFTI/Case11/output/nifty_deeds/after/Case11-US.nii.gz
+[reg_aladin_sym] 	139x146x152 voxels
+[reg_aladin_sym] 	0.49746x0.499247x0.49898 mm
+[reg_aladin_sym] Floating image name: bucket/RESECT/RESECT/NIFTI/Case11/output/nifty_deeds/after/Case11-MRI_in_US.nii.gz
+[reg_aladin_sym] 	139x146x152 voxels
+[reg_aladin_sym] 	0.49746x0.499247x0.49898 mm
+[reg_aladin_sym] Maximum iteration number: 5
+[reg_aladin_sym] 	(10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	35x37x38 voxels	1.98984x1.99699x1.99592 mm
+[reg_aladin_sym] floating image size: 	35x37x38 voxels	1.98984x1.99699x1.99592 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [9 10 10]
+[reg_aladin_sym] Backward Block number = [9 10 10]
+[reg_aladin_sym] Initial forward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.138174	-0.09423454	-0.01496486	9.491804
+-0.1714691	1.223531	0.03734927	-10.93945
+0.01257057	0.089182	0.999756	-2.436112
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.8886746	0.06765904	0.0107745	-7.668724
+0.1252234	0.8290719	-0.02909838	7.810105
+-0.02234427	-0.07480706	1.002704	1.836439
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	70x73x76 voxels	0.994921x0.998493x0.997961 mm
+[reg_aladin_sym] floating image size: 	70x73x76 voxels	0.994921x0.998493x0.997961 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [18 19 19]
+[reg_aladin_sym] Backward Block number = [18 19 19]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.138174	-0.09423454	-0.01496486	9.491804
+-0.1714691	1.223531	0.03734927	-10.93945
+0.01257057	0.089182	0.999756	-2.436112
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.8886746	0.06765904	0.0107745	-7.668724
+0.1252234	0.8290719	-0.02909838	7.810105
+-0.02234427	-0.07480706	1.002704	1.836439
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.131592	-0.08491012	0.1042622	7.599247
+-0.03401637	1.183185	-0.06233086	-2.125364
+-0.09473657	0.04688897	1.00584	-5.109542
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.878431	0.06648494	-0.08693537	-6.97831
+0.02954079	0.8453414	0.04932284	1.824188
+0.08135928	-0.03314507	0.9837067	4.337577
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	139x146x152 voxels	0.49746x0.499247x0.49898 mm
+[reg_aladin_sym] floating image size: 	139x146x152 voxels	0.49746x0.499247x0.49898 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [35 37 38]
+[reg_aladin_sym] Backward Block number = [35 37 38]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.131592	-0.08491012	0.1042622	7.599247
+-0.03401637	1.183185	-0.06233086	-2.125364
+-0.09473657	0.04688897	1.00584	-5.109542
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.878431	0.06648494	-0.08693537	-6.97831
+0.02954079	0.8453414	0.04932284	1.824188
+0.08135928	-0.03314507	0.9837067	4.337577
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.11967	-0.06387307	0.1057117	6.851037
+-0.0316042	1.156505	-0.05834826	-1.232737
+-0.06222802	0.04172499	1.010515	-3.59161
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.8895944	0.0523802	-0.09003745	-6.353453
+0.02701784	0.8644678	0.04708894	1.049686
+0.05366607	-0.03246897	0.9821052	3.119646
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin] Registration performed in 0 min 11 sec
+[reg_aladin] Have a good day !
+Transforming Case11-MRI-landmarks.nii.gz into Case11-MRI-landmarks_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.120 | -0.064 | +0.106 | +6.851 
+-0.032 | +1.157 | -0.058 | -1.233 
+-0.062 | +0.042 | +1.011 | -3.592 
++0.000 | +0.000 | +0.000 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case11/output/nifty_deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Transforming Case11-MRI_in_US.nii.gz into Case11-MRI_in_US_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.120 | -0.064 | +0.106 | +6.851 
+-0.032 | +1.157 | -0.058 | -1.233 
+-0.062 | +0.042 | +1.011 | -3.592 
++0.000 | +0.000 | +0.000 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case11/output/nifty_deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Starting registration of Case11-US.nii.gz and Case11-MRI_in_US.nii.gz
+=============================================================
+Reading affine matrix file: affine_matrix.txt
++1.120 | -0.064 | +0.106 | +6.851 
+-0.032 | +1.157 | -0.058 | -1.233 
+-0.062 | +0.042 | +1.011 | -3.592 
++0.000 | +0.000 | +0.000 | +1.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 17x18x19 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.567801, data=1.81205, MST-reg=0.579724, transf.=0.399222
+ speed=2.38854e+07 dof/s
+std(J)=1.01 (J<0)=0e-7  SSD before registration: 4727.19 and after 4727.19
+
+==========================================================
+Level 1 grid=7 with sizes: 19x20x21 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.283568, data=1.11656, MST-reg=0.589809, transf.=0.402385
+ speed=3.15671e+07 dof/s
+std(J)=1.15 (J<0)=0e-7  SSD before registration: 4727.19 and after 3975.54
+
+==========================================================
+Level 2 grid=6 with sizes: 23x24x25 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.566084, data=0.759986, MST-reg=0.567205, transf.=0.400377
+ speed=4.56884e+07 dof/s
+std(J)=1.32 (J<0)=0e-7  SSD before registration: 4727.19 and after 3807.66
+
+==========================================================
+Level 3 grid=5 with sizes: 27x29x30 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.282107, data=0.584991, MST-reg=0.523155, transf.=0.400081
+ speed=5.64279e+07 dof/s
+std(J)=1.3 (J<0)=0e-7  SSD before registration: 4727.19 and after 3653.78
+
+==========================================================
+Level 4 grid=4 with sizes: 34x36x38 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.552502, data=0.793645, MST-reg=0.546174, transf.=0.40165
+ speed=5.06147e+07 dof/s
+std(J)=1.25 (J<0)=0e-7  SSD before registration: 4727.19 and after 3694.59
+
+SSD before registration: 4995.47 and after 4078.97
+outputseg /vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case11/output/nifty_deeds/after/Case11-deeds_deformed_seg.nii.gz
+Finished. Total time: 12.2403 sec. (0 sec. for MIND+data+reg+trans)
+('landmark error (vox)', 5.335080279120098)
+[reg_aladin] 
+[reg_aladin] Command line:
+[reg_aladin] 	 reg_aladin -ref bucket/RESECT/RESECT/NIFTI/Case12/output/nifty_deeds/after/Case12-US.nii.gz -flo bucket/RESECT/RESECT/NIFTI/Case12/output/nifty_deeds/after/Case12-MRI_in_US.nii.gz -res bucket/RESECT/RESECT/NIFTI/Case12/output/nifty_deeds/after/Case12-MRI_to_US_result_rigid.nii.gz -rmask bucket/RESECT/RESECT/NIFTI/Case12/output/nifty_deeds/after/mask_US.nii.gz -fmask bucket/RESECT/RESECT/NIFTI/Case12/output/nifty_deeds/after/mask_US.nii.gz -aff bucket/RESECT/RESECT/NIFTI/Case12/output/nifty_deeds/after/affine_matrix.txt
+[reg_aladin] 
+[reg_aladin] OpenMP is used with 8 thread(s)
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Platform: cpu_platform
+[reg_aladin_sym] Reference image name: bucket/RESECT/RESECT/NIFTI/Case12/output/nifty_deeds/after/Case12-US.nii.gz
+[reg_aladin_sym] 	128x143x127 voxels
+[reg_aladin_sym] 	0.497891x0.498243x0.497583 mm
+[reg_aladin_sym] Floating image name: bucket/RESECT/RESECT/NIFTI/Case12/output/nifty_deeds/after/Case12-MRI_in_US.nii.gz
+[reg_aladin_sym] 	128x143x127 voxels
+[reg_aladin_sym] 	0.497891x0.498243x0.497583 mm
+[reg_aladin_sym] Maximum iteration number: 5
+[reg_aladin_sym] 	(10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	32x36x32 voxels	1.99156x1.99297x1.99033 mm
+[reg_aladin_sym] floating image size: 	32x36x32 voxels	1.99156x1.99297x1.99033 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [8 9 8]
+[reg_aladin_sym] Backward Block number = [8 9 8]
+[reg_aladin_sym] Initial forward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.147416	-0.1432267	-0.1880671	-5.456011
+0.2778806	1.065079	-0.2838267	-8.397657
+-0.2292058	0.2787296	1.155758	11.30051
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.8855415	0.07645955	0.1628736	3.633051
+-0.1731142	0.8672537	0.1848074	4.249969
+0.2173667	-0.193989	0.8529643	-10.08203
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	64x72x64 voxels	0.995782x0.996486x0.995165 mm
+[reg_aladin_sym] floating image size: 	64x72x64 voxels	0.995782x0.996486x0.995165 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [16 18 16]
+[reg_aladin_sym] Backward Block number = [16 18 16]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.147416	-0.1432267	-0.1880671	-5.456011
+0.2778806	1.065079	-0.2838267	-8.397657
+-0.2292058	0.2787296	1.155758	11.30051
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.8855415	0.07645955	0.1628736	3.633051
+-0.1731142	0.8672537	0.1848074	4.249969
+0.2173667	-0.193989	0.8529643	-10.08203
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.102672	-0.1307518	-0.07859182	-5.572232
+0.1544961	1.139619	-0.1062683	-11.06022
+-0.3082367	0.1987654	1.210871	11.84882
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.912703	0.09296197	0.06739768	5.315389
+-0.1005296	0.8540177	0.06842531	8.074688
+0.2488377	-0.1165234	0.8317762	-9.757758
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	128x143x127 voxels	0.497891x0.498243x0.497583 mm
+[reg_aladin_sym] floating image size: 	128x143x127 voxels	0.497891x0.498243x0.497583 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [32 36 32]
+[reg_aladin_sym] Backward Block number = [32 36 32]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.102672	-0.1307518	-0.07859182	-5.572232
+0.1544961	1.139619	-0.1062683	-11.06022
+-0.3082367	0.1987654	1.210871	11.84882
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.912703	0.09296197	0.06739768	5.315389
+-0.1005296	0.8540177	0.06842531	8.074688
+0.2488377	-0.1165234	0.8317762	-9.757758
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.079295	-0.1222623	-0.03335733	-6.255078
+0.1567061	1.171038	-0.1147789	-10.73655
+-0.3023874	0.1833088	1.212855	11.27088
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9228386	0.09102747	0.03399537	6.36659
+-0.09946769	0.8316662	0.07596927	7.450804
+0.2451143	-0.1030017	0.8214946	-8.831642
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin] Registration performed in 0 min 7 sec
+[reg_aladin] Have a good day !
+Transforming Case12-MRI-landmarks.nii.gz into Case12-MRI-landmarks_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.079 | -0.122 | -0.033 | -6.255 
++0.157 | +1.171 | -0.115 | -10.737 
+-0.302 | +0.183 | +1.213 | +11.271 
++0.000 | +0.000 | +0.000 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case12/output/nifty_deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Transforming Case12-MRI_in_US.nii.gz into Case12-MRI_in_US_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.079 | -0.122 | -0.033 | -6.255 
++0.157 | +1.171 | -0.115 | -10.737 
+-0.302 | +0.183 | +1.213 | +11.271 
++0.000 | +0.000 | +0.000 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case12/output/nifty_deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Starting registration of Case12-US.nii.gz and Case12-MRI_in_US.nii.gz
+=============================================================
+Reading affine matrix file: affine_matrix.txt
++1.079 | -0.122 | -0.033 | -6.255 
++0.157 | +1.171 | -0.115 | -10.737 
+-0.302 | +0.183 | +1.213 | +11.271 
++0.000 | +0.000 | +0.000 | +1.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 16x17x15 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.453532, data=1.24987, MST-reg=0.403581, transf.=0.341651
+ speed=2.42463e+07 dof/s
+std(J)=0.82 (J<0)=0e-7  SSD before registration: 6962.18 and after 6962.18
+
+==========================================================
+Level 1 grid=7 with sizes: 18x20x18 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.225312, data=0.957931, MST-reg=0.469421, transf.=0.339651
+ speed=3.06442e+07 dof/s
+std(J)=1.06 (J<0)=0e-7  SSD before registration: 6962.18 and after 6278.42
+
+==========================================================
+Level 2 grid=6 with sizes: 21x23x21 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.440885, data=0.545583, MST-reg=0.425267, transf.=0.340679
+ speed=4.59065e+07 dof/s
+std(J)=1.1 (J<0)=0e-7  SSD before registration: 6962.18 and after 5970.41
+
+==========================================================
+Level 3 grid=5 with sizes: 25x28x25 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.219583, data=0.475258, MST-reg=0.398782, transf.=0.338572
+ speed=5.32985e+07 dof/s
+std(J)=1.15 (J<0)=0e-7  SSD before registration: 6962.18 and after 5773.63
+
+==========================================================
+Level 4 grid=4 with sizes: 32x35x31 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.400643, data=0.607916, MST-reg=0.399627, transf.=0.336569
+ speed=5.02428e+07 dof/s
+std(J)=1.05 (J<0)=0e-7  SSD before registration: 6962.18 and after 5748.58
+
+SSD before registration: 7177.13 and after 6435.28
+outputseg /vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case12/output/nifty_deeds/after/Case12-deeds_deformed_seg.nii.gz
+Finished. Total time: 9.45742 sec. (0 sec. for MIND+data+reg+trans)
+('landmark error (vox)', 13.218040052829197)
+[reg_aladin] 
+[reg_aladin] Command line:
+[reg_aladin] 	 reg_aladin -ref bucket/RESECT/RESECT/NIFTI/Case14/output/nifty_deeds/after/Case14-US.nii.gz -flo bucket/RESECT/RESECT/NIFTI/Case14/output/nifty_deeds/after/Case14-MRI_in_US.nii.gz -res bucket/RESECT/RESECT/NIFTI/Case14/output/nifty_deeds/after/Case14-MRI_to_US_result_rigid.nii.gz -rmask bucket/RESECT/RESECT/NIFTI/Case14/output/nifty_deeds/after/mask_US.nii.gz -fmask bucket/RESECT/RESECT/NIFTI/Case14/output/nifty_deeds/after/mask_US.nii.gz -aff bucket/RESECT/RESECT/NIFTI/Case14/output/nifty_deeds/after/affine_matrix.txt
+[reg_aladin] 
+[reg_aladin] OpenMP is used with 8 thread(s)
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Platform: cpu_platform
+[reg_aladin_sym] Reference image name: bucket/RESECT/RESECT/NIFTI/Case14/output/nifty_deeds/after/Case14-US.nii.gz
+[reg_aladin_sym] 	137x128x161 voxels
+[reg_aladin_sym] 	0.49864x0.499317x0.497998 mm
+[reg_aladin_sym] Floating image name: bucket/RESECT/RESECT/NIFTI/Case14/output/nifty_deeds/after/Case14-MRI_in_US.nii.gz
+[reg_aladin_sym] 	137x128x161 voxels
+[reg_aladin_sym] 	0.49864x0.499317x0.497998 mm
+[reg_aladin_sym] Maximum iteration number: 5
+[reg_aladin_sym] 	(10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	35x32x41 voxels	1.99456x1.99727x1.99199 mm
+[reg_aladin_sym] floating image size: 	35x32x41 voxels	1.99456x1.99727x1.99199 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [9 8 11]
+[reg_aladin_sym] Backward Block number = [9 8 11]
+[reg_aladin_sym] Initial forward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.370905	-0.106668	-0.04486873	10.36913
+-0.1603554	1.059876	0.09123065	-5.715781
+-0.1061646	0.02487881	1.006294	-1.481699
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.7401226	0.07386997	0.02630359	-7.213229
+0.1054812	0.9560467	-0.08197199	4.249347
+0.07547548	-0.01584321	0.9985467	0.6063735
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	69x64x81 voxels	0.997281x0.998634x0.995997 mm
+[reg_aladin_sym] floating image size: 	69x64x81 voxels	0.997281x0.998634x0.995997 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [18 16 21]
+[reg_aladin_sym] Backward Block number = [18 16 21]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.370905	-0.106668	-0.04486873	10.36913
+-0.1603554	1.059876	0.09123065	-5.715781
+-0.1061646	0.02487881	1.006294	-1.481699
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.7401226	0.07386997	0.02630359	-7.213229
+0.1054812	0.9560467	-0.08197199	4.249347
+0.07547548	-0.01584321	0.9985467	0.6063735
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.174403	-0.0283713	-0.015745	3.787089
+-0.1108338	1.040586	0.05115694	-4.253785
+-0.07138388	-0.00589347	1.025469	2.423038
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.8544279	0.02336346	0.01195333	-3.165375
+0.08805707	0.9631339	-0.04669525	3.876629
+0.05998363	0.007161578	0.9757277	-2.560924
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	137x128x161 voxels	0.49864x0.499317x0.497998 mm
+[reg_aladin_sym] floating image size: 	137x128x161 voxels	0.49864x0.499317x0.497998 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [35 32 41]
+[reg_aladin_sym] Backward Block number = [35 32 41]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.174403	-0.0283713	-0.015745	3.787089
+-0.1108338	1.040586	0.05115694	-4.253785
+-0.07138388	-0.00589347	1.025469	2.423038
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.8544279	0.02336346	0.01195333	-3.165375
+0.08805707	0.9631339	-0.04669525	3.876629
+0.05998363	0.007161578	0.9757277	-2.560924
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.122931	-0.004130947	0.01265653	2.586336
+-0.0938613	1.023016	0.03702224	-2.693487
+-0.0469177	-0.02271301	1.005201	3.276973
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.8903327	0.003343546	-0.01133336	-2.256554
+0.08011823	0.9770037	-0.03699248	2.545558
+0.04336652	0.02223193	0.9934607	-3.307822
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin] Registration performed in 0 min 11 sec
+[reg_aladin] Have a good day !
+Transforming Case14-MRI-landmarks.nii.gz into Case14-MRI-landmarks_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.123 | -0.004 | +0.013 | +2.586 
+-0.094 | +1.023 | +0.037 | -2.693 
+-0.047 | -0.023 | +1.005 | +3.277 
++0.000 | +0.000 | +0.000 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case14/output/nifty_deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Transforming Case14-MRI_in_US.nii.gz into Case14-MRI_in_US_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.123 | -0.004 | +0.013 | +2.586 
+-0.094 | +1.023 | +0.037 | -2.693 
+-0.047 | -0.023 | +1.005 | +3.277 
++0.000 | +0.000 | +0.000 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case14/output/nifty_deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Starting registration of Case14-US.nii.gz and Case14-MRI_in_US.nii.gz
+=============================================================
+Reading affine matrix file: affine_matrix.txt
++1.123 | -0.004 | +0.013 | +2.586 
+-0.094 | +1.023 | +0.037 | -2.693 
+-0.047 | -0.023 | +1.005 | +3.277 
++0.000 | +0.000 | +0.000 | +1.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 17x16x20 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.546786, data=1.74728, MST-reg=0.541328, transf.=0.353487
+ speed=2.33563e+07 dof/s
+std(J)=0.9 (J<0)=0e-7  SSD before registration: 11671.2 and after 11671.2
+
+==========================================================
+Level 1 grid=7 with sizes: 19x18x23 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.271239, data=1.02636, MST-reg=0.548361, transf.=0.35642
+ speed=3.37173e+07 dof/s
+std(J)=1.2 (J<0)=0e-7  SSD before registration: 11671.2 and after 10183.4
+
+==========================================================
+Level 2 grid=6 with sizes: 22x21x26 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.536884, data=0.646881, MST-reg=0.504026, transf.=0.356548
+ speed=4.58601e+07 dof/s
+std(J)=1.24 (J<0)=0e-7  SSD before registration: 11671.2 and after 9744.79
+
+==========================================================
+Level 3 grid=5 with sizes: 27x25x32 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.272404, data=0.49904, MST-reg=0.496798, transf.=0.361226
+ speed=5.77395e+07 dof/s
+std(J)=1.24 (J<0)=0e-7  SSD before registration: 11671.2 and after 9685.2
+
+==========================================================
+Level 4 grid=4 with sizes: 34x32x40 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.557909, data=0.707432, MST-reg=0.487163, transf.=0.357916
+ speed=5.3116e+07 dof/s
+std(J)=1.19 (J<0)=0e-7  SSD before registration: 11671.2 and after 9638.89
+
+SSD before registration: 11899.5 and after 11095.3
+outputseg /vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case14/output/nifty_deeds/after/Case14-deeds_deformed_seg.nii.gz
+Finished. Total time: 11.2811 sec. (0 sec. for MIND+data+reg+trans)
+('landmark error (vox)', 6.4939243675587575)
+[reg_aladin] 
+[reg_aladin] Command line:
+[reg_aladin] 	 reg_aladin -ref bucket/RESECT/RESECT/NIFTI/Case15/output/nifty_deeds/after/Case15-US.nii.gz -flo bucket/RESECT/RESECT/NIFTI/Case15/output/nifty_deeds/after/Case15-MRI_in_US.nii.gz -res bucket/RESECT/RESECT/NIFTI/Case15/output/nifty_deeds/after/Case15-MRI_to_US_result_rigid.nii.gz -rmask bucket/RESECT/RESECT/NIFTI/Case15/output/nifty_deeds/after/mask_US.nii.gz -fmask bucket/RESECT/RESECT/NIFTI/Case15/output/nifty_deeds/after/mask_US.nii.gz -aff bucket/RESECT/RESECT/NIFTI/Case15/output/nifty_deeds/after/affine_matrix.txt
+[reg_aladin] 
+[reg_aladin] OpenMP is used with 8 thread(s)
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Platform: cpu_platform
+[reg_aladin_sym] Reference image name: bucket/RESECT/RESECT/NIFTI/Case15/output/nifty_deeds/after/Case15-US.nii.gz
+[reg_aladin_sym] 	135x152x139 voxels
+[reg_aladin_sym] 	0.49809x0.497838x0.497539 mm
+[reg_aladin_sym] Floating image name: bucket/RESECT/RESECT/NIFTI/Case15/output/nifty_deeds/after/Case15-MRI_in_US.nii.gz
+[reg_aladin_sym] 	135x152x139 voxels
+[reg_aladin_sym] 	0.49809x0.497838x0.497539 mm
+[reg_aladin_sym] Maximum iteration number: 5
+[reg_aladin_sym] 	(10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	34x38x35 voxels	1.99236x1.99135x1.99015 mm
+[reg_aladin_sym] floating image size: 	34x38x35 voxels	1.99236x1.99135x1.99015 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [9 10 9]
+[reg_aladin_sym] Backward Block number = [9 10 9]
+[reg_aladin_sym] Initial forward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.055023	0.04381889	-0.0002139735	-0.614573
+0.1620414	1.36976	0.1250923	-26.38524
+0.1185807	0.2535526	1.119597	-19.36419
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9522181	-0.03113934	0.003661173	-0.1655158
+-0.1056206	0.7489265	-0.08369754	18.07496
+-0.07693333	-0.1663096	0.9117456	13.21981
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	68x76x70 voxels	0.99618x0.995676x0.995077 mm
+[reg_aladin_sym] floating image size: 	68x76x70 voxels	0.99618x0.995676x0.995077 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [17 19 18]
+[reg_aladin_sym] Backward Block number = [17 19 18]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.055023	0.04381889	-0.0002139735	-0.614573
+0.1620414	1.36976	0.1250923	-26.38524
+0.1185807	0.2535526	1.119597	-19.36419
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.9522181	-0.03113934	0.003661173	-0.1655158
+-0.1056206	0.7489265	-0.08369754	18.07496
+-0.07693333	-0.1663096	0.9117456	13.21981
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.979992	0.03147508	0.01664863	-0.9819924
+0.1279275	1.229797	0.164179	-20.70129
+0.04521811	0.08788405	1.036104	-6.78241
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+1.024297	-0.02532616	-0.01244577	0.3971551
+-0.1017348	0.824971	-0.1290885	16.10253
+-0.03607349	-0.06887008	0.9766465	5.162893
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	135x152x139 voxels	0.49809x0.497838x0.497539 mm
+[reg_aladin_sym] floating image size: 	135x152x139 voxels	0.49809x0.497838x0.497539 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [34 38 35]
+[reg_aladin_sym] Backward Block number = [34 38 35]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.979992	0.03147508	0.01664863	-0.9819924
+0.1279275	1.229797	0.164179	-20.70129
+0.04521811	0.08788405	1.036104	-6.78241
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+1.024297	-0.02532616	-0.01244577	0.3971551
+-0.1017348	0.824971	-0.1290885	16.10253
+-0.03607349	-0.06887008	0.9766465	5.162893
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.013448	0.04683003	0.03694108	-3.019075
+0.09473579	1.183574	0.1490465	-16.7576
+0.0303813	0.09304542	1.067894	-8.80801
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9910552	-0.03692272	-0.02912971	2.116759
+-0.07661624	0.8571265	-0.1169792	13.10172
+-0.02151969	-0.07363082	0.9474433	7.046245
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin] Registration performed in 0 min 14 sec
+[reg_aladin] Have a good day !
+Transforming Case15-MRI-landmarks.nii.gz into Case15-MRI-landmarks_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.013 | +0.047 | +0.037 | -3.019 
++0.095 | +1.184 | +0.149 | -16.758 
++0.030 | +0.093 | +1.068 | -8.808 
++0.000 | +0.000 | +0.000 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case15/output/nifty_deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Transforming Case15-MRI_in_US.nii.gz into Case15-MRI_in_US_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.013 | +0.047 | +0.037 | -3.019 
++0.095 | +1.184 | +0.149 | -16.758 
++0.030 | +0.093 | +1.068 | -8.808 
++0.000 | +0.000 | +0.000 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case15/output/nifty_deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Starting registration of Case15-US.nii.gz and Case15-MRI_in_US.nii.gz
+=============================================================
+Reading affine matrix file: affine_matrix.txt
++1.013 | +0.047 | +0.037 | -3.019 
++0.095 | +1.184 | +0.149 | -16.758 
++0.030 | +0.093 | +1.068 | -8.808 
++0.000 | +0.000 | +0.000 | +1.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 16x19x17 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.53933, data=1.70223, MST-reg=0.515873, transf.=0.365563
+ speed=2.28938e+07 dof/s
+std(J)=0.73 (J<0)=0e-7  SSD before registration: 15560 and after 15560
+
+==========================================================
+Level 1 grid=7 with sizes: 19x21x19 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.26725, data=1.00577, MST-reg=0.545954, transf.=0.363281
+ speed=3.29773e+07 dof/s
+std(J)=0.9 (J<0)=0e-7  SSD before registration: 15560 and after 14649.4
+
+==========================================================
+Level 2 grid=6 with sizes: 22x25x23 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.516894, data=0.629329, MST-reg=0.522406, transf.=0.363043
+ speed=4.82612e+07 dof/s
+std(J)=0.97 (J<0)=0e-7  SSD before registration: 15560 and after 14546
+
+==========================================================
+Level 3 grid=5 with sizes: 27x30x27 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.263742, data=0.596969, MST-reg=0.491099, transf.=0.362139
+ speed=5.35058e+07 dof/s
+std(J)=1 (J<0)=4.57e-7  SSD before registration: 15560 and after 14287.9
+
+==========================================================
+Level 4 grid=4 with sizes: 33x38x34 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.514693, data=0.796819, MST-reg=0.502732, transf.=0.36277
+ speed=4.78344e+07 dof/s
+std(J)=0.94 (J<0)=0e-7  SSD before registration: 15560 and after 14267.6
+
+SSD before registration: 17134.5 and after 15500.8
+outputseg /vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case15/output/nifty_deeds/after/Case15-deeds_deformed_seg.nii.gz
+Finished. Total time: 11.3329 sec. (0 sec. for MIND+data+reg+trans)
+('landmark error (vox)', 9.02697539627038)
+[reg_aladin] 
+[reg_aladin] Command line:
+[reg_aladin] 	 reg_aladin -ref bucket/RESECT/RESECT/NIFTI/Case16/output/nifty_deeds/after/Case16-US.nii.gz -flo bucket/RESECT/RESECT/NIFTI/Case16/output/nifty_deeds/after/Case16-MRI_in_US.nii.gz -res bucket/RESECT/RESECT/NIFTI/Case16/output/nifty_deeds/after/Case16-MRI_to_US_result_rigid.nii.gz -rmask bucket/RESECT/RESECT/NIFTI/Case16/output/nifty_deeds/after/mask_US.nii.gz -fmask bucket/RESECT/RESECT/NIFTI/Case16/output/nifty_deeds/after/mask_US.nii.gz -aff bucket/RESECT/RESECT/NIFTI/Case16/output/nifty_deeds/after/affine_matrix.txt
+[reg_aladin] 
+[reg_aladin] OpenMP is used with 8 thread(s)
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Platform: cpu_platform
+[reg_aladin_sym] Reference image name: bucket/RESECT/RESECT/NIFTI/Case16/output/nifty_deeds/after/Case16-US.nii.gz
+[reg_aladin_sym] 	113x173x141 voxels
+[reg_aladin_sym] 	0.49706x0.49999x0.497144 mm
+[reg_aladin_sym] Floating image name: bucket/RESECT/RESECT/NIFTI/Case16/output/nifty_deeds/after/Case16-MRI_in_US.nii.gz
+[reg_aladin_sym] 	113x173x141 voxels
+[reg_aladin_sym] 	0.49706x0.49999x0.497144 mm
+[reg_aladin_sym] Maximum iteration number: 5
+[reg_aladin_sym] 	(10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	57x44x36 voxels	0.99412x1.99996x1.98858 mm
+[reg_aladin_sym] floating image size: 	57x44x36 voxels	0.99412x1.99996x1.98858 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [15 11 9]
+[reg_aladin_sym] Backward Block number = [15 11 9]
+[reg_aladin_sym] Initial forward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.16021	-0.1052227	0.02713338	4.043439
+0.05416622	1.065679	-0.01743673	2.698211
+0.06519958	-0.01735279	1.007796	-0.3478339
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.8591868	0.08448125	-0.02167063	-3.709555
+-0.04459269	0.9342483	0.01736481	-2.334451
+-0.05635313	0.01062088	0.9939657	0.5449381
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	57x87x71 voxels	0.99412x0.999981x0.994289 mm
+[reg_aladin_sym] floating image size: 	57x87x71 voxels	0.99412x0.999981x0.994289 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [15 22 18]
+[reg_aladin_sym] Backward Block number = [15 22 18]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.16021	-0.1052227	0.02713338	4.043439
+0.05416622	1.065679	-0.01743673	2.698211
+0.06519958	-0.01735279	1.007796	-0.3478339
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.8591868	0.08448125	-0.02167063	-3.709555
+-0.04459269	0.9342483	0.01736481	-2.334451
+-0.05635313	0.01062088	0.9939657	0.5449381
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.10176	-0.07956599	0.001724532	1.649076
+-0.05378808	1.008582	-0.02274105	-0.3016756
+0.04367268	0.03215996	0.9807935	-2.795589
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9111454	0.07187727	6.450451e-05	-1.480685
+0.04764175	0.994517	0.02297548	0.2856866
+-0.04213356	-0.0358105	1.018826	2.906898
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	113x173x141 voxels	0.49706x0.49999x0.497144 mm
+[reg_aladin_sym] floating image size: 	113x173x141 voxels	0.49706x0.49999x0.497144 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [29 44 36]
+[reg_aladin_sym] Backward Block number = [29 44 36]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.10176	-0.07956599	0.001724532	1.649076
+-0.05378808	1.008582	-0.02274105	-0.3016756
+0.04367268	0.03215996	0.9807935	-2.795589
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.9111454	0.07187727	6.450451e-05	-1.480685
+0.04764175	0.994517	0.02297548	0.2856866
+-0.04213356	-0.0358105	1.018826	2.906898
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.094035	-0.03442504	-0.004406256	0.9850922
+-0.05273654	1.0306	-0.01886308	-0.624595
+-0.00854234	0.0382737	0.997389	-3.394065
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9155495	0.03041044	0.004619843	-0.8672263
+0.04695984	0.9711871	0.018575	0.6233836
+0.006039378	-0.03700777	1.001945	3.371601
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin] Registration performed in 0 min 15 sec
+[reg_aladin] Have a good day !
+Transforming Case16-MRI-landmarks.nii.gz into Case16-MRI-landmarks_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.094 | -0.034 | -0.004 | +0.985 
+-0.053 | +1.031 | -0.019 | -0.625 
+-0.009 | +0.038 | +0.997 | -3.394 
++0.000 | +0.000 | +0.000 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case16/output/nifty_deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Transforming Case16-MRI_in_US.nii.gz into Case16-MRI_in_US_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.094 | -0.034 | -0.004 | +0.985 
+-0.053 | +1.031 | -0.019 | -0.625 
+-0.009 | +0.038 | +0.997 | -3.394 
++0.000 | +0.000 | +0.000 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case16/output/nifty_deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Starting registration of Case16-US.nii.gz and Case16-MRI_in_US.nii.gz
+=============================================================
+Reading affine matrix file: affine_matrix.txt
++1.094 | -0.034 | -0.004 | +0.985 
+-0.053 | +1.031 | -0.019 | -0.625 
+-0.009 | +0.038 | +0.997 | -3.394 
++0.000 | +0.000 | +0.000 | +1.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 14x21x17 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.476186, data=1.61915, MST-reg=0.512754, transf.=0.360254
+ speed=2.3036e+07 dof/s
+std(J)=0.97 (J<0)=40.02e-7  SSD before registration: 4719.49 and after 4719.49
+
+==========================================================
+Level 1 grid=7 with sizes: 16x24x20 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.234016, data=1.00318, MST-reg=0.557298, transf.=0.363558
+ speed=3.32205e+07 dof/s
+std(J)=1.22 (J<0)=0e-7  SSD before registration: 4719.49 and after 4024.55
+
+==========================================================
+Level 2 grid=6 with sizes: 18x28x23 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.464776, data=0.571529, MST-reg=0.493743, transf.=0.36081
+ speed=4.78143e+07 dof/s
+std(J)=1.35 (J<0)=0e-7  SSD before registration: 4719.49 and after 3926.33
+
+==========================================================
+Level 3 grid=5 with sizes: 22x34x28 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.228827, data=0.525559, MST-reg=0.474861, transf.=0.361577
+ speed=5.57295e+07 dof/s
+std(J)=1.35 (J<0)=0e-7  SSD before registration: 4719.49 and after 3772.67
+
+==========================================================
+Level 4 grid=4 with sizes: 28x43x35 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.50019, data=0.727852, MST-reg=0.478538, transf.=0.35522
+ speed=5.09289e+07 dof/s
+std(J)=1.27 (J<0)=0e-7  SSD before registration: 4719.49 and after 3797.61
+
+SSD before registration: 4825.89 and after 4276.75
+outputseg /vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case16/output/nifty_deeds/after/Case16-deeds_deformed_seg.nii.gz
+Finished. Total time: 10.7709 sec. (0 sec. for MIND+data+reg+trans)
+('landmark error (vox)', 4.987315307874728)
+[reg_aladin] 
+[reg_aladin] Command line:
+[reg_aladin] 	 reg_aladin -ref bucket/RESECT/RESECT/NIFTI/Case17/output/nifty_deeds/after/Case17-US.nii.gz -flo bucket/RESECT/RESECT/NIFTI/Case17/output/nifty_deeds/after/Case17-MRI_in_US.nii.gz -res bucket/RESECT/RESECT/NIFTI/Case17/output/nifty_deeds/after/Case17-MRI_to_US_result_rigid.nii.gz -rmask bucket/RESECT/RESECT/NIFTI/Case17/output/nifty_deeds/after/mask_US.nii.gz -fmask bucket/RESECT/RESECT/NIFTI/Case17/output/nifty_deeds/after/mask_US.nii.gz -aff bucket/RESECT/RESECT/NIFTI/Case17/output/nifty_deeds/after/affine_matrix.txt
+[reg_aladin] 
+[reg_aladin] OpenMP is used with 8 thread(s)
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Platform: cpu_platform
+[reg_aladin_sym] Reference image name: bucket/RESECT/RESECT/NIFTI/Case17/output/nifty_deeds/after/Case17-US.nii.gz
+[reg_aladin_sym] 	112x149x146 voxels
+[reg_aladin_sym] 	0.49737x0.497261x0.499997 mm
+[reg_aladin_sym] Floating image name: bucket/RESECT/RESECT/NIFTI/Case17/output/nifty_deeds/after/Case17-MRI_in_US.nii.gz
+[reg_aladin_sym] 	112x149x146 voxels
+[reg_aladin_sym] 	0.49737x0.497261x0.499997 mm
+[reg_aladin_sym] Maximum iteration number: 5
+[reg_aladin_sym] 	(10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	56x38x37 voxels	0.99474x1.98904x1.99999 mm
+[reg_aladin_sym] floating image size: 	56x38x37 voxels	0.99474x1.98904x1.99999 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [14 10 10]
+[reg_aladin_sym] Backward Block number = [14 10 10]
+[reg_aladin_sym] Initial forward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.068741	0.07466304	-0.0799615	3.692873
+0.06718174	1.219033	0.00710535	-9.212823
+-0.04725539	-0.005729631	1.130222	-4.677276
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9422518	-0.05739579	0.06702369	-3.694905
+-0.05215622	0.823475	-0.008866899	7.737663
+0.0391318	0.001774826	0.8875389	4.023107
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	56x75x73 voxels	0.99474x0.994522x0.999995 mm
+[reg_aladin_sym] floating image size: 	56x75x73 voxels	0.99474x0.994522x0.999995 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [14 19 19]
+[reg_aladin_sym] Backward Block number = [14 19 19]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.068741	0.07466304	-0.0799615	3.692873
+0.06718174	1.219033	0.00710535	-9.212823
+-0.04725539	-0.005729631	1.130222	-4.677276
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.9422518	-0.05739579	0.06702369	-3.694905
+-0.05215622	0.823475	-0.008866899	7.737663
+0.0391318	0.001774826	0.8875389	4.023107
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.196515	0.06617992	0.03478723	-3.40906
+0.02543665	1.107932	0.0212912	-5.044573
+-0.1334855	0.02692479	1.040246	-0.6056455
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.8338068	-0.04915248	-0.02687759	2.578266
+-0.02120978	0.9042821	-0.01779907	4.478632
+0.107544	-0.02971292	0.9583225	0.7971386
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	112x149x146 voxels	0.49737x0.497261x0.499997 mm
+[reg_aladin_sym] floating image size: 	112x149x146 voxels	0.49737x0.497261x0.499997 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [28 38 37]
+[reg_aladin_sym] Backward Block number = [28 38 37]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.196515	0.06617992	0.03478723	-3.40906
+0.02543665	1.107932	0.0212912	-5.044573
+-0.1334855	0.02692479	1.040246	-0.6056455
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.8338068	-0.04915248	-0.02687759	2.578266
+-0.02120978	0.9042821	-0.01779907	4.478632
+0.107544	-0.02971292	0.9583225	0.7971386
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.185517	0.08262498	0.05935779	-4.661489
+0.03666419	1.087205	0.01747776	-5.154319
+-0.1093805	0.02833092	1.022812	-0.8506853
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.8410477	-0.06267364	-0.04773834	3.556885
+-0.02982213	0.9224219	-0.0140316	4.603505
+0.09076853	-0.0322526	0.9729805	1.084577
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin] Registration performed in 0 min 11 sec
+[reg_aladin] Have a good day !
+Transforming Case17-MRI-landmarks.nii.gz into Case17-MRI-landmarks_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.186 | +0.083 | +0.059 | -4.661 
++0.037 | +1.087 | +0.017 | -5.154 
+-0.109 | +0.028 | +1.023 | -0.851 
++0.000 | +0.000 | +0.000 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case17/output/nifty_deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Transforming Case17-MRI_in_US.nii.gz into Case17-MRI_in_US_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.186 | +0.083 | +0.059 | -4.661 
++0.037 | +1.087 | +0.017 | -5.154 
+-0.109 | +0.028 | +1.023 | -0.851 
++0.000 | +0.000 | +0.000 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case17/output/nifty_deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Starting registration of Case17-US.nii.gz and Case17-MRI_in_US.nii.gz
+=============================================================
+Reading affine matrix file: affine_matrix.txt
++1.186 | +0.083 | +0.059 | -4.661 
++0.037 | +1.087 | +0.017 | -5.154 
+-0.109 | +0.028 | +1.023 | -0.851 
++0.000 | +0.000 | +0.000 | +1.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 14x18x18 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.451138, data=1.43064, MST-reg=0.489262, transf.=0.313419
+ speed=2.32151e+07 dof/s
+std(J)=0.99 (J<0)=0e-7  SSD before registration: 4233.21 and after 4233.21
+
+==========================================================
+Level 1 grid=7 with sizes: 16x21x20 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.230358, data=0.954597, MST-reg=0.50957, transf.=0.322073
+ speed=3.09801e+07 dof/s
+std(J)=1.28 (J<0)=0e-7  SSD before registration: 4233.21 and after 3428.94
+
+==========================================================
+Level 2 grid=6 with sizes: 18x24x24 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.451609, data=0.498992, MST-reg=0.445119, transf.=0.316123
+ speed=4.82538e+07 dof/s
+std(J)=1.42 (J<0)=0e-7  SSD before registration: 4233.21 and after 3287.26
+
+==========================================================
+Level 3 grid=5 with sizes: 22x29x29 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.221553, data=0.46163, MST-reg=0.433303, transf.=0.314385
+ speed=5.50346e+07 dof/s
+std(J)=1.42 (J<0)=0e-7  SSD before registration: 4233.21 and after 3184.41
+
+==========================================================
+Level 4 grid=4 with sizes: 28x37x36 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.42241, data=0.662546, MST-reg=0.461521, transf.=0.316496
+ speed=4.83757e+07 dof/s
+std(J)=1.37 (J<0)=0e-7  SSD before registration: 4233.21 and after 3182.65
+
+SSD before registration: 4567.93 and after 3507.23
+outputseg /vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case17/output/nifty_deeds/after/Case17-deeds_deformed_seg.nii.gz
+Finished. Total time: 9.79923 sec. (0 sec. for MIND+data+reg+trans)
+('landmark error (vox)', 7.3399355286010115)
+[reg_aladin] 
+[reg_aladin] Command line:
+[reg_aladin] 	 reg_aladin -ref bucket/RESECT/RESECT/NIFTI/Case18/output/nifty_deeds/after/Case18-US.nii.gz -flo bucket/RESECT/RESECT/NIFTI/Case18/output/nifty_deeds/after/Case18-MRI_in_US.nii.gz -res bucket/RESECT/RESECT/NIFTI/Case18/output/nifty_deeds/after/Case18-MRI_to_US_result_rigid.nii.gz -rmask bucket/RESECT/RESECT/NIFTI/Case18/output/nifty_deeds/after/mask_US.nii.gz -fmask bucket/RESECT/RESECT/NIFTI/Case18/output/nifty_deeds/after/mask_US.nii.gz -aff bucket/RESECT/RESECT/NIFTI/Case18/output/nifty_deeds/after/affine_matrix.txt
+[reg_aladin] 
+[reg_aladin] OpenMP is used with 8 thread(s)
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Platform: cpu_platform
+[reg_aladin_sym] Reference image name: bucket/RESECT/RESECT/NIFTI/Case18/output/nifty_deeds/after/Case18-US.nii.gz
+[reg_aladin_sym] 	146x140x118 voxels
+[reg_aladin_sym] 	0.498857x0.496943x0.497469 mm
+[reg_aladin_sym] Floating image name: bucket/RESECT/RESECT/NIFTI/Case18/output/nifty_deeds/after/Case18-MRI_in_US.nii.gz
+[reg_aladin_sym] 	146x140x118 voxels
+[reg_aladin_sym] 	0.498857x0.496943x0.497469 mm
+[reg_aladin_sym] Maximum iteration number: 5
+[reg_aladin_sym] 	(10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	37x35x59 voxels	1.99543x1.98777x0.994938 mm
+[reg_aladin_sym] floating image size: 	37x35x59 voxels	1.99543x1.98777x0.994938 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [10 9 15]
+[reg_aladin_sym] Backward Block number = [10 9 15]
+[reg_aladin_sym] Initial forward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.207477	-0.03366594	-7.227619e-05	4.775926
+0.1001215	1.063616	0.05468054	7.554781
+0.05504149	-0.007464886	0.9605219	-3.444703
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.8260708	0.02613707	-0.001425771	-4.147624
+-0.07529697	0.9374312	-0.0533717	-6.906324
+-0.04792213	0.005787681	1.040768	3.770283
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	73x70x59 voxels	0.997714x0.993885x0.994938 mm
+[reg_aladin_sym] floating image size: 	73x70x59 voxels	0.997714x0.993885x0.994938 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [19 18 15]
+[reg_aladin_sym] Backward Block number = [19 18 15]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.207477	-0.03366594	-7.227619e-05	4.775926
+0.1001215	1.063616	0.05468054	7.554781
+0.05504149	-0.007464886	0.9605219	-3.444703
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.8260708	0.02613707	-0.001425771	-4.147624
+-0.07529697	0.9374312	-0.0533717	-6.906324
+-0.04792213	0.005787681	1.040768	3.770283
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.150943	-0.02228164	-0.05316719	1.905673
+-0.1232839	1.07571	-0.0002529549	0.6797705
+0.1108818	0.0180615	0.9576663	-2.766201
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.8660551	0.01713159	0.04808569	-1.529049
+0.09923193	0.9315771	0.005755165	-0.8064424
+-0.1021463	-0.01955302	1.038529	3.080728
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	146x140x118 voxels	0.498857x0.496943x0.497469 mm
+[reg_aladin_sym] floating image size: 	146x140x118 voxels	0.498857x0.496943x0.497469 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [37 35 30]
+[reg_aladin_sym] Backward Block number = [37 35 30]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.150943	-0.02228164	-0.05316719	1.905673
+-0.1232839	1.07571	-0.0002529549	0.6797705
+0.1108818	0.0180615	0.9576663	-2.766201
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.8660551	0.01713159	0.04808569	-1.529049
+0.09923193	0.9315771	0.005755165	-0.8064424
+-0.1021463	-0.01955302	1.038529	3.080728
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.160257	-0.01928106	-0.0500539	2.507082
+-0.1096312	1.099698	-0.02237434	0.6140437
+0.07373787	0.03578295	0.9520633	-3.917393
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.8602687	0.01360107	0.04554752	-1.986688
+0.08434186	0.9099793	0.02581953	-0.6690738
+-0.06979828	-0.03525465	1.045852	4.293653
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin] Registration performed in 0 min 14 sec
+[reg_aladin] Have a good day !
+Transforming Case18-MRI-landmarks.nii.gz into Case18-MRI-landmarks_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.160 | -0.019 | -0.050 | +2.507 
+-0.110 | +1.100 | -0.022 | +0.614 
++0.074 | +0.036 | +0.952 | -3.917 
++0.000 | +0.000 | +0.000 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case18/output/nifty_deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Transforming Case18-MRI_in_US.nii.gz into Case18-MRI_in_US_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.160 | -0.019 | -0.050 | +2.507 
+-0.110 | +1.100 | -0.022 | +0.614 
++0.074 | +0.036 | +0.952 | -3.917 
++0.000 | +0.000 | +0.000 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case18/output/nifty_deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Starting registration of Case18-US.nii.gz and Case18-MRI_in_US.nii.gz
+=============================================================
+Reading affine matrix file: affine_matrix.txt
++1.160 | -0.019 | -0.050 | +2.507 
+-0.110 | +1.100 | -0.022 | +0.614 
++0.074 | +0.036 | +0.952 | -3.917 
++0.000 | +0.000 | +0.000 | +1.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 18x17x14 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.449645, data=1.33303, MST-reg=0.442728, transf.=0.305462
+ speed=2.37051e+07 dof/s
+std(J)=0.8 (J<0)=116.71e-7  SSD before registration: 3643.42 and after 3643.42
+
+==========================================================
+Level 1 grid=7 with sizes: 20x20x16 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.221947, data=0.790338, MST-reg=0.460157, transf.=0.30716
+ speed=3.45463e+07 dof/s
+std(J)=0.82 (J<0)=31.25e-7  SSD before registration: 3643.42 and after 3222.28
+
+==========================================================
+Level 2 grid=6 with sizes: 24x23x19 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.43783, data=0.586692, MST-reg=0.461892, transf.=0.308108
+ speed=4.3949e+07 dof/s
+std(J)=0.93 (J<0)=0e-7  SSD before registration: 3643.42 and after 3076.86
+
+==========================================================
+Level 3 grid=5 with sizes: 29x28x23 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.218796, data=0.45801, MST-reg=0.452114, transf.=0.307622
+ speed=5.4625e+07 dof/s
+std(J)=0.99 (J<0)=0e-7  SSD before registration: 3643.42 and after 3013.09
+
+==========================================================
+Level 4 grid=4 with sizes: 36x35x29 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.404392, data=0.653256, MST-reg=0.421303, transf.=0.302586
+ speed=4.95788e+07 dof/s
+std(J)=0.97 (J<0)=0e-7  SSD before registration: 3643.42 and after 2995.52
+
+SSD before registration: 3995.12 and after 3634.67
+outputseg /vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case18/output/nifty_deeds/after/Case18-deeds_deformed_seg.nii.gz
+Finished. Total time: 9.41396 sec. (0 sec. for MIND+data+reg+trans)
+('landmark error (vox)', 4.45555776626474)
+[reg_aladin] 
+[reg_aladin] Command line:
+[reg_aladin] 	 reg_aladin -ref bucket/RESECT/RESECT/NIFTI/Case19/output/nifty_deeds/after/Case19-US.nii.gz -flo bucket/RESECT/RESECT/NIFTI/Case19/output/nifty_deeds/after/Case19-MRI_in_US.nii.gz -res bucket/RESECT/RESECT/NIFTI/Case19/output/nifty_deeds/after/Case19-MRI_to_US_result_rigid.nii.gz -rmask bucket/RESECT/RESECT/NIFTI/Case19/output/nifty_deeds/after/mask_US.nii.gz -fmask bucket/RESECT/RESECT/NIFTI/Case19/output/nifty_deeds/after/mask_US.nii.gz -aff bucket/RESECT/RESECT/NIFTI/Case19/output/nifty_deeds/after/affine_matrix.txt
+[reg_aladin] 
+[reg_aladin] OpenMP is used with 8 thread(s)
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Platform: cpu_platform
+[reg_aladin_sym] Reference image name: bucket/RESECT/RESECT/NIFTI/Case19/output/nifty_deeds/after/Case19-US.nii.gz
+[reg_aladin_sym] 	159x153x129 voxels
+[reg_aladin_sym] 	0.498367x0.499784x0.497556 mm
+[reg_aladin_sym] Floating image name: bucket/RESECT/RESECT/NIFTI/Case19/output/nifty_deeds/after/Case19-MRI_in_US.nii.gz
+[reg_aladin_sym] 	159x153x129 voxels
+[reg_aladin_sym] 	0.498367x0.499784x0.497556 mm
+[reg_aladin_sym] Maximum iteration number: 5
+[reg_aladin_sym] 	(10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	40x39x33 voxels	1.99347x1.99914x1.99022 mm
+[reg_aladin_sym] floating image size: 	40x39x33 voxels	1.99347x1.99914x1.99022 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [10 10 9]
+[reg_aladin_sym] Backward Block number = [10 10 9]
+[reg_aladin_sym] Initial forward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.253984	0.05089638	-0.2994479	3.671247
+0.04787774	1.130032	0.09957605	-2.43693
+0.01154829	0.08069383	1.040897	-1.321732
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.7973097	-0.05264939	0.2344087	-2.745598
+-0.03322832	0.8932114	-0.09500709	2.173109
+-0.006269828	-0.06866062	0.9654744	1.131795
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	80x77x65 voxels	0.996735x0.999568x0.995112 mm
+[reg_aladin_sym] floating image size: 	80x77x65 voxels	0.996735x0.999568x0.995112 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [20 20 17]
+[reg_aladin_sym] Backward Block number = [20 20 17]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.253984	0.05089638	-0.2994479	3.671247
+0.04787774	1.130032	0.09957605	-2.43693
+0.01154829	0.08069383	1.040897	-1.321732
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.7973097	-0.05264939	0.2344087	-2.745598
+-0.03322832	0.8932114	-0.09500709	2.173109
+-0.006269828	-0.06866062	0.9654744	1.131795
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.149156	0.03306723	-0.1868997	0.7109374
+-0.008881158	1.061611	-0.01111604	-0.8090445
+-0.05108375	0.1069556	1.092975	-4.727739
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.87652	-0.04235932	0.149455	0.0491625
+0.00775375	0.9406253	0.01089248	0.8069921
+0.04020827	-0.09402691	0.9208536	4.248898
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	159x153x129 voxels	0.498367x0.499784x0.497556 mm
+[reg_aladin_sym] floating image size: 	159x153x129 voxels	0.498367x0.499784x0.497556 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [40 39 33]
+[reg_aladin_sym] Backward Block number = [40 39 33]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.149156	0.03306723	-0.1868997	0.7109374
+-0.008881158	1.061611	-0.01111604	-0.8090445
+-0.05108375	0.1069556	1.092975	-4.727739
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.87652	-0.04235932	0.149455	0.0491625
+0.00775375	0.9406253	0.01089248	0.8069921
+0.04020827	-0.09402691	0.9208536	4.248898
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.139495	0.008801961	-0.1790639	1.619544
+0.005918515	1.078315	-0.01058996	-1.411022
+-0.02715108	0.1346741	1.089999	-4.458841
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.8811562	-0.02524094	0.1445102	-0.8183392
+-0.004615219	0.9263812	0.008242141	1.351369
+0.02251918	-0.1150872	0.9200133	3.903331
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin] Registration performed in 0 min 17 sec
+[reg_aladin] Have a good day !
+Transforming Case19-MRI-landmarks.nii.gz into Case19-MRI-landmarks_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.139 | +0.009 | -0.179 | +1.620 
++0.006 | +1.078 | -0.011 | -1.411 
+-0.027 | +0.135 | +1.090 | -4.459 
++0.000 | +0.000 | +0.000 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case19/output/nifty_deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Transforming Case19-MRI_in_US.nii.gz into Case19-MRI_in_US_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.139 | +0.009 | -0.179 | +1.620 
++0.006 | +1.078 | -0.011 | -1.411 
+-0.027 | +0.135 | +1.090 | -4.459 
++0.000 | +0.000 | +0.000 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case19/output/nifty_deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Starting registration of Case19-US.nii.gz and Case19-MRI_in_US.nii.gz
+=============================================================
+Reading affine matrix file: affine_matrix.txt
++1.139 | +0.009 | -0.179 | +1.620 
++0.006 | +1.078 | -0.011 | -1.411 
+-0.027 | +0.135 | +1.090 | -4.459 
++0.000 | +0.000 | +0.000 | +1.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 19x19x16 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.585468, data=1.65983, MST-reg=0.607249, transf.=0.404144
+ speed=2.50345e+07 dof/s
+std(J)=1.1 (J<0)=0e-7  SSD before registration: 5890.41 and after 5890.41
+
+==========================================================
+Level 1 grid=7 with sizes: 22x21x18 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.291188, data=1.19041, MST-reg=0.595006, transf.=0.404539
+ speed=3.14398e+07 dof/s
+std(J)=1.29 (J<0)=0e-7  SSD before registration: 5890.41 and after 5304.81
+
+==========================================================
+Level 2 grid=6 with sizes: 26x25x21 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.576571, data=0.764249, MST-reg=0.568942, transf.=0.403618
+ speed=4.49884e+07 dof/s
+std(J)=1.41 (J<0)=0e-7  SSD before registration: 5890.41 and after 4994.14
+
+==========================================================
+Level 3 grid=5 with sizes: 31x30x25 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.290907, data=0.638299, MST-reg=0.539932, transf.=0.402543
+ speed=5.25292e+07 dof/s
+std(J)=1.45 (J<0)=0e-7  SSD before registration: 5890.41 and after 4872.06
+
+==========================================================
+Level 4 grid=4 with sizes: 39x38x32 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.570536, data=0.792376, MST-reg=0.543868, transf.=0.409791
+ speed=5.17452e+07 dof/s
+std(J)=1.38 (J<0)=0e-7  SSD before registration: 5890.41 and after 4858.77
+
+SSD before registration: 6090.81 and after 5522.69
+outputseg /vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case19/output/nifty_deeds/after/Case19-deeds_deformed_seg.nii.gz
+Finished. Total time: 12.3528 sec. (0 sec. for MIND+data+reg+trans)
+('landmark error (vox)', 9.647352466850537)
+[reg_aladin] 
+[reg_aladin] Command line:
+[reg_aladin] 	 reg_aladin -ref bucket/RESECT/RESECT/NIFTI/Case21/output/nifty_deeds/after/Case21-US.nii.gz -flo bucket/RESECT/RESECT/NIFTI/Case21/output/nifty_deeds/after/Case21-MRI_in_US.nii.gz -res bucket/RESECT/RESECT/NIFTI/Case21/output/nifty_deeds/after/Case21-MRI_to_US_result_rigid.nii.gz -rmask bucket/RESECT/RESECT/NIFTI/Case21/output/nifty_deeds/after/mask_US.nii.gz -fmask bucket/RESECT/RESECT/NIFTI/Case21/output/nifty_deeds/after/mask_US.nii.gz -aff bucket/RESECT/RESECT/NIFTI/Case21/output/nifty_deeds/after/affine_matrix.txt
+[reg_aladin] 
+[reg_aladin] OpenMP is used with 8 thread(s)
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Platform: cpu_platform
+[reg_aladin_sym] Reference image name: bucket/RESECT/RESECT/NIFTI/Case21/output/nifty_deeds/after/Case21-US.nii.gz
+[reg_aladin_sym] 	205x175x177 voxels
+[reg_aladin_sym] 	0.499092x0.497453x0.497485 mm
+[reg_aladin_sym] Floating image name: bucket/RESECT/RESECT/NIFTI/Case21/output/nifty_deeds/after/Case21-MRI_in_US.nii.gz
+[reg_aladin_sym] 	205x175x177 voxels
+[reg_aladin_sym] 	0.499092x0.497453x0.497485 mm
+[reg_aladin_sym] Maximum iteration number: 5
+[reg_aladin_sym] 	(10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	52x44x45 voxels	1.99637x1.98981x1.98994 mm
+[reg_aladin_sym] floating image size: 	52x44x45 voxels	1.99637x1.98981x1.98994 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [13 11 12]
+[reg_aladin_sym] Backward Block number = [13 11 12]
+[reg_aladin_sym] Initial forward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.031398	0.1223204	-0.03212772	1.009049
+-0.05534676	1.008671	0.008619023	-1.587543
+0.1358551	0.05817396	1.015916	-1.402784
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9590924	-0.1181151	0.0313328	-1.111331
+0.05374857	0.9852694	-0.006659251	1.500581
+-0.1313341	-0.0406239	0.9805245	1.443495
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	103x88x89 voxels	0.998184x0.994906x0.994971 mm
+[reg_aladin_sym] floating image size: 	103x88x89 voxels	0.998184x0.994906x0.994971 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [26 22 23]
+[reg_aladin_sym] Backward Block number = [26 22 23]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.031398	0.1223204	-0.03212772	1.009049
+-0.05534676	1.008671	0.008619023	-1.587543
+0.1358551	0.05817396	1.015916	-1.402784
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.9590924	-0.1181151	0.0313328	-1.111331
+0.05374857	0.9852694	-0.006659251	1.500581
+-0.1313341	-0.0406239	0.9805245	1.443495
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.058936	0.06435489	-0.04853366	-0.1058931
+-0.05861298	1.024297	-0.009728046	-1.122576
+0.1488712	0.03507858	1.026326	-2.758864
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.9348755	-0.06023116	0.04363816	0.1517746
+0.05219124	0.9726004	0.01168686	1.129587
+-0.1373899	-0.02450561	0.9676197	2.627473
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	205x175x177 voxels	0.499092x0.497453x0.497485 mm
+[reg_aladin_sym] floating image size: 	205x175x177 voxels	0.499092x0.497453x0.497485 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [52 44 45]
+[reg_aladin_sym] Backward Block number = [52 44 45]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.058936	0.06435489	-0.04853366	-0.1058931
+-0.05861298	1.024297	-0.009728046	-1.122576
+0.1488712	0.03507858	1.026326	-2.758864
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.9348755	-0.06023116	0.04363816	0.1517746
+0.05219124	0.9726004	0.01168686	1.129587
+-0.1373899	-0.02450561	0.9676197	2.627473
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.070315	0.07666614	-0.04161426	-0.2426002
+-0.03390802	1.01752	0.000957111	-1.980789
+0.1445483	0.05346547	1.030989	-2.437473
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.926967	-0.07181284	0.03748224	0.1739982
+0.03101418	0.980427	0.0003416664	1.950376
+-0.1315724	-0.04077499	0.9646693	2.238669
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin] Registration performed in 0 min 37 sec
+[reg_aladin] Have a good day !
+Transforming Case21-MRI-landmarks.nii.gz into Case21-MRI-landmarks_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.070 | +0.077 | -0.042 | -0.243 
+-0.034 | +1.018 | +0.001 | -1.981 
++0.145 | +0.053 | +1.031 | -2.437 
++0.000 | +0.000 | +0.000 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case21/output/nifty_deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Transforming Case21-MRI_in_US.nii.gz into Case21-MRI_in_US_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.070 | +0.077 | -0.042 | -0.243 
+-0.034 | +1.018 | +0.001 | -1.981 
++0.145 | +0.053 | +1.031 | -2.437 
++0.000 | +0.000 | +0.000 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case21/output/nifty_deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Starting registration of Case21-US.nii.gz and Case21-MRI_in_US.nii.gz
+=============================================================
+Reading affine matrix file: affine_matrix.txt
++1.070 | +0.077 | -0.042 | -0.243 
+-0.034 | +1.018 | +0.001 | -1.981 
++0.145 | +0.053 | +1.031 | -2.437 
++0.000 | +0.000 | +0.000 | +1.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 25x21x22 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=1.10819, data=3.75899, MST-reg=1.12004, transf.=0.867845
+ speed=2.32608e+07 dof/s
+std(J)=0.77 (J<0)=0e-7  SSD before registration: 5628.07 and after 5628.07
+
+==========================================================
+Level 1 grid=7 with sizes: 29x25x25 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.553528, data=2.71542, MST-reg=1.2506, transf.=0.877687
+ speed=3.0848e+07 dof/s
+std(J)=1.06 (J<0)=0e-7  SSD before registration: 5628.07 and after 5003.51
+
+==========================================================
+Level 2 grid=6 with sizes: 34x29x29 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=1.07276, data=1.5608, MST-reg=1.21675, transf.=0.883296
+ speed=4.52348e+07 dof/s
+std(J)=1.15 (J<0)=0e-7  SSD before registration: 5628.07 and after 4665.3
+
+==========================================================
+Level 3 grid=5 with sizes: 41x35x35 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.537743, data=1.22315, MST-reg=1.11519, transf.=0.883584
+ speed=5.7177e+07 dof/s
+std(J)=1.25 (J<0)=0e-7  SSD before registration: 5628.07 and after 4562.66
+
+==========================================================
+Level 4 grid=4 with sizes: 51x43x44 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=1.07939, data=1.6695, MST-reg=1.09161, transf.=0.883249
+ speed=5.09524e+07 dof/s
+std(J)=1.17 (J<0)=0e-7  SSD before registration: 5628.07 and after 4543.54
+
+SSD before registration: 5964.98 and after 4484.25
+outputseg /vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case21/output/nifty_deeds/after/Case21-deeds_deformed_seg.nii.gz
+Finished. Total time: 25.6831 sec. (0 sec. for MIND+data+reg+trans)
+('landmark error (vox)', 4.610698910312038)
+[reg_aladin] 
+[reg_aladin] Command line:
+[reg_aladin] 	 reg_aladin -ref bucket/RESECT/RESECT/NIFTI/Case23/output/nifty_deeds/after/Case23-US.nii.gz -flo bucket/RESECT/RESECT/NIFTI/Case23/output/nifty_deeds/after/Case23-MRI_in_US.nii.gz -res bucket/RESECT/RESECT/NIFTI/Case23/output/nifty_deeds/after/Case23-MRI_to_US_result_rigid.nii.gz -rmask bucket/RESECT/RESECT/NIFTI/Case23/output/nifty_deeds/after/mask_US.nii.gz -fmask bucket/RESECT/RESECT/NIFTI/Case23/output/nifty_deeds/after/mask_US.nii.gz -aff bucket/RESECT/RESECT/NIFTI/Case23/output/nifty_deeds/after/affine_matrix.txt
+[reg_aladin] 
+[reg_aladin] OpenMP is used with 8 thread(s)
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Platform: cpu_platform
+[reg_aladin_sym] Reference image name: bucket/RESECT/RESECT/NIFTI/Case23/output/nifty_deeds/after/Case23-US.nii.gz
+[reg_aladin_sym] 	148x168x119 voxels
+[reg_aladin_sym] 	0.497579x0.498328x0.496699 mm
+[reg_aladin_sym] Floating image name: bucket/RESECT/RESECT/NIFTI/Case23/output/nifty_deeds/after/Case23-MRI_in_US.nii.gz
+[reg_aladin_sym] 	148x168x119 voxels
+[reg_aladin_sym] 	0.497579x0.498328x0.496699 mm
+[reg_aladin_sym] Maximum iteration number: 5
+[reg_aladin_sym] 	(10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	37x42x60 voxels	1.99032x1.99331x0.993398 mm
+[reg_aladin_sym] floating image size: 	37x42x60 voxels	1.99032x1.99331x0.993398 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [10 11 15]
+[reg_aladin_sym] Backward Block number = [10 11 15]
+[reg_aladin_sym] Initial forward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.112464	-0.1735559	0.1287217	0.6832552
+-0.0006253829	1.27788	0.1075037	-13.03678
+0.0009551104	-0.06470685	1.029057	3.017318
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.8990774	0.1158014	-0.1245605	1.271217
+0.000507516	0.7784936	-0.08139127	10.39429
+-0.0008025588	0.04884401	0.9667612	-2.279709
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	74x84x60 voxels	0.995158x0.996655x0.993398 mm
+[reg_aladin_sym] floating image size: 	74x84x60 voxels	0.995158x0.996655x0.993398 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [19 21 15]
+[reg_aladin_sym] Backward Block number = [19 21 15]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.112464	-0.1735559	0.1287217	0.6832552
+-0.0006253829	1.27788	0.1075037	-13.03678
+0.0009551104	-0.06470685	1.029057	3.017318
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.8990774	0.1158014	-0.1245605	1.271217
+0.000507516	0.7784936	-0.08139127	10.39429
+-0.0008025588	0.04884401	0.9667612	-2.279709
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.136059	-0.1859088	0.08490531	0.7549526
+0.02784141	1.194559	-0.01501889	-11.40875
+0.04519699	0.05031246	1.079607	-0.4016414
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.8794866	0.1397055	-0.06722342	0.9028943
+-0.02094871	0.8333111	0.01324007	9.528169
+-0.03584284	-0.04468313	0.9284605	-0.1098107
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	148x168x119 voxels	0.497579x0.498328x0.496699 mm
+[reg_aladin_sym] floating image size: 	148x168x119 voxels	0.497579x0.498328x0.496699 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [37 42 30]
+[reg_aladin_sym] Backward Block number = [37 42 30]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.136059	-0.1859088	0.08490531	0.7549526
+0.02784141	1.194559	-0.01501889	-11.40875
+0.04519699	0.05031246	1.079607	-0.4016414
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.8794866	0.1397055	-0.06722342	0.9028943
+-0.02094871	0.8333111	0.01324007	9.528169
+-0.03584284	-0.04468313	0.9284605	-0.1098107
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.123204	-0.1304648	0.09166547	-0.6207675
+0.04735175	1.203776	-0.02388609	-11.53239
+0.01699626	0.06899866	1.064901	-0.2049717
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.887199	0.1004025	-0.074117	1.693433
+-0.03513466	0.8256763	0.02154455	9.504625
+-0.01188356	-0.05510091	0.9388413	-0.4503861
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin] Registration performed in 0 min 13 sec
+[reg_aladin] Have a good day !
+Transforming Case23-MRI-landmarks.nii.gz into Case23-MRI-landmarks_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.123 | -0.130 | +0.092 | -0.621 
++0.047 | +1.204 | -0.024 | -11.532 
++0.017 | +0.069 | +1.065 | -0.205 
++0.000 | +0.000 | +0.000 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case23/output/nifty_deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Transforming Case23-MRI_in_US.nii.gz into Case23-MRI_in_US_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.123 | -0.130 | +0.092 | -0.621 
++0.047 | +1.204 | -0.024 | -11.532 
++0.017 | +0.069 | +1.065 | -0.205 
++0.000 | +0.000 | +0.000 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case23/output/nifty_deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Starting registration of Case23-US.nii.gz and Case23-MRI_in_US.nii.gz
+=============================================================
+Reading affine matrix file: affine_matrix.txt
++1.123 | -0.130 | +0.092 | -0.621 
++0.047 | +1.204 | -0.024 | -11.532 
++0.017 | +0.069 | +1.065 | -0.205 
++0.000 | +0.000 | +0.000 | +1.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 18x21x14 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.555275, data=1.68241, MST-reg=0.5552, transf.=0.375666
+ speed=2.32388e+07 dof/s
+std(J)=0.77 (J<0)=18.9e-7  SSD before registration: 13785 and after 13785
+
+==========================================================
+Level 1 grid=7 with sizes: 21x24x17 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.278938, data=1.23568, MST-reg=0.610875, transf.=0.379289
+ speed=3.132e+07 dof/s
+std(J)=1.07 (J<0)=0e-7  SSD before registration: 13785 and after 13040
+
+==========================================================
+Level 2 grid=6 with sizes: 24x28x19 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.549853, data=0.716845, MST-reg=0.540211, transf.=0.376499
+ speed=4.46301e+07 dof/s
+std(J)=1.19 (J<0)=0e-7  SSD before registration: 13785 and after 12596.6
+
+==========================================================
+Level 3 grid=5 with sizes: 29x33x23 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.282316, data=0.538561, MST-reg=0.518887, transf.=0.378295
+ speed=5.54101e+07 dof/s
+std(J)=1.23 (J<0)=0e-7  SSD before registration: 13785 and after 12478.7
+
+==========================================================
+Level 4 grid=4 with sizes: 37x42x29 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.549835, data=0.828709, MST-reg=0.515431, transf.=0.377378
+ speed=4.88835e+07 dof/s
+std(J)=1.14 (J<0)=0e-7  SSD before registration: 13785 and after 12461.6
+
+SSD before registration: 15438.9 and after 12854.5
+outputseg /vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case23/output/nifty_deeds/after/Case23-deeds_deformed_seg.nii.gz
+Finished. Total time: 11.9546 sec. (0 sec. for MIND+data+reg+trans)
+('landmark error (vox)', 9.895168496448875)
+[reg_aladin] 
+[reg_aladin] Command line:
+[reg_aladin] 	 reg_aladin -ref bucket/RESECT/RESECT/NIFTI/Case24/output/nifty_deeds/after/Case24-US.nii.gz -flo bucket/RESECT/RESECT/NIFTI/Case24/output/nifty_deeds/after/Case24-MRI_in_US.nii.gz -res bucket/RESECT/RESECT/NIFTI/Case24/output/nifty_deeds/after/Case24-MRI_to_US_result_rigid.nii.gz -rmask bucket/RESECT/RESECT/NIFTI/Case24/output/nifty_deeds/after/mask_US.nii.gz -fmask bucket/RESECT/RESECT/NIFTI/Case24/output/nifty_deeds/after/mask_US.nii.gz -aff bucket/RESECT/RESECT/NIFTI/Case24/output/nifty_deeds/after/affine_matrix.txt
+[reg_aladin] 
+[reg_aladin] OpenMP is used with 8 thread(s)
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Platform: cpu_platform
+[reg_aladin_sym] Reference image name: bucket/RESECT/RESECT/NIFTI/Case24/output/nifty_deeds/after/Case24-US.nii.gz
+[reg_aladin_sym] 	111x137x113 voxels
+[reg_aladin_sym] 	0.495812x0.497419x0.499929 mm
+[reg_aladin_sym] Floating image name: bucket/RESECT/RESECT/NIFTI/Case24/output/nifty_deeds/after/Case24-MRI_in_US.nii.gz
+[reg_aladin_sym] 	111x137x113 voxels
+[reg_aladin_sym] 	0.495812x0.497419x0.499929 mm
+[reg_aladin_sym] Maximum iteration number: 5
+[reg_aladin_sym] 	(10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	56x35x57 voxels	0.991624x1.98968x0.999857 mm
+[reg_aladin_sym] floating image size: 	56x35x57 voxels	0.991624x1.98968x0.999857 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [14 9 15]
+[reg_aladin_sym] Backward Block number = [14 9 15]
+[reg_aladin_sym] Initial forward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.126508	0.1066343	0.09310304	-3.983749
+-0.007562212	1.103526	0.1324975	1.695783
+0.01901112	-0.1708142	1.025353	1.153709
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.8882027	-0.09638337	-0.06819486	3.780499
+0.007905816	0.8875585	-0.1154093	-1.340463
+-0.01515117	0.1496459	0.957312	-1.418585
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	56x69x57 voxels	0.991624x0.994838x0.999857 mm
+[reg_aladin_sym] floating image size: 	56x69x57 voxels	0.991624x0.994838x0.999857 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [14 18 15]
+[reg_aladin_sym] Backward Block number = [14 18 15]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.126508	0.1066343	0.09310304	-3.983749
+-0.007562212	1.103526	0.1324975	1.695783
+0.01901112	-0.1708142	1.025353	1.153709
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.8882027	-0.09638337	-0.06819486	3.780499
+0.007905816	0.8875585	-0.1154093	-1.340463
+-0.01515117	0.1496459	0.957312	-1.418585
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.125781	0.08501915	0.07818229	-4.446988
+0.001152262	1.070739	0.1670567	1.35597
+-0.02622273	-0.1324656	1.008465	3.11975
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.8870481	-0.07735609	-0.05595493	4.22415
+-0.004461836	0.9155681	-0.1513219	-0.7892381
+0.02247949	0.1182517	0.9702742	-3.087393
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	111x137x113 voxels	0.495812x0.497419x0.499929 mm
+[reg_aladin_sym] floating image size: 	111x137x113 voxels	0.495812x0.497419x0.499929 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [28 35 29]
+[reg_aladin_sym] Backward Block number = [28 35 29]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.125781	0.08501915	0.07818229	-4.446988
+0.001152262	1.070739	0.1670567	1.35597
+-0.02622273	-0.1324656	1.008465	3.11975
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.8870481	-0.07735609	-0.05595493	4.22415
+-0.004461836	0.9155681	-0.1513219	-0.7892381
+0.02247949	0.1182517	0.9702742	-3.087393
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.124345	0.07216182	0.06387749	-4.876624
+0.005841783	1.067263	0.1361911	0.9282773
+-0.017704	-0.1203662	1.027282	2.591979
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.889012	-0.0653667	-0.04661378	4.516877
+-0.006720711	0.9236673	-0.1220366	-0.5738775
+0.01453362	0.1070992	0.9583404	-2.512541
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin] Registration performed in 0 min 12 sec
+[reg_aladin] Have a good day !
+Transforming Case24-MRI-landmarks.nii.gz into Case24-MRI-landmarks_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.124 | +0.072 | +0.064 | -4.877 
++0.006 | +1.067 | +0.136 | +0.928 
+-0.018 | -0.120 | +1.027 | +2.592 
++0.000 | +0.000 | +0.000 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case24/output/nifty_deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Transforming Case24-MRI_in_US.nii.gz into Case24-MRI_in_US_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.124 | +0.072 | +0.064 | -4.877 
++0.006 | +1.067 | +0.136 | +0.928 
+-0.018 | -0.120 | +1.027 | +2.592 
++0.000 | +0.000 | +0.000 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case24/output/nifty_deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Starting registration of Case24-US.nii.gz and Case24-MRI_in_US.nii.gz
+=============================================================
+Reading affine matrix file: affine_matrix.txt
++1.124 | +0.072 | +0.064 | -4.877 
++0.006 | +1.067 | +0.136 | +0.928 
+-0.018 | -0.120 | +1.027 | +2.592 
++0.000 | +0.000 | +0.000 | +1.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 13x17x14 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.313827, data=0.929342, MST-reg=0.332059, transf.=0.21662
+ speed=2.41015e+07 dof/s
+std(J)=0.8 (J<0)=0e-7  SSD before registration: 17548.7 and after 17548.7
+
+==========================================================
+Level 1 grid=7 with sizes: 15x19x16 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.140982, data=0.561074, MST-reg=0.328983, transf.=0.214846
+ speed=3.45821e+07 dof/s
+std(J)=1.02 (J<0)=0e-7  SSD before registration: 17548.7 and after 16955.1
+
+==========================================================
+Level 2 grid=6 with sizes: 18x22x18 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.279728, data=0.364942, MST-reg=0.322242, transf.=0.215159
+ speed=4.5578e+07 dof/s
+std(J)=1.13 (J<0)=0e-7  SSD before registration: 17548.7 and after 16444.6
+
+==========================================================
+Level 3 grid=5 with sizes: 22x27x22 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.139632, data=0.325088, MST-reg=0.299293, transf.=0.21306
+ speed=5.57144e+07 dof/s
+std(J)=1.16 (J<0)=0e-7  SSD before registration: 17548.7 and after 16235
+
+==========================================================
+Level 4 grid=4 with sizes: 27x34x28 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.293328, data=0.471338, MST-reg=0.297623, transf.=0.213544
+ speed=4.87365e+07 dof/s
+std(J)=1.14 (J<0)=0e-7  SSD before registration: 17548.7 and after 16030.9
+
+SSD before registration: 19094.7 and after 16681.3
+outputseg /vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case24/output/nifty_deeds/after/Case24-deeds_deformed_seg.nii.gz
+Finished. Total time: 6.53968 sec. (0 sec. for MIND+data+reg+trans)
+('landmark error (vox)', 5.5233006853563555)
+[reg_aladin] 
+[reg_aladin] Command line:
+[reg_aladin] 	 reg_aladin -ref bucket/RESECT/RESECT/NIFTI/Case25/output/nifty_deeds/after/Case25-US.nii.gz -flo bucket/RESECT/RESECT/NIFTI/Case25/output/nifty_deeds/after/Case25-MRI_in_US.nii.gz -res bucket/RESECT/RESECT/NIFTI/Case25/output/nifty_deeds/after/Case25-MRI_to_US_result_rigid.nii.gz -rmask bucket/RESECT/RESECT/NIFTI/Case25/output/nifty_deeds/after/mask_US.nii.gz -fmask bucket/RESECT/RESECT/NIFTI/Case25/output/nifty_deeds/after/mask_US.nii.gz -aff bucket/RESECT/RESECT/NIFTI/Case25/output/nifty_deeds/after/affine_matrix.txt
+[reg_aladin] 
+[reg_aladin] OpenMP is used with 8 thread(s)
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Platform: cpu_platform
+[reg_aladin_sym] Reference image name: bucket/RESECT/RESECT/NIFTI/Case25/output/nifty_deeds/after/Case25-US.nii.gz
+[reg_aladin_sym] 	143x149x158 voxels
+[reg_aladin_sym] 	0.498828x0.497782x0.497644 mm
+[reg_aladin_sym] Floating image name: bucket/RESECT/RESECT/NIFTI/Case25/output/nifty_deeds/after/Case25-MRI_in_US.nii.gz
+[reg_aladin_sym] 	143x149x158 voxels
+[reg_aladin_sym] 	0.498828x0.497782x0.497644 mm
+[reg_aladin_sym] Maximum iteration number: 5
+[reg_aladin_sym] 	(10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	36x38x40 voxels	1.99531x1.99113x1.99058 mm
+[reg_aladin_sym] floating image size: 	36x38x40 voxels	1.99531x1.99113x1.99058 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [9 10 10]
+[reg_aladin_sym] Backward Block number = [9 10 10]
+[reg_aladin_sym] Initial forward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.353604	0.2561611	-0.193048	-1.315214
+-0.443945	1.079649	0.1895094	-5.292051
+0.02698339	0.1176257	0.9329885	-4.846901
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.6763183	-0.1796881	0.1764378	0.7937616
+0.2879024	0.8706961	-0.1172856	4.41795
+-0.05585715	-0.1045754	1.081508	4.615082
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	72x75x79 voxels	0.997657x0.995564x0.995289 mm
+[reg_aladin_sym] floating image size: 	72x75x79 voxels	0.997657x0.995564x0.995289 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [18 19 20]
+[reg_aladin_sym] Backward Block number = [18 19 20]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.353604	0.2561611	-0.193048	-1.315214
+-0.443945	1.079649	0.1895094	-5.292051
+0.02698339	0.1176257	0.9329885	-4.846901
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.6763183	-0.1796881	0.1764378	0.7937616
+0.2879024	0.8706961	-0.1172856	4.41795
+-0.05585715	-0.1045754	1.081508	4.615082
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.303261	0.09481845	-0.3018371	0.1542065
+-0.3269882	1.027317	0.1673	-1.749822
+0.06202199	0.1208452	0.9715285	-4.117261
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.7315629	-0.09620582	0.2438508	0.7228428
+0.2454288	0.9612592	-0.08928117	1.276592
+-0.07723075	-0.1134261	1.024844	4.032984
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	143x149x158 voxels	0.498828x0.497782x0.497644 mm
+[reg_aladin_sym] floating image size: 	143x149x158 voxels	0.498828x0.497782x0.497644 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [36 38 40]
+[reg_aladin_sym] Backward Block number = [36 38 40]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.303261	0.09481845	-0.3018371	0.1542065
+-0.3269882	1.027317	0.1673	-1.749822
+0.06202199	0.1208452	0.9715285	-4.117261
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.7315629	-0.09620582	0.2438508	0.7228428
+0.2454288	0.9612592	-0.08928117	1.276592
+-0.07723075	-0.1134261	1.024844	4.032984
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.217035	0.08463284	-0.2868672	-1.174793
+-0.2626705	1.01952	0.146164	0.0261845
+0.09678205	0.1319958	0.9967545	-2.972983
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.7819632	-0.09586968	0.2391084	1.63202
+0.2164608	0.9732974	-0.08042651	-0.01029527
+-0.1045914	-0.1195808	0.9906899	2.825562
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin] Registration performed in 0 min 17 sec
+[reg_aladin] Have a good day !
+Transforming Case25-MRI-landmarks.nii.gz into Case25-MRI-landmarks_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.217 | +0.085 | -0.287 | -1.175 
+-0.263 | +1.020 | +0.146 | +0.026 
++0.097 | +0.132 | +0.997 | -2.973 
++0.000 | +0.000 | +0.000 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case25/output/nifty_deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Transforming Case25-MRI_in_US.nii.gz into Case25-MRI_in_US_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.217 | +0.085 | -0.287 | -1.175 
+-0.263 | +1.020 | +0.146 | +0.026 
++0.097 | +0.132 | +0.997 | -2.973 
++0.000 | +0.000 | +0.000 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case25/output/nifty_deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Starting registration of Case25-US.nii.gz and Case25-MRI_in_US.nii.gz
+=============================================================
+Reading affine matrix file: affine_matrix.txt
++1.217 | +0.085 | -0.287 | -1.175 
+-0.263 | +1.020 | +0.146 | +0.026 
++0.097 | +0.132 | +0.997 | -2.973 
++0.000 | +0.000 | +0.000 | +1.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 17x18x19 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.61937, data=1.74897, MST-reg=0.580748, transf.=0.441316
+ speed=2.45215e+07 dof/s
+std(J)=0.83 (J<0)=0e-7  SSD before registration: 21426.3 and after 21426.3
+
+==========================================================
+Level 1 grid=7 with sizes: 20x21x22 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.311127, data=1.28803, MST-reg=0.667736, transf.=0.443077
+ speed=3.18904e+07 dof/s
+std(J)=1 (J<0)=0e-7  SSD before registration: 21426.3 and after 20781
+
+==========================================================
+Level 2 grid=6 with sizes: 23x24x26 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.611923, data=0.779637, MST-reg=0.599915, transf.=0.442092
+ speed=4.57124e+07 dof/s
+std(J)=1.01 (J<0)=0e-7  SSD before registration: 21426.3 and after 20000.7
+
+==========================================================
+Level 3 grid=5 with sizes: 28x29x31 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.310505, data=0.613745, MST-reg=0.580346, transf.=0.443688
+ speed=5.61162e+07 dof/s
+std(J)=1.05 (J<0)=0e-7  SSD before registration: 21426.3 and after 19794.5
+
+==========================================================
+Level 4 grid=4 with sizes: 35x37x39 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.621983, data=0.843056, MST-reg=0.570071, transf.=0.450494
+ speed=5.21088e+07 dof/s
+std(J)=0.99 (J<0)=0e-7  SSD before registration: 21426.3 and after 19746.1
+
+SSD before registration: 21372 and after 21610.1
+outputseg /vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case25/output/nifty_deeds/after/Case25-deeds_deformed_seg.nii.gz
+Finished. Total time: 13.0883 sec. (0 sec. for MIND+data+reg+trans)
+('landmark error (vox)', 14.68106164085126)
+[reg_aladin] 
+[reg_aladin] Command line:
+[reg_aladin] 	 reg_aladin -ref bucket/RESECT/RESECT/NIFTI/Case27/output/nifty_deeds/after/Case27-US.nii.gz -flo bucket/RESECT/RESECT/NIFTI/Case27/output/nifty_deeds/after/Case27-MRI_in_US.nii.gz -res bucket/RESECT/RESECT/NIFTI/Case27/output/nifty_deeds/after/Case27-MRI_to_US_result_rigid.nii.gz -rmask bucket/RESECT/RESECT/NIFTI/Case27/output/nifty_deeds/after/mask_US.nii.gz -fmask bucket/RESECT/RESECT/NIFTI/Case27/output/nifty_deeds/after/mask_US.nii.gz -aff bucket/RESECT/RESECT/NIFTI/Case27/output/nifty_deeds/after/affine_matrix.txt
+[reg_aladin] 
+[reg_aladin] OpenMP is used with 8 thread(s)
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Platform: cpu_platform
+[reg_aladin_sym] Reference image name: bucket/RESECT/RESECT/NIFTI/Case27/output/nifty_deeds/after/Case27-US.nii.gz
+[reg_aladin_sym] 	124x137x124 voxels
+[reg_aladin_sym] 	0.497478x0.4996x0.496081 mm
+[reg_aladin_sym] Floating image name: bucket/RESECT/RESECT/NIFTI/Case27/output/nifty_deeds/after/Case27-MRI_in_US.nii.gz
+[reg_aladin_sym] 	124x137x124 voxels
+[reg_aladin_sym] 	0.497478x0.4996x0.496081 mm
+[reg_aladin_sym] Maximum iteration number: 5
+[reg_aladin_sym] 	(10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	62x35x62 voxels	0.994957x1.9984x0.992162 mm
+[reg_aladin_sym] floating image size: 	62x35x62 voxels	0.994957x1.9984x0.992162 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [16 9 16]
+[reg_aladin_sym] Backward Block number = [16 9 16]
+[reg_aladin_sym] Initial forward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+1	0	0	0
+0	1	0	0
+0	0	1	0
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9645218	-0.008227637	-0.02538495	2.681975
+-0.007319657	1.047089	0.06174507	2.269401
+0.03575572	-0.07806736	1.124807	-4.239481
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+1.036011	0.009843512	0.02284063	-2.704062
+0.009146789	0.9512228	-0.05200991	-2.403733
+-0.03229821	0.0657068	0.8847052	3.688199
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	62x69x62 voxels	0.994957x0.9992x0.992162 mm
+[reg_aladin_sym] floating image size: 	62x69x62 voxels	0.994957x0.9992x0.992162 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [16 18 16]
+[reg_aladin_sym] Backward Block number = [16 18 16]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9645218	-0.008227637	-0.02538495	2.681975
+-0.007319657	1.047089	0.06174507	2.269401
+0.03575572	-0.07806736	1.124807	-4.239481
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+1.036011	0.009843512	0.02284063	-2.704062
+0.009146789	0.9512228	-0.05200991	-2.403733
+-0.03229821	0.0657068	0.8847052	3.688199
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.099505	-0.03067349	-0.03865667	8.600148
+-0.09612727	1.055385	0.02678513	-0.6191507
+0.01215299	-0.04715179	1.128998	-5.451165
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.911598	0.02785947	0.03055198	-7.656084
+0.0831916	0.9490604	-0.0196677	-0.2350605
+-0.00633837	0.03933694	0.884591	4.900918
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	124x137x124 voxels	0.497478x0.4996x0.496081 mm
+[reg_aladin_sym] floating image size: 	124x137x124 voxels	0.497478x0.4996x0.496081 mm
+[reg_aladin_sym] Block size = [4 4 4]
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [31 35 31]
+[reg_aladin_sym] Backward Block number = [31 35 31]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.099505	-0.03067349	-0.03865667	8.600148
+-0.09612727	1.055385	0.02678513	-0.6191507
+0.01215299	-0.04715179	1.128998	-5.451165
+0	0	0	1
+[reg_aladin_sym] Initial backward transformation matrix::
+0.911598	0.02785947	0.03055198	-7.656084
+0.0831916	0.9490604	-0.0196677	-0.2350605
+-0.00633837	0.03933694	0.884591	4.900918
+0	0	0	1
+[reg_aladin_sym] * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+1.151158	-0.01024913	-0.05686588	11.07087
+-0.06651372	1.069337	0.03395547	0.4269764
+0.01849725	-0.03641071	1.118797	-4.647812
+0	0	0	1
+[reg_aladin_sym] Final backward transformation matrix::
+0.8685532	0.009817743	0.04384858	-9.416033
+0.05442453	0.9348088	-0.02560515	-1.120676
+-0.01258871	0.03026057	0.8922587	4.273498
+0	0	0	1
+[reg_aladin_sym] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin] Registration performed in 0 min 14 sec
+[reg_aladin] Have a good day !
+Transforming Case27-MRI-landmarks.nii.gz into Case27-MRI-landmarks_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.151 | -0.010 | -0.057 | +11.071 
+-0.067 | +1.069 | +0.034 | +0.427 
++0.018 | -0.036 | +1.119 | -4.648 
++0.000 | +0.000 | +0.000 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case27/output/nifty_deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Transforming Case27-MRI_in_US.nii.gz into Case27-MRI_in_US_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.151 | -0.010 | -0.057 | +11.071 
+-0.067 | +1.069 | +0.034 | +0.427 
++0.018 | -0.036 | +1.119 | -4.648 
++0.000 | +0.000 | +0.000 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case27/output/nifty_deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Starting registration of Case27-US.nii.gz and Case27-MRI_in_US.nii.gz
+=============================================================
+Reading affine matrix file: affine_matrix.txt
++1.151 | -0.010 | -0.057 | +11.071 
+-0.067 | +1.069 | +0.034 | +0.427 
++0.018 | -0.036 | +1.119 | -4.648 
++0.000 | +0.000 | +0.000 | +1.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 15x17x15 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.390126, data=1.1141, MST-reg=0.403764, transf.=0.270954
+ speed=2.47615e+07 dof/s
+std(J)=1.07 (J<0)=0e-7  SSD before registration: 16141.8 and after 16141.8
+
+==========================================================
+Level 1 grid=7 with sizes: 17x19x17 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.197966, data=0.805197, MST-reg=0.400224, transf.=0.273782
+ speed=3.0748e+07 dof/s
+std(J)=1.32 (J<0)=0e-7  SSD before registration: 16141.8 and after 14455.9
+
+==========================================================
+Level 2 grid=6 with sizes: 20x22x20 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.391938, data=0.46831, MST-reg=0.377988, transf.=0.27435
+ speed=4.56898e+07 dof/s
+std(J)=1.27 (J<0)=0e-7  SSD before registration: 16141.8 and after 14051.1
+
+==========================================================
+Level 3 grid=5 with sizes: 24x27x24 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.194635, data=0.360311, MST-reg=0.366043, transf.=0.271663
+ speed=5.69962e+07 dof/s
+std(J)=1.27 (J<0)=0e-7  SSD before registration: 16141.8 and after 13959
+
+==========================================================
+Level 4 grid=4 with sizes: 31x34x31 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.348536, data=0.556364, MST-reg=0.390777, transf.=0.263889
+ speed=5.02974e+07 dof/s
+std(J)=1.19 (J<0)=0e-7  SSD before registration: 16141.8 and after 13981.3
+
+SSD before registration: 17086.7 and after 16501.4
+outputseg /vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case27/output/nifty_deeds/after/Case27-deeds_deformed_seg.nii.gz
+Finished. Total time: 8.2028 sec. (0 sec. for MIND+data+reg+trans)
+('landmark error (vox)', 6.170679886654535)

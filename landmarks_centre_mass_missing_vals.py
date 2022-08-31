@@ -13,12 +13,17 @@ def main():
     d_options = vars(options)
    
     img = nib.load(d_options['inputnii'])
-    img_data = img.get_fdata()
+    img_data = img.get_data()
+
+    #print(f"img1 shape: {img_data.shape}")
+
     x = np.linspace(0, img_data.shape[0]-1, img_data.shape[0])
     y = np.linspace(0, img_data.shape[1]-1, img_data.shape[1])
     z = np.linspace(0, img_data.shape[2]-1, img_data.shape[2])
     yv, xv, zv = np.meshgrid(y,x,z)
     unique = np.unique(img_data)
+
+    print(f"Unique image data: {unique}")
     positions = np.zeros((len(unique)-1,3))
     for i in range(1,len(unique)):        
         label = (img_data==unique[i]).astype('float32')
@@ -33,11 +38,22 @@ def main():
         
     if(d_options['movingnii'] is not None):
         img2 = nib.load(d_options['movingnii'])
-        img_data2 = img2.get_fdata()
+        img_data2 = img2.get_data()
+
+        print(f"img2 shape: {img_data2.shape}")
+
+        unique2 = np.unique(img_data2)
+        print(f"Unique image data 2: {unique2}")
+
         positions2 = np.zeros((len(unique)-1,3))
 
         for i in range(1,len(unique)):        
             label = (img_data2==unique[i]).astype('float32')
+            
+            #print(f"label: {np.unique(label)}")
+            #print(i)
+            #print(label.shape)
+
             xc = np.sum(label*xv)/np.sum(label)
             yc = np.sum(label*yv)/np.sum(label)
             zc = np.sum(label*zv)/np.sum(label)

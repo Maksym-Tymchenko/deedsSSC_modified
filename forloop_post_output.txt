@@ -1,0 +1,1840 @@
+Starting linear reg. of Case1-US.nii.gz and Case1-MRI_in_US.nii.gz
+=============================================================
+Searching only for rigid (6 parameter) transform
+TMdDSTMdDS
+# points used: 3840/7680, quantile: 0.295476
+t: MIND=0.42, data=0.37, affine=0.07, speed=3.96e+07 dof/s
+TMdDSTMdDS
+# points used: 6498/12996, quantile: 0.319658
+t: MIND=0.41, data=0.19, affine=0.06, speed=6.03e+07 dof/s
+TMdDSTMdDS
+# points used: 12144/24288, quantile: 0.345983
+t: MIND=0.19, data=0.13, affine=0.05, speed=6.78e+07 dof/s
+TMdDSTMdDS
+# points used: 26100/52200, quantile: 0.374483
+t: MIND=0.38, data=0.10, affine=0.04, speed=5.95e+07 dof/s
++0.979 | -0.200 | -0.042 | +0.000 
++0.203 | +0.976 | +0.082 | +0.000 
++0.024 | -0.089 | +0.996 | +0.000 
+-15.660 | +20.298 | -0.501 | +1.000 
+Finished. Total time: 2.70905 sec. (2.40289 sec. for MIND+data+affine+trans)
+Transforming Case1-MRI-landmarks.nii.gz into Case1-MRI-landmarks_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++0.979 | -0.200 | -0.042 | +0.000 
++0.203 | +0.976 | +0.082 | +0.000 
++0.024 | -0.089 | +0.996 | +0.000 
+-15.660 | +20.298 | -0.501 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case1/output/deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Transforming Case1-MRI_in_US.nii.gz into Case1-MRI_in_US_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++0.979 | -0.200 | -0.042 | +0.000 
++0.203 | +0.976 | +0.082 | +0.000 
++0.024 | -0.089 | +0.996 | +0.000 
+-15.660 | +20.298 | -0.501 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case1/output/deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Starting registration of Case1-US.nii.gz and Case1-MRI_in_US.nii.gz
+=============================================================
+Reading affine matrix file: affine_matrix.txt
++0.979 | -0.200 | -0.042 | +0.000 
++0.203 | +0.976 | +0.082 | +0.000 
++0.024 | -0.089 | +0.996 | +0.000 
+-15.660 | +20.298 | -0.501 | +1.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 16x16x16 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.419769, data=1.13625, MST-reg=0.440792, transf.=0.29429
+ speed=2.55208e+07 dof/s
+std(J)=1.16 (J<0)=0e-7  SSD before registration: 9548.66 and after 9548.66
+
+==========================================================
+Level 1 grid=7 with sizes: 19x19x18 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.214175, data=0.910531, MST-reg=0.452324, transf.=0.295736
+ speed=3.21835e+07 dof/s
+std(J)=1.5 (J<0)=0e-7  SSD before registration: 9548.66 and after 7955.38
+
+==========================================================
+Level 2 grid=6 with sizes: 22x22x21 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.416908, data=0.534311, MST-reg=0.418858, transf.=0.294139
+ speed=4.68549e+07 dof/s
+std(J)=1.66 (J<0)=0e-7  SSD before registration: 9548.66 and after 7107.4
+
+==========================================================
+Level 3 grid=5 with sizes: 27x26x25 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.204318, data=0.462244, MST-reg=0.402437, transf.=0.292952
+ speed=5.40293e+07 dof/s
+std(J)=1.5 (J<0)=0e-7  SSD before registration: 9548.66 and after 6799.31
+
+==========================================================
+Level 4 grid=4 with sizes: 33x33x32 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.373937, data=0.575538, MST-reg=0.399613, transf.=0.287455
+ speed=5.21031e+07 dof/s
+std(J)=1.38 (J<0)=0e-7  SSD before registration: 9548.66 and after 6845.49
+
+SSD before registration: 9652.31 and after 8251.13
+outputseg /vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case1/output/deeds/after/Case1-deeds_deformed_seg.nii.gz
+Finished. Total time: 8.91333 sec. (0 sec. for MIND+data+reg+trans)
+('landmark error (vox)', 6.549869497381854)
+Starting linear reg. of Case2-US.nii.gz and Case2-MRI_in_US.nii.gz
+=============================================================
+Searching only for rigid (6 parameter) transform
+TMdDSTMdDS
+# points used: 2730/5460, quantile: 0.278799
+t: MIND=0.31, data=0.24, affine=0.05, speed=4.49e+07 dof/s
+TMdDSTMdDS
+# points used: 4590/9180, quantile: 0.303571
+t: MIND=0.30, data=0.15, affine=0.05, speed=5.54e+07 dof/s
+TMdDSTMdDS
+# points used: 8778/17556, quantile: 0.332500
+t: MIND=0.15, data=0.09, affine=0.04, speed=7.08e+07 dof/s
+TMdDSTMdDS
+# points used: 18900/37800, quantile: 0.362903
+t: MIND=0.28, data=0.09, affine=0.03, speed=5.50e+07 dof/s
++0.995 | +0.080 | -0.055 | +0.000 
+-0.077 | +0.996 | +0.053 | +0.000 
++0.059 | -0.049 | +0.997 | +0.000 
++5.191 | -4.484 | +0.602 | +1.000 
+Finished. Total time: 2.01967 sec. (1.7831 sec. for MIND+data+affine+trans)
+Transforming Case2-MRI-landmarks.nii.gz into Case2-MRI-landmarks_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++0.995 | +0.080 | -0.055 | +0.000 
+-0.077 | +0.996 | +0.053 | +0.000 
++0.059 | -0.049 | +0.997 | +0.000 
++5.191 | -4.484 | +0.602 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case2/output/deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Transforming Case2-MRI_in_US.nii.gz into Case2-MRI_in_US_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++0.995 | +0.080 | -0.055 | +0.000 
+-0.077 | +0.996 | +0.053 | +0.000 
++0.059 | -0.049 | +0.997 | +0.000 
++5.191 | -4.484 | +0.602 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case2/output/deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Starting registration of Case2-US.nii.gz and Case2-MRI_in_US.nii.gz
+=============================================================
+Reading affine matrix file: affine_matrix.txt
++0.995 | +0.080 | -0.055 | +0.000 
+-0.077 | +0.996 | +0.053 | +0.000 
++0.059 | -0.049 | +0.997 | +0.000 
++5.191 | -4.484 | +0.602 | +1.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 15x15x14 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.313301, data=0.942857, MST-reg=0.319399, transf.=0.219043
+ speed=2.45211e+07 dof/s
+std(J)=0.92 (J<0)=0e-7  SSD before registration: 8636.76 and after 8636.76
+
+==========================================================
+Level 1 grid=7 with sizes: 17x18x16 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.142479, data=0.628716, MST-reg=0.348141, transf.=0.212497
+ speed=3.3831e+07 dof/s
+std(J)=1.14 (J<0)=0e-7  SSD before registration: 8636.76 and after 7758.04
+
+==========================================================
+Level 2 grid=6 with sizes: 20x21x18 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.281409, data=0.387133, MST-reg=0.314222, transf.=0.21307
+ speed=4.73635e+07 dof/s
+std(J)=1.16 (J<0)=0e-7  SSD before registration: 8636.76 and after 6985.66
+
+==========================================================
+Level 3 grid=5 with sizes: 24x25x22 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.140601, data=0.320869, MST-reg=0.303257, transf.=0.214808
+ speed=5.63002e+07 dof/s
+std(J)=1.1 (J<0)=0e-7  SSD before registration: 8636.76 and after 6850.16
+
+==========================================================
+Level 4 grid=4 with sizes: 30x31x28 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.280381, data=0.456347, MST-reg=0.298028, transf.=0.213561
+ speed=5.03282e+07 dof/s
+std(J)=0.98 (J<0)=0e-7  SSD before registration: 8636.76 and after 6721.61
+
+SSD before registration: 8505.53 and after 7993.18
+outputseg /vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case2/output/deeds/after/Case2-deeds_deformed_seg.nii.gz
+Finished. Total time: 6.61794 sec. (0 sec. for MIND+data+reg+trans)
+('landmark error (vox)', 6.444330015295775)
+Starting linear reg. of Case3-US.nii.gz and Case3-MRI_in_US.nii.gz
+=============================================================
+Searching only for rigid (6 parameter) transform
+TMdDSTMdDS
+# points used: 4352/8704, quantile: 0.301385
+t: MIND=0.44, data=0.39, affine=0.08, speed=4.11e+07 dof/s
+TMdDSTMdDS
+# points used: 7220/14440, quantile: 0.324290
+t: MIND=0.43, data=0.19, affine=0.07, speed=6.26e+07 dof/s
+TMdDSTMdDS
+# points used: 13800/27600, quantile: 0.351038
+t: MIND=0.21, data=0.14, affine=0.06, speed=6.98e+07 dof/s
+TMdDSTMdDS
+# points used: 29760/59520, quantile: 0.378915
+t: MIND=0.42, data=0.13, affine=0.05, speed=5.47e+07 dof/s
++0.997 | +0.064 | +0.046 | +0.000 
+-0.069 | +0.992 | +0.108 | +0.000 
+-0.039 | -0.111 | +0.993 | +0.000 
++17.133 | +7.824 | -0.711 | +1.000 
+Finished. Total time: 2.9166 sec. (2.59177 sec. for MIND+data+affine+trans)
+Transforming Case3-MRI-landmarks.nii.gz into Case3-MRI-landmarks_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++0.997 | +0.064 | +0.046 | +0.000 
+-0.069 | +0.992 | +0.108 | +0.000 
+-0.039 | -0.111 | +0.993 | +0.000 
++17.133 | +7.824 | -0.711 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case3/output/deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Transforming Case3-MRI_in_US.nii.gz into Case3-MRI_in_US_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++0.997 | +0.064 | +0.046 | +0.000 
+-0.069 | +0.992 | +0.108 | +0.000 
+-0.039 | -0.111 | +0.993 | +0.000 
++17.133 | +7.824 | -0.711 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case3/output/deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Starting registration of Case3-US.nii.gz and Case3-MRI_in_US.nii.gz
+=============================================================
+Reading affine matrix file: affine_matrix.txt
++0.997 | +0.064 | +0.046 | +0.000 
+-0.069 | +0.992 | +0.108 | +0.000 
+-0.039 | -0.111 | +0.993 | +0.000 
++17.133 | +7.824 | -0.711 | +1.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 17x17x16 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.439395, data=1.32117, MST-reg=0.466098, transf.=0.324081
+ speed=2.54217e+07 dof/s
+std(J)=0.94 (J<0)=0e-7  SSD before registration: 4142.71 and after 4142.71
+
+==========================================================
+Level 1 grid=7 with sizes: 19x20x19 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.217101, data=0.986862, MST-reg=0.556534, transf.=0.324804
+ speed=3.15765e+07 dof/s
+std(J)=1.1 (J<0)=0e-7  SSD before registration: 4142.71 and after 3455.9
+
+==========================================================
+Level 2 grid=6 with sizes: 22x23x22 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.421093, data=0.56562, MST-reg=0.454965, transf.=0.327119
+ speed=4.79274e+07 dof/s
+std(J)=1.21 (J<0)=0e-7  SSD before registration: 4142.71 and after 2958.22
+
+==========================================================
+Level 3 grid=5 with sizes: 27x28x26 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.207653, data=0.506956, MST-reg=0.448576, transf.=0.325012
+ speed=5.47593e+07 dof/s
+std(J)=1.15 (J<0)=0e-7  SSD before registration: 4142.71 and after 2931.11
+
+==========================================================
+Level 4 grid=4 with sizes: 34x35x33 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.414502, data=0.702956, MST-reg=0.447178, transf.=0.31837
+ speed=4.97817e+07 dof/s
+std(J)=1.05 (J<0)=0e-7  SSD before registration: 4142.71 and after 2941.57
+
+SSD before registration: 4002.23 and after 3858.41
+outputseg /vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case3/output/deeds/after/Case3-deeds_deformed_seg.nii.gz
+Finished. Total time: 9.86957 sec. (0 sec. for MIND+data+reg+trans)
+('landmark error (vox)', 3.8654302118686594)
+Starting linear reg. of Case4-US.nii.gz and Case4-MRI_in_US.nii.gz
+=============================================================
+Searching only for rigid (6 parameter) transform
+TMdDSTMdDS
+# points used: 3806/7616, quantile: 0.294737
+t: MIND=0.44, data=0.39, affine=0.07, speed=3.76e+07 dof/s
+TMdDSTMdDS
+# points used: 6782/13566, quantile: 0.321165
+t: MIND=0.41, data=0.17, affine=0.06, speed=6.51e+07 dof/s
+TMdDSTMdDS
+# points used: 13104/26208, quantile: 0.348659
+t: MIND=0.20, data=0.13, affine=0.06, speed=7.09e+07 dof/s
+TMdDSTMdDS
+# points used: 28644/57288, quantile: 0.377451
+t: MIND=0.41, data=0.13, affine=0.05, speed=5.45e+07 dof/s
++0.998 | +0.015 | -0.053 | +0.000 
+-0.015 | +1.000 | -0.009 | +0.000 
++0.053 | +0.010 | +0.999 | +0.000 
+-10.277 | -8.578 | +3.954 | +1.000 
+Finished. Total time: 2.83059 sec. (2.50586 sec. for MIND+data+affine+trans)
+Transforming Case4-MRI-landmarks.nii.gz into Case4-MRI-landmarks_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++0.998 | +0.015 | -0.053 | +0.000 
+-0.015 | +1.000 | -0.009 | +0.000 
++0.053 | +0.010 | +0.999 | +0.000 
+-10.277 | -8.578 | +3.954 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case4/output/deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Transforming Case4-MRI_in_US.nii.gz into Case4-MRI_in_US_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++0.998 | +0.015 | -0.053 | +0.000 
+-0.015 | +1.000 | -0.009 | +0.000 
++0.053 | +0.010 | +0.999 | +0.000 
+-10.277 | -8.578 | +3.954 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case4/output/deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Starting registration of Case4-US.nii.gz and Case4-MRI_in_US.nii.gz
+=============================================================
+Reading affine matrix file: affine_matrix.txt
++0.998 | +0.015 | -0.053 | +0.000 
+-0.015 | +1.000 | -0.009 | +0.000 
++0.053 | +0.010 | +0.999 | +0.000 
+-10.277 | -8.578 | +3.954 | +1.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 17x15x18 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.422678, data=1.42547, MST-reg=0.470968, transf.=0.30772
+ speed=2.37821e+07 dof/s
+std(J)=1.05 (J<0)=0e-7  SSD before registration: 4822 and after 4822
+
+==========================================================
+Level 1 grid=7 with sizes: 19x17x20 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.207072, data=0.944237, MST-reg=0.453376, transf.=0.309005
+ speed=3.11996e+07 dof/s
+std(J)=1.17 (J<0)=0e-7  SSD before registration: 4822 and after 4109.95
+
+==========================================================
+Level 2 grid=6 with sizes: 22x20x24 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.414884, data=0.518589, MST-reg=0.44556, transf.=0.309512
+ speed=4.8126e+07 dof/s
+std(J)=1.17 (J<0)=0e-7  SSD before registration: 4822 and after 3953.27
+
+==========================================================
+Level 3 grid=5 with sizes: 27x24x29 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.201688, data=0.472566, MST-reg=0.428392, transf.=0.308602
+ speed=5.55235e+07 dof/s
+std(J)=1.16 (J<0)=0e-7  SSD before registration: 4822 and after 3911.8
+
+==========================================================
+Level 4 grid=4 with sizes: 34x31x36 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.404389, data=0.640004, MST-reg=0.426311, transf.=0.302945
+ speed=5.18818e+07 dof/s
+std(J)=1.06 (J<0)=0e-7  SSD before registration: 4822 and after 3917.03
+
+SSD before registration: 4751.17 and after 4211.53
+outputseg /vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case4/output/deeds/after/Case4-deeds_deformed_seg.nii.gz
+Finished. Total time: 9.50349 sec. (0 sec. for MIND+data+reg+trans)
+('landmark error (vox)', 5.89131165014225)
+Starting linear reg. of Case6-US.nii.gz and Case6-MRI_in_US.nii.gz
+=============================================================
+Searching only for rigid (6 parameter) transform
+TMdDSTMdDS
+# points used: 7056/14112, quantile: 0.320261
+t: MIND=0.75, data=0.55, affine=0.11, speed=4.41e+07 dof/s
+TMdDSTMdDS
+# points used: 12324/24650, quantile: 0.343890
+t: MIND=0.75, data=0.33, affine=0.11, speed=5.92e+07 dof/s
+TMdDSTMdDS
+# points used: 22784/45570, quantile: 0.367405
+t: MIND=0.44, data=0.25, affine=0.09, speed=6.15e+07 dof/s
+TMdDSTMdDS
+# points used: 48600/97200, quantile: 0.392442
+t: MIND=0.88, data=0.27, affine=0.08, speed=4.35e+07 dof/s
++0.997 | -0.064 | -0.046 | +0.000 
++0.067 | +0.996 | +0.064 | +0.000 
++0.042 | -0.067 | +0.997 | +0.000 
+-5.449 | +6.341 | -3.072 | +1.000 
+Finished. Total time: 5.16441 sec. (4.62474 sec. for MIND+data+affine+trans)
+Transforming Case6-MRI-landmarks.nii.gz into Case6-MRI-landmarks_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++0.997 | -0.064 | -0.046 | +0.000 
++0.067 | +0.996 | +0.064 | +0.000 
++0.042 | -0.067 | +0.997 | +0.000 
+-5.449 | +6.341 | -3.072 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case6/output/deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Transforming Case6-MRI_in_US.nii.gz into Case6-MRI_in_US_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++0.997 | -0.064 | -0.046 | +0.000 
++0.067 | +0.996 | +0.064 | +0.000 
++0.042 | -0.067 | +0.997 | +0.000 
+-5.449 | +6.341 | -3.072 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case6/output/deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Starting registration of Case6-US.nii.gz and Case6-MRI_in_US.nii.gz
+=============================================================
+Reading affine matrix file: affine_matrix.txt
++0.997 | -0.064 | -0.046 | +0.000 
++0.067 | +0.996 | +0.064 | +0.000 
++0.042 | -0.067 | +0.997 | +0.000 
+-5.449 | +6.341 | -3.072 | +1.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 15x24x21 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.750669, data=2.33334, MST-reg=0.750514, transf.=0.546762
+ speed=2.40883e+07 dof/s
+std(J)=0.9 (J<0)=0e-7  SSD before registration: 3034.02 and after 3034.02
+
+==========================================================
+Level 1 grid=7 with sizes: 17x27x24 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.379436, data=1.35333, MST-reg=0.781534, transf.=0.548808
+ speed=3.48303e+07 dof/s
+std(J)=1.25 (J<0)=0e-7  SSD before registration: 3034.02 and after 2556.55
+
+==========================================================
+Level 2 grid=6 with sizes: 20x32x28 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.743047, data=0.952801, MST-reg=0.752794, transf.=0.549123
+ speed=4.6166e+07 dof/s
+std(J)=1.37 (J<0)=0e-7  SSD before registration: 3034.02 and after 2319.41
+
+==========================================================
+Level 3 grid=5 with sizes: 24x38x34 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.375341, data=0.800555, MST-reg=0.703029, transf.=0.555328
+ speed=5.48977e+07 dof/s
+std(J)=1.37 (J<0)=0e-7  SSD before registration: 3034.02 and after 2179.13
+
+==========================================================
+Level 4 grid=4 with sizes: 30x48x43 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.757201, data=1.08236, MST-reg=0.724065, transf.=0.550713
+ speed=4.99769e+07 dof/s
+std(J)=1.24 (J<0)=0e-7  SSD before registration: 3034.02 and after 2169.66
+
+SSD before registration: 3161.05 and after 2738.38
+outputseg /vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case6/output/deeds/after/Case6-deeds_deformed_seg.nii.gz
+Finished. Total time: 16.1343 sec. (0 sec. for MIND+data+reg+trans)
+('landmark error (vox)', 6.207671661934503)
+Starting linear reg. of Case7-US.nii.gz and Case7-MRI_in_US.nii.gz
+=============================================================
+Searching only for rigid (6 parameter) transform
+TMdDSTMdDS
+# points used: 10164/20328, quantile: 0.338800
+t: MIND=0.98, data=0.83, affine=0.16, speed=4.04e+07 dof/s
+TMdDSTMdDS
+# points used: 17576/35152, quantile: 0.360326
+t: MIND=0.96, data=0.44, affine=0.14, speed=6.09e+07 dof/s
+TMdDSTMdDS
+# points used: 31742/63488, quantile: 0.381080
+t: MIND=0.48, data=0.32, affine=0.12, speed=6.53e+07 dof/s
+TMdDSTMdDS
+# points used: 65600/131200, quantile: 0.403166
+t: MIND=0.96, data=0.28, affine=0.10, speed=5.32e+07 dof/s
++0.994 | +0.089 | -0.065 | +0.000 
+-0.091 | +0.996 | -0.019 | +0.000 
++0.063 | +0.025 | +0.998 | +0.000 
++6.782 | -11.274 | +12.602 | +1.000 
+Finished. Total time: 6.49291 sec. (5.77328 sec. for MIND+data+affine+trans)
+Transforming Case7-MRI-landmarks.nii.gz into Case7-MRI-landmarks_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++0.994 | +0.089 | -0.065 | +0.000 
+-0.091 | +0.996 | -0.019 | +0.000 
++0.063 | +0.025 | +0.998 | +0.000 
++6.782 | -11.274 | +12.602 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case7/output/deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Transforming Case7-MRI_in_US.nii.gz into Case7-MRI_in_US_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++0.994 | +0.089 | -0.065 | +0.000 
+-0.091 | +0.996 | -0.019 | +0.000 
++0.063 | +0.025 | +0.998 | +0.000 
++6.782 | -11.274 | +12.602 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case7/output/deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Starting registration of Case7-US.nii.gz and Case7-MRI_in_US.nii.gz
+=============================================================
+Reading affine matrix file: affine_matrix.txt
++0.994 | +0.089 | -0.065 | +0.000 
+-0.091 | +0.996 | -0.019 | +0.000 
++0.063 | +0.025 | +0.998 | +0.000 
++6.782 | -11.274 | +12.602 | +1.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 21x21x22 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.984456, data=4.81632, MST-reg=0.964367, transf.=0.726293
+ speed=1.64915e+07 dof/s
+std(J)=1.06 (J<0)=0e-7  SSD before registration: 3139.69 and after 3139.69
+
+==========================================================
+Level 1 grid=7 with sizes: 24x25x25 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.486728, data=2.17596, MST-reg=1.03383, transf.=0.734305
+ speed=3.15441e+07 dof/s
+std(J)=1.28 (J<0)=0e-7  SSD before registration: 3139.69 and after 2774.67
+
+==========================================================
+Level 2 grid=6 with sizes: 29x29x29 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.983328, data=1.30476, MST-reg=1.03485, transf.=0.735059
+ speed=4.58048e+07 dof/s
+std(J)=1.34 (J<0)=0e-7  SSD before registration: 3139.69 and after 2611.97
+
+==========================================================
+Level 3 grid=5 with sizes: 34x35x35 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.487392, data=1.01327, MST-reg=0.931218, transf.=0.742143
+ speed=5.70187e+07 dof/s
+std(J)=1.32 (J<0)=0e-7  SSD before registration: 3139.69 and after 2542.96
+
+==========================================================
+Level 4 grid=4 with sizes: 43x43x44 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.971584, data=1.41174, MST-reg=0.987283, transf.=0.737668
+ speed=4.94439e+07 dof/s
+std(J)=1.21 (J<0)=0e-7  SSD before registration: 3139.69 and after 2557.79
+
+SSD before registration: 3230.64 and after 2535.81
+outputseg /vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case7/output/deeds/after/Case7-deeds_deformed_seg.nii.gz
+Finished. Total time: 23.455 sec. (0 sec. for MIND+data+reg+trans)
+('landmark error (vox)', 4.796213563238027)
+Starting linear reg. of Case8-US.nii.gz and Case8-MRI_in_US.nii.gz
+=============================================================
+Searching only for rigid (6 parameter) transform
+TMdDSTMdDS
+# points used: 3360/6720, quantile: 0.288958
+t: MIND=0.41, data=0.34, affine=0.06, speed=3.81e+07 dof/s
+TMdDSTMdDS
+# points used: 5814/11628, quantile: 0.314610
+t: MIND=0.35, data=0.16, affine=0.05, speed=6.26e+07 dof/s
+TMdDSTMdDS
+# points used: 10626/21252, quantile: 0.340577
+t: MIND=0.17, data=0.11, affine=0.05, speed=6.70e+07 dof/s
+TMdDSTMdDS
+# points used: 23490/46980, quantile: 0.370739
+t: MIND=0.34, data=0.09, affine=0.04, speed=5.96e+07 dof/s
++0.993 | -0.099 | -0.072 | +0.000 
++0.099 | +0.995 | -0.001 | +0.000 
++0.071 | -0.006 | +0.997 | +0.000 
+-9.393 | +3.955 | +4.689 | +1.000 
+Finished. Total time: 2.44478 sec. (2.17679 sec. for MIND+data+affine+trans)
+Transforming Case8-MRI-landmarks.nii.gz into Case8-MRI-landmarks_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++0.993 | -0.099 | -0.072 | +0.000 
++0.099 | +0.995 | -0.001 | +0.000 
++0.071 | -0.006 | +0.997 | +0.000 
+-9.393 | +3.955 | +4.689 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case8/output/deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Transforming Case8-MRI_in_US.nii.gz into Case8-MRI_in_US_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++0.993 | -0.099 | -0.072 | +0.000 
++0.099 | +0.995 | -0.001 | +0.000 
++0.071 | -0.006 | +0.997 | +0.000 
+-9.393 | +3.955 | +4.689 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case8/output/deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Starting registration of Case8-US.nii.gz and Case8-MRI_in_US.nii.gz
+=============================================================
+Reading affine matrix file: affine_matrix.txt
++0.993 | -0.099 | -0.072 | +0.000 
++0.099 | +0.995 | -0.001 | +0.000 
++0.071 | -0.006 | +0.997 | +0.000 
+-9.393 | +3.955 | +4.689 | +1.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 16x15x16 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.381789, data=1.09433, MST-reg=0.397225, transf.=0.258194
+ speed=2.52971e+07 dof/s
+std(J)=0.82 (J<0)=0e-7  SSD before registration: 5059.84 and after 5059.84
+
+==========================================================
+Level 1 grid=7 with sizes: 19x17x18 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.189812, data=0.800975, MST-reg=0.414118, transf.=0.257002
+ speed=3.22975e+07 dof/s
+std(J)=1.26 (J<0)=17.2e-7  SSD before registration: 5059.84 and after 3929.7
+
+==========================================================
+Level 2 grid=6 with sizes: 22x20x21 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.375043, data=0.494184, MST-reg=0.389765, transf.=0.258644
+ speed=4.59309e+07 dof/s
+std(J)=1.35 (J<0)=0e-7  SSD before registration: 5059.84 and after 3131.14
+
+==========================================================
+Level 3 grid=5 with sizes: 26x24x25 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.185196, data=0.412053, MST-reg=0.373228, transf.=0.256304
+ speed=5.2882e+07 dof/s
+std(J)=1.2 (J<0)=0e-7  SSD before registration: 5059.84 and after 3059.95
+
+==========================================================
+Level 4 grid=4 with sizes: 33x30x32 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.336673, data=0.516628, MST-reg=0.360561, transf.=0.251337
+ speed=5.26562e+07 dof/s
+std(J)=1.07 (J<0)=0e-7  SSD before registration: 5059.84 and after 3127.5
+
+SSD before registration: 5036.5 and after 3883.87
+outputseg /vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case8/output/deeds/after/Case8-deeds_deformed_seg.nii.gz
+Finished. Total time: 8.08295 sec. (0 sec. for MIND+data+reg+trans)
+('landmark error (vox)', 4.477819444629791)
+Starting linear reg. of Case11-US.nii.gz and Case11-MRI_in_US.nii.gz
+=============================================================
+Searching only for rigid (6 parameter) transform
+TMdDSTMdDS
+# points used: 4896/9792, quantile: 0.306767
+t: MIND=0.59, data=0.46, affine=0.08, speed=3.92e+07 dof/s
+TMdDSTMdDS
+# points used: 9240/18480, quantile: 0.334783
+t: MIND=0.56, data=0.28, affine=0.09, speed=5.51e+07 dof/s
+TMdDSTMdDS
+# points used: 16848/33696, quantile: 0.358621
+t: MIND=0.27, data=0.17, affine=0.07, speed=6.78e+07 dof/s
+TMdDSTMdDS
+# points used: 35804/71610, quantile: 0.384901
+t: MIND=0.51, data=0.14, affine=0.06, speed=5.77e+07 dof/s
++1.000 | +0.010 | +0.010 | +0.000 
+-0.011 | +0.997 | +0.074 | +0.000 
+-0.009 | -0.074 | +0.997 | +0.000 
++7.066 | +5.512 | -8.208 | +1.000 
+Finished. Total time: 3.69033 sec. (3.27768 sec. for MIND+data+affine+trans)
+Transforming Case11-MRI-landmarks.nii.gz into Case11-MRI-landmarks_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.000 | +0.010 | +0.010 | +0.000 
+-0.011 | +0.997 | +0.074 | +0.000 
+-0.009 | -0.074 | +0.997 | +0.000 
++7.066 | +5.512 | -8.208 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case11/output/deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Transforming Case11-MRI_in_US.nii.gz into Case11-MRI_in_US_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.000 | +0.010 | +0.010 | +0.000 
+-0.011 | +0.997 | +0.074 | +0.000 
+-0.009 | -0.074 | +0.997 | +0.000 
++7.066 | +5.512 | -8.208 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case11/output/deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Starting registration of Case11-US.nii.gz and Case11-MRI_in_US.nii.gz
+=============================================================
+Reading affine matrix file: affine_matrix.txt
++1.000 | +0.010 | +0.010 | +0.000 
+-0.011 | +0.997 | +0.074 | +0.000 
+-0.009 | -0.074 | +0.997 | +0.000 
++7.066 | +5.512 | -8.208 | +1.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 17x18x19 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.562591, data=1.8379, MST-reg=0.577502, transf.=0.398254
+ speed=2.36517e+07 dof/s
+std(J)=1.03 (J<0)=0e-7  SSD before registration: 5046.12 and after 5046.12
+
+==========================================================
+Level 1 grid=7 with sizes: 19x20x21 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.287302, data=1.1047, MST-reg=0.55961, transf.=0.402734
+ speed=3.23648e+07 dof/s
+std(J)=1.35 (J<0)=0e-7  SSD before registration: 5046.12 and after 4154.48
+
+==========================================================
+Level 2 grid=6 with sizes: 23x24x25 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.553357, data=0.788152, MST-reg=0.572593, transf.=0.404154
+ speed=4.45618e+07 dof/s
+std(J)=1.37 (J<0)=0e-7  SSD before registration: 5046.12 and after 3899.94
+
+==========================================================
+Level 3 grid=5 with sizes: 27x29x30 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.285854, data=0.578063, MST-reg=0.525986, transf.=0.404295
+ speed=5.66373e+07 dof/s
+std(J)=1.37 (J<0)=0e-7  SSD before registration: 5046.12 and after 3759.65
+
+==========================================================
+Level 4 grid=4 with sizes: 34x36x38 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.547736, data=0.813928, MST-reg=0.534741, transf.=0.403299
+ speed=5.02825e+07 dof/s
+std(J)=1.26 (J<0)=0e-7  SSD before registration: 5046.12 and after 3802.52
+
+SSD before registration: 4995.47 and after 4260.93
+outputseg /vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case11/output/deeds/after/Case11-deeds_deformed_seg.nii.gz
+Finished. Total time: 12.2569 sec. (0 sec. for MIND+data+reg+trans)
+('landmark error (vox)', 3.689028555861043)
+Starting linear reg. of Case12-US.nii.gz and Case12-MRI_in_US.nii.gz
+=============================================================
+Searching only for rigid (6 parameter) transform
+TMdDSTMdDS
+# points used: 3824/7650, quantile: 0.295139
+t: MIND=0.44, data=0.42, affine=0.07, speed=3.55e+07 dof/s
+TMdDSTMdDS
+# points used: 6480/12960, quantile: 0.319432
+t: MIND=0.44, data=0.20, affine=0.06, speed=5.79e+07 dof/s
+TMdDSTMdDS
+# points used: 12098/24200, quantile: 0.345714
+t: MIND=0.20, data=0.13, affine=0.05, speed=6.66e+07 dof/s
+TMdDSTMdDS
+# points used: 25984/51968, quantile: 0.374194
+t: MIND=0.41, data=0.11, affine=0.04, speed=5.65e+07 dof/s
++0.999 | +0.015 | -0.037 | +0.000 
+-0.016 | +1.000 | -0.022 | +0.000 
++0.036 | +0.023 | +0.999 | +0.000 
+-25.078 | -19.249 | +23.572 | +1.000 
+Finished. Total time: 2.83845 sec. (2.5737 sec. for MIND+data+affine+trans)
+Transforming Case12-MRI-landmarks.nii.gz into Case12-MRI-landmarks_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++0.999 | +0.015 | -0.037 | +0.000 
+-0.016 | +1.000 | -0.022 | +0.000 
++0.036 | +0.023 | +0.999 | +0.000 
+-25.078 | -19.249 | +23.572 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case12/output/deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Transforming Case12-MRI_in_US.nii.gz into Case12-MRI_in_US_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++0.999 | +0.015 | -0.037 | +0.000 
+-0.016 | +1.000 | -0.022 | +0.000 
++0.036 | +0.023 | +0.999 | +0.000 
+-25.078 | -19.249 | +23.572 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case12/output/deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Starting registration of Case12-US.nii.gz and Case12-MRI_in_US.nii.gz
+=============================================================
+Reading affine matrix file: affine_matrix.txt
++0.999 | +0.015 | -0.037 | +0.000 
+-0.016 | +1.000 | -0.022 | +0.000 
++0.036 | +0.023 | +0.999 | +0.000 
+-25.078 | -19.249 | +23.572 | +1.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 16x17x15 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.445609, data=1.25049, MST-reg=0.411685, transf.=0.339698
+ speed=2.4119e+07 dof/s
+std(J)=0.95 (J<0)=0e-7  SSD before registration: 6846.3 and after 6846.3
+
+==========================================================
+Level 1 grid=7 with sizes: 18x20x18 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.220226, data=0.95405, MST-reg=0.478645, transf.=0.339797
+ speed=3.05299e+07 dof/s
+std(J)=1.1 (J<0)=0e-7  SSD before registration: 6846.3 and after 5928.6
+
+==========================================================
+Level 2 grid=6 with sizes: 21x23x21 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.442503, data=0.540863, MST-reg=0.423005, transf.=0.340453
+ speed=4.6239e+07 dof/s
+std(J)=1.08 (J<0)=0e-7  SSD before registration: 6846.3 and after 5406.58
+
+==========================================================
+Level 3 grid=5 with sizes: 25x28x25 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.21873, data=0.474496, MST-reg=0.400624, transf.=0.338419
+ speed=5.32327e+07 dof/s
+std(J)=1.1 (J<0)=0e-7  SSD before registration: 6846.3 and after 5272.8
+
+==========================================================
+Level 4 grid=4 with sizes: 32x35x31 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.401559, data=0.610074, MST-reg=0.399562, transf.=0.335393
+ speed=5.01386e+07 dof/s
+std(J)=1.02 (J<0)=0e-7  SSD before registration: 6846.3 and after 5200.24
+
+SSD before registration: 7177.13 and after 6506.19
+outputseg /vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case12/output/deeds/after/Case12-deeds_deformed_seg.nii.gz
+Finished. Total time: 9.45251 sec. (0 sec. for MIND+data+reg+trans)
+('landmark error (vox)', 3.8260836277862564)
+Starting linear reg. of Case14-US.nii.gz and Case14-MRI_in_US.nii.gz
+=============================================================
+Searching only for rigid (6 parameter) transform
+TMdDSTMdDS
+# points used: 4800/9600, quantile: 0.305111
+t: MIND=0.55, data=0.43, affine=0.08, speed=4.11e+07 dof/s
+TMdDSTMdDS
+# points used: 7866/15732, quantile: 0.327423
+t: MIND=0.54, data=0.23, affine=0.07, speed=5.76e+07 dof/s
+TMdDSTMdDS
+# points used: 15312/30624, quantile: 0.354444
+t: MIND=0.27, data=0.14, affine=0.06, speed=7.17e+07 dof/s
+TMdDSTMdDS
+# points used: 33262/66526, quantile: 0.382158
+t: MIND=0.49, data=0.13, affine=0.05, speed=6.00e+07 dof/s
++0.998 | -0.030 | -0.051 | +0.000 
++0.030 | +0.999 | -0.014 | +0.000 
++0.052 | +0.012 | +0.999 | +0.000 
+-5.902 | -4.101 | +7.919 | +1.000 
+Finished. Total time: 3.42108 sec. (3.0459 sec. for MIND+data+affine+trans)
+Transforming Case14-MRI-landmarks.nii.gz into Case14-MRI-landmarks_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++0.998 | -0.030 | -0.051 | +0.000 
++0.030 | +0.999 | -0.014 | +0.000 
++0.052 | +0.012 | +0.999 | +0.000 
+-5.902 | -4.101 | +7.919 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case14/output/deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Transforming Case14-MRI_in_US.nii.gz into Case14-MRI_in_US_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++0.998 | -0.030 | -0.051 | +0.000 
++0.030 | +0.999 | -0.014 | +0.000 
++0.052 | +0.012 | +0.999 | +0.000 
+-5.902 | -4.101 | +7.919 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case14/output/deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Starting registration of Case14-US.nii.gz and Case14-MRI_in_US.nii.gz
+=============================================================
+Reading affine matrix file: affine_matrix.txt
++0.998 | -0.030 | -0.051 | +0.000 
++0.030 | +0.999 | -0.014 | +0.000 
++0.052 | +0.012 | +0.999 | +0.000 
+-5.902 | -4.101 | +7.919 | +1.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 17x16x20 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.537876, data=1.74841, MST-reg=0.542332, transf.=0.353774
+ speed=2.33346e+07 dof/s
+std(J)=0.99 (J<0)=0e-7  SSD before registration: 12521.2 and after 12521.2
+
+==========================================================
+Level 1 grid=7 with sizes: 19x18x23 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.27203, data=1.03493, MST-reg=0.563056, transf.=0.354142
+ speed=3.32265e+07 dof/s
+std(J)=1.22 (J<0)=0e-7  SSD before registration: 12521.2 and after 10867.1
+
+==========================================================
+Level 2 grid=6 with sizes: 22x21x26 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.53323, data=0.683874, MST-reg=0.515399, transf.=0.354542
+ speed=4.40106e+07 dof/s
+std(J)=1.38 (J<0)=0e-7  SSD before registration: 12521.2 and after 10415
+
+==========================================================
+Level 3 grid=5 with sizes: 27x25x32 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.272993, data=0.497649, MST-reg=0.514005, transf.=0.354651
+ speed=5.68368e+07 dof/s
+std(J)=1.31 (J<0)=0e-7  SSD before registration: 12521.2 and after 10296.4
+
+==========================================================
+Level 4 grid=4 with sizes: 34x32x40 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.540504, data=0.711826, MST-reg=0.488915, transf.=0.355695
+ speed=5.28442e+07 dof/s
+std(J)=1.2 (J<0)=0e-7  SSD before registration: 12521.2 and after 10193.1
+
+SSD before registration: 11899.5 and after 11260.6
+outputseg /vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case14/output/deeds/after/Case14-deeds_deformed_seg.nii.gz
+Finished. Total time: 11.3364 sec. (0 sec. for MIND+data+reg+trans)
+('landmark error (vox)', 6.3043613515328305)
+Starting linear reg. of Case15-US.nii.gz and Case15-MRI_in_US.nii.gz
+=============================================================
+Searching only for rigid (6 parameter) transform
+TMdDSTMdDS
+# points used: 4608/9216, quantile: 0.303918
+t: MIND=0.52, data=0.42, affine=0.08, speed=4.05e+07 dof/s
+TMdDSTMdDS
+# points used: 8360/16720, quantile: 0.330435
+t: MIND=0.51, data=0.22, affine=0.07, speed=6.21e+07 dof/s
+TMdDSTMdDS
+# points used: 15552/31104, quantile: 0.355556
+t: MIND=0.25, data=0.16, affine=0.06, speed=6.71e+07 dof/s
+TMdDSTMdDS
+# points used: 32550/65100, quantile: 0.381720
+t: MIND=0.47, data=0.14, affine=0.05, speed=5.37e+07 dof/s
++1.000 | +0.012 | +0.005 | +0.000 
+-0.012 | +1.000 | +0.011 | +0.000 
+-0.005 | -0.011 | +1.000 | +0.000 
++1.094 | +7.732 | +2.938 | +1.000 
+Finished. Total time: 3.35485 sec. (2.97703 sec. for MIND+data+affine+trans)
+Transforming Case15-MRI-landmarks.nii.gz into Case15-MRI-landmarks_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.000 | +0.012 | +0.005 | +0.000 
+-0.012 | +1.000 | +0.011 | +0.000 
+-0.005 | -0.011 | +1.000 | +0.000 
++1.094 | +7.732 | +2.938 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case15/output/deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Transforming Case15-MRI_in_US.nii.gz into Case15-MRI_in_US_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.000 | +0.012 | +0.005 | +0.000 
+-0.012 | +1.000 | +0.011 | +0.000 
+-0.005 | -0.011 | +1.000 | +0.000 
++1.094 | +7.732 | +2.938 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case15/output/deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Starting registration of Case15-US.nii.gz and Case15-MRI_in_US.nii.gz
+=============================================================
+Reading affine matrix file: affine_matrix.txt
++1.000 | +0.012 | +0.005 | +0.000 
+-0.012 | +1.000 | +0.011 | +0.000 
+-0.005 | -0.011 | +1.000 | +0.000 
++1.094 | +7.732 | +2.938 | +1.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 16x19x17 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.527091, data=1.68543, MST-reg=0.520348, transf.=0.36221
+ speed=2.30217e+07 dof/s
+std(J)=0.74 (J<0)=0e-7  SSD before registration: 16660.3 and after 16660.3
+
+==========================================================
+Level 1 grid=7 with sizes: 19x21x19 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.260065, data=1.04182, MST-reg=0.526357, transf.=0.3642
+ speed=3.26314e+07 dof/s
+std(J)=0.82 (J<0)=0e-7  SSD before registration: 16660.3 and after 15859.8
+
+==========================================================
+Level 2 grid=6 with sizes: 22x25x23 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.51509, data=0.633469, MST-reg=0.515929, transf.=0.365088
+ speed=4.83593e+07 dof/s
+std(J)=0.94 (J<0)=0e-7  SSD before registration: 16660.3 and after 15619.5
+
+==========================================================
+Level 3 grid=5 with sizes: 27x30x27 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.260492, data=0.556643, MST-reg=0.498951, transf.=0.365452
+ speed=5.51518e+07 dof/s
+std(J)=0.92 (J<0)=0e-7  SSD before registration: 16660.3 and after 15406.4
+
+==========================================================
+Level 4 grid=4 with sizes: 33x38x34 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.510348, data=0.768633, MST-reg=0.485301, transf.=0.365526
+ speed=4.95746e+07 dof/s
+std(J)=0.83 (J<0)=0e-7  SSD before registration: 16660.3 and after 15347.6
+
+SSD before registration: 17134.5 and after 15754.4
+outputseg /vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case15/output/deeds/after/Case15-deeds_deformed_seg.nii.gz
+Finished. Total time: 11.2323 sec. (0 sec. for MIND+data+reg+trans)
+('landmark error (vox)', 4.994785957428697)
+Starting linear reg. of Case16-US.nii.gz and Case16-MRI_in_US.nii.gz
+=============================================================
+Searching only for rigid (6 parameter) transform
+TMdDSTMdDS
+# points used: 4640/9282, quantile: 0.302148
+t: MIND=0.48, data=0.43, affine=0.08, speed=3.99e+07 dof/s
+TMdDSTMdDS
+# points used: 7500/15000, quantile: 0.323499
+t: MIND=0.46, data=0.20, affine=0.07, speed=6.23e+07 dof/s
+TMdDSTMdDS
+# points used: 14724/29450, quantile: 0.351533
+t: MIND=0.23, data=0.15, affine=0.06, speed=6.93e+07 dof/s
+TMdDSTMdDS
+# points used: 32000/64000, quantile: 0.379687
+t: MIND=0.45, data=0.14, affine=0.05, speed=5.60e+07 dof/s
++1.000 | -0.001 | -0.029 | +0.000 
++0.002 | +0.999 | +0.033 | +0.000 
++0.029 | -0.033 | +0.999 | +0.000 
+-9.957 | +5.370 | -3.452 | +1.000 
+Finished. Total time: 3.15468 sec. (2.79122 sec. for MIND+data+affine+trans)
+Transforming Case16-MRI-landmarks.nii.gz into Case16-MRI-landmarks_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.000 | -0.001 | -0.029 | +0.000 
++0.002 | +0.999 | +0.033 | +0.000 
++0.029 | -0.033 | +0.999 | +0.000 
+-9.957 | +5.370 | -3.452 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case16/output/deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Transforming Case16-MRI_in_US.nii.gz into Case16-MRI_in_US_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++1.000 | -0.001 | -0.029 | +0.000 
++0.002 | +0.999 | +0.033 | +0.000 
++0.029 | -0.033 | +0.999 | +0.000 
+-9.957 | +5.370 | -3.452 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case16/output/deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Starting registration of Case16-US.nii.gz and Case16-MRI_in_US.nii.gz
+=============================================================
+Reading affine matrix file: affine_matrix.txt
++1.000 | -0.001 | -0.029 | +0.000 
++0.002 | +0.999 | +0.033 | +0.000 
++0.029 | -0.033 | +0.999 | +0.000 
+-9.957 | +5.370 | -3.452 | +1.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 14x21x17 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.476702, data=1.61555, MST-reg=0.514674, transf.=0.362919
+ speed=2.30541e+07 dof/s
+std(J)=1.12 (J<0)=0e-7  SSD before registration: 4501.17 and after 4501.17
+
+==========================================================
+Level 1 grid=7 with sizes: 16x24x20 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.236247, data=1.05387, MST-reg=0.556317, transf.=0.371603
+ speed=3.2195e+07 dof/s
+std(J)=1.27 (J<0)=0e-7  SSD before registration: 4501.17 and after 3779.55
+
+==========================================================
+Level 2 grid=6 with sizes: 18x28x23 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.495444, data=0.554658, MST-reg=0.494031, transf.=0.365292
+ speed=4.85704e+07 dof/s
+std(J)=1.32 (J<0)=0e-7  SSD before registration: 4501.17 and after 3683.59
+
+==========================================================
+Level 3 grid=5 with sizes: 22x34x28 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.232028, data=0.521579, MST-reg=0.471387, transf.=0.365791
+ speed=5.61479e+07 dof/s
+std(J)=1.25 (J<0)=0e-7  SSD before registration: 4501.17 and after 3653.29
+
+==========================================================
+Level 4 grid=4 with sizes: 28x43x35 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.446415, data=0.74793, MST-reg=0.479025, transf.=0.358057
+ speed=5.00753e+07 dof/s
+std(J)=1.12 (J<0)=0e-7  SSD before registration: 4501.17 and after 3648.96
+
+SSD before registration: 4825.89 and after 4192.37
+outputseg /vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case16/output/deeds/after/Case16-deeds_deformed_seg.nii.gz
+Finished. Total time: 10.8211 sec. (0 sec. for MIND+data+reg+trans)
+('landmark error (vox)', 3.9821591748979026)
+Starting linear reg. of Case17-US.nii.gz and Case17-MRI_in_US.nii.gz
+=============================================================
+Searching only for rigid (6 parameter) transform
+TMdDSTMdDS
+# points used: 3978/7956, quantile: 0.295982
+t: MIND=0.45, data=0.36, affine=0.07, speed=4.15e+07 dof/s
+TMdDSTMdDS
+# points used: 6614/13230, quantile: 0.319010
+t: MIND=0.44, data=0.17, affine=0.06, speed=6.55e+07 dof/s
+TMdDSTMdDS
+# points used: 12844/25688, quantile: 0.347098
+t: MIND=0.20, data=0.12, affine=0.05, speed=7.15e+07 dof/s
+TMdDSTMdDS
+# points used: 28048/56100, quantile: 0.376046
+t: MIND=0.40, data=0.12, affine=0.05, speed=5.58e+07 dof/s
++0.998 | -0.020 | -0.067 | +0.000 
++0.021 | +1.000 | +0.004 | +0.000 
++0.067 | -0.005 | +0.998 | +0.000 
+-1.455 | -0.384 | -12.108 | +1.000 
+Finished. Total time: 2.81332 sec. (2.49873 sec. for MIND+data+affine+trans)
+Transforming Case17-MRI-landmarks.nii.gz into Case17-MRI-landmarks_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++0.998 | -0.020 | -0.067 | +0.000 
++0.021 | +1.000 | +0.004 | +0.000 
++0.067 | -0.005 | +0.998 | +0.000 
+-1.455 | -0.384 | -12.108 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case17/output/deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Transforming Case17-MRI_in_US.nii.gz into Case17-MRI_in_US_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++0.998 | -0.020 | -0.067 | +0.000 
++0.021 | +1.000 | +0.004 | +0.000 
++0.067 | -0.005 | +0.998 | +0.000 
+-1.455 | -0.384 | -12.108 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case17/output/deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Starting registration of Case17-US.nii.gz and Case17-MRI_in_US.nii.gz
+=============================================================
+Reading affine matrix file: affine_matrix.txt
++0.998 | -0.020 | -0.067 | +0.000 
++0.021 | +1.000 | +0.004 | +0.000 
++0.067 | -0.005 | +0.998 | +0.000 
+-1.455 | -0.384 | -12.108 | +1.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 14x18x18 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.444425, data=1.43501, MST-reg=0.470459, transf.=0.312721
+ speed=2.3391e+07 dof/s
+std(J)=0.81 (J<0)=0e-7  SSD before registration: 4455.21 and after 4455.21
+
+==========================================================
+Level 1 grid=7 with sizes: 16x21x20 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.227232, data=0.926908, MST-reg=0.485794, transf.=0.314096
+ speed=3.21087e+07 dof/s
+std(J)=1.04 (J<0)=0e-7  SSD before registration: 4455.21 and after 3807.29
+
+==========================================================
+Level 2 grid=6 with sizes: 18x24x24 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.438385, data=0.491244, MST-reg=0.436785, transf.=0.314952
+ speed=4.90901e+07 dof/s
+std(J)=1.13 (J<0)=0e-7  SSD before registration: 4455.21 and after 3470.69
+
+==========================================================
+Level 3 grid=5 with sizes: 22x29x29 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.21756, data=0.459365, MST-reg=0.423809, transf.=0.314672
+ speed=5.57674e+07 dof/s
+std(J)=1.06 (J<0)=0e-7  SSD before registration: 4455.21 and after 3353.73
+
+==========================================================
+Level 4 grid=4 with sizes: 28x37x36 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.404494, data=0.637516, MST-reg=0.429792, transf.=0.308413
+ speed=5.09483e+07 dof/s
+std(J)=1.02 (J<0)=0e-7  SSD before registration: 4455.21 and after 3372.76
+
+SSD before registration: 4567.93 and after 3806.91
+outputseg /vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case17/output/deeds/after/Case17-deeds_deformed_seg.nii.gz
+Finished. Total time: 9.58507 sec. (0 sec. for MIND+data+reg+trans)
+('landmark error (vox)', 6.602869505419258)
+Starting linear reg. of Case18-US.nii.gz and Case18-MRI_in_US.nii.gz
+=============================================================
+Searching only for rigid (6 parameter) transform
+TMdDSTMdDS
+# points used: 3756/7514, quantile: 0.293516
+t: MIND=0.44, data=0.33, affine=0.07, speed=4.24e+07 dof/s
+TMdDSTMdDS
+# points used: 6720/13440, quantile: 0.320366
+t: MIND=0.43, data=0.19, affine=0.06, speed=6.03e+07 dof/s
+TMdDSTMdDS
+# points used: 13000/26000, quantile: 0.348040
+t: MIND=0.20, data=0.12, affine=0.06, speed=7.09e+07 dof/s
+TMdDSTMdDS
+# points used: 27454/54912, quantile: 0.375698
+t: MIND=0.41, data=0.12, affine=0.04, speed=5.42e+07 dof/s
++0.997 | +0.018 | +0.079 | +0.000 
+-0.027 | +0.994 | +0.108 | +0.000 
+-0.076 | -0.109 | +0.991 | +0.000 
++6.474 | +11.986 | -25.585 | +1.000 
+Finished. Total time: 2.79606 sec. (2.48806 sec. for MIND+data+affine+trans)
+Transforming Case18-MRI-landmarks.nii.gz into Case18-MRI-landmarks_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++0.997 | +0.018 | +0.079 | +0.000 
+-0.027 | +0.994 | +0.108 | +0.000 
+-0.076 | -0.109 | +0.991 | +0.000 
++6.474 | +11.986 | -25.585 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case18/output/deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Transforming Case18-MRI_in_US.nii.gz into Case18-MRI_in_US_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++0.997 | +0.018 | +0.079 | +0.000 
+-0.027 | +0.994 | +0.108 | +0.000 
+-0.076 | -0.109 | +0.991 | +0.000 
++6.474 | +11.986 | -25.585 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case18/output/deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Starting registration of Case18-US.nii.gz and Case18-MRI_in_US.nii.gz
+=============================================================
+Reading affine matrix file: affine_matrix.txt
++0.997 | +0.018 | +0.079 | +0.000 
+-0.027 | +0.994 | +0.108 | +0.000 
+-0.076 | -0.109 | +0.991 | +0.000 
++6.474 | +11.986 | -25.585 | +1.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 18x17x14 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.439895, data=1.30369, MST-reg=0.430829, transf.=0.303097
+ speed=2.42687e+07 dof/s
+std(J)=0.73 (J<0)=140.06e-7  SSD before registration: 3777.62 and after 3777.62
+
+==========================================================
+Level 1 grid=7 with sizes: 20x20x16 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.220609, data=0.775894, MST-reg=0.4564, transf.=0.30531
+ speed=3.50566e+07 dof/s
+std(J)=0.89 (J<0)=0e-7  SSD before registration: 3777.62 and after 3278.5
+
+==========================================================
+Level 2 grid=6 with sizes: 24x23x19 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.433442, data=0.565816, MST-reg=0.442681, transf.=0.309107
+ speed=4.5696e+07 dof/s
+std(J)=0.93 (J<0)=0e-7  SSD before registration: 3777.62 and after 3096.88
+
+==========================================================
+Level 3 grid=5 with sizes: 29x28x23 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.224319, data=0.45847, MST-reg=0.42983, transf.=0.306296
+ speed=5.5967e+07 dof/s
+std(J)=0.9 (J<0)=0e-7  SSD before registration: 3777.62 and after 3049.56
+
+==========================================================
+Level 4 grid=4 with sizes: 36x35x29 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.391527, data=0.640899, MST-reg=0.414428, transf.=0.299352
+ speed=5.04823e+07 dof/s
+std(J)=0.84 (J<0)=0e-7  SSD before registration: 3777.62 and after 3074.3
+
+SSD before registration: 3995.12 and after 3718.7
+outputseg /vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case18/output/deeds/after/Case18-deeds_deformed_seg.nii.gz
+Finished. Total time: 9.24128 sec. (0 sec. for MIND+data+reg+trans)
+('landmark error (vox)', 3.8255736924999004)
+Starting linear reg. of Case19-US.nii.gz and Case19-MRI_in_US.nii.gz
+=============================================================
+Searching only for rigid (6 parameter) transform
+TMdDSTMdDS
+# points used: 5130/10260, quantile: 0.308442
+t: MIND=0.58, data=0.48, affine=0.09, speed=3.90e+07 dof/s
+TMdDSTMdDS
+# points used: 9108/18216, quantile: 0.333626
+t: MIND=0.57, data=0.26, affine=0.08, speed=5.88e+07 dof/s
+TMdDSTMdDS
+# points used: 16632/33264, quantile: 0.357677
+t: MIND=0.29, data=0.18, affine=0.07, speed=6.36e+07 dof/s
+TMdDSTMdDS
+# points used: 36540/73080, quantile: 0.385248
+t: MIND=0.52, data=0.14, affine=0.06, speed=5.83e+07 dof/s
++0.999 | -0.011 | -0.045 | +0.000 
++0.015 | +0.996 | +0.087 | +0.000 
++0.044 | -0.088 | +0.995 | +0.000 
+-8.429 | +3.222 | -6.354 | +1.000 
+Finished. Total time: 3.72478 sec. (3.30979 sec. for MIND+data+affine+trans)
+Transforming Case19-MRI-landmarks.nii.gz into Case19-MRI-landmarks_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++0.999 | -0.011 | -0.045 | +0.000 
++0.015 | +0.996 | +0.087 | +0.000 
++0.044 | -0.088 | +0.995 | +0.000 
+-8.429 | +3.222 | -6.354 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case19/output/deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Transforming Case19-MRI_in_US.nii.gz into Case19-MRI_in_US_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++0.999 | -0.011 | -0.045 | +0.000 
++0.015 | +0.996 | +0.087 | +0.000 
++0.044 | -0.088 | +0.995 | +0.000 
+-8.429 | +3.222 | -6.354 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case19/output/deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Starting registration of Case19-US.nii.gz and Case19-MRI_in_US.nii.gz
+=============================================================
+Reading affine matrix file: affine_matrix.txt
++0.999 | -0.011 | -0.045 | +0.000 
++0.015 | +0.996 | +0.087 | +0.000 
++0.044 | -0.088 | +0.995 | +0.000 
+-8.429 | +3.222 | -6.354 | +1.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 19x19x16 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.588365, data=1.68302, MST-reg=0.602009, transf.=0.407698
+ speed=2.48378e+07 dof/s
+std(J)=0.96 (J<0)=0e-7  SSD before registration: 6030.69 and after 6030.69
+
+==========================================================
+Level 1 grid=7 with sizes: 22x21x18 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.28828, data=1.20226, MST-reg=0.612783, transf.=0.407285
+ speed=3.09266e+07 dof/s
+std(J)=1.41 (J<0)=0e-7  SSD before registration: 6030.69 and after 5367.86
+
+==========================================================
+Level 2 grid=6 with sizes: 26x25x21 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.569016, data=0.752785, MST-reg=0.557978, transf.=0.41053
+ speed=4.57582e+07 dof/s
+std(J)=1.31 (J<0)=0e-7  SSD before registration: 6030.69 and after 5025.71
+
+==========================================================
+Level 3 grid=5 with sizes: 31x30x25 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.288762, data=0.623398, MST-reg=0.523966, transf.=0.411941
+ speed=5.39424e+07 dof/s
+std(J)=1.28 (J<0)=0e-7  SSD before registration: 6030.69 and after 4847.08
+
+==========================================================
+Level 4 grid=4 with sizes: 39x38x32 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.559964, data=0.805417, MST-reg=0.545965, transf.=0.407605
+ speed=5.11655e+07 dof/s
+std(J)=1.17 (J<0)=0e-7  SSD before registration: 6030.69 and after 4865.93
+
+SSD before registration: 6090.81 and after 5570.41
+outputseg /vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case19/output/deeds/after/Case19-deeds_deformed_seg.nii.gz
+Finished. Total time: 12.3584 sec. (0 sec. for MIND+data+reg+trans)
+('landmark error (vox)', 7.489055425144216)
+Starting linear reg. of Case21-US.nii.gz and Case21-MRI_in_US.nii.gz
+=============================================================
+Searching only for rigid (6 parameter) transform
+TMdDSTMdDS
+# points used: 12584/25168, quantile: 0.347145
+t: MIND=1.11, data=1.01, affine=0.18, speed=4.03e+07 dof/s
+TMdDSTMdDS
+# points used: 20956/41912, quantile: 0.366441
+t: MIND=1.09, data=0.53, affine=0.17, speed=6.01e+07 dof/s
+TMdDSTMdDS
+# points used: 38912/77824, quantile: 0.387377
+t: MIND=0.53, data=0.36, affine=0.15, speed=6.82e+07 dof/s
+TMdDSTMdDS
+# points used: 78720/157440, quantile: 0.407909
+t: MIND=1.07, data=0.33, affine=0.12, speed=5.38e+07 dof/s
++0.993 | -0.000 | +0.117 | +0.000 
++0.002 | +1.000 | -0.013 | +0.000 
+-0.117 | +0.014 | +0.993 | +0.000 
++8.228 | -6.524 | -8.422 | +1.000 
+Finished. Total time: 7.49307 sec. (6.64019 sec. for MIND+data+affine+trans)
+Transforming Case21-MRI-landmarks.nii.gz into Case21-MRI-landmarks_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++0.993 | -0.000 | +0.117 | +0.000 
++0.002 | +1.000 | -0.013 | +0.000 
+-0.117 | +0.014 | +0.993 | +0.000 
++8.228 | -6.524 | -8.422 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case21/output/deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Transforming Case21-MRI_in_US.nii.gz into Case21-MRI_in_US_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++0.993 | -0.000 | +0.117 | +0.000 
++0.002 | +1.000 | -0.013 | +0.000 
+-0.117 | +0.014 | +0.993 | +0.000 
++8.228 | -6.524 | -8.422 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case21/output/deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Starting registration of Case21-US.nii.gz and Case21-MRI_in_US.nii.gz
+=============================================================
+Reading affine matrix file: affine_matrix.txt
++0.993 | -0.000 | +0.117 | +0.000 
++0.002 | +1.000 | -0.013 | +0.000 
+-0.117 | +0.014 | +0.993 | +0.000 
++8.228 | -6.524 | -8.422 | +1.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 25x21x22 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=1.093, data=3.65772, MST-reg=1.12045, transf.=0.875546
+ speed=2.37518e+07 dof/s
+std(J)=0.92 (J<0)=0e-7  SSD before registration: 5947.1 and after 5947.1
+
+==========================================================
+Level 1 grid=7 with sizes: 29x25x25 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.534202, data=2.71826, MST-reg=1.25496, transf.=0.876978
+ speed=3.07921e+07 dof/s
+std(J)=1.27 (J<0)=0e-7  SSD before registration: 5947.1 and after 5228.4
+
+==========================================================
+Level 2 grid=6 with sizes: 34x29x29 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=1.06389, data=1.5271, MST-reg=1.20124, transf.=0.91319
+ speed=4.60508e+07 dof/s
+std(J)=1.25 (J<0)=0e-7  SSD before registration: 5947.1 and after 4957.89
+
+==========================================================
+Level 3 grid=5 with sizes: 41x35x35 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.533512, data=1.22146, MST-reg=1.11017, transf.=0.881359
+ speed=5.73413e+07 dof/s
+std(J)=1.22 (J<0)=0e-7  SSD before registration: 5947.1 and after 4834.99
+
+==========================================================
+Level 4 grid=4 with sizes: 51x43x44 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=1.07899, data=1.65779, MST-reg=1.09038, transf.=0.880041
+ speed=5.11923e+07 dof/s
+std(J)=1.12 (J<0)=0e-7  SSD before registration: 5947.1 and after 4835.66
+
+SSD before registration: 5964.98 and after 4544.39
+outputseg /vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case21/output/deeds/after/Case21-deeds_deformed_seg.nii.gz
+Finished. Total time: 25.4999 sec. (0 sec. for MIND+data+reg+trans)
+('landmark error (vox)', 3.3682054997837905)
+Starting linear reg. of Case23-US.nii.gz and Case23-MRI_in_US.nii.gz
+=============================================================
+Searching only for rigid (6 parameter) transform
+TMdDSTMdDS
+# points used: 5292/10584, quantile: 0.308824
+t: MIND=0.55, data=0.51, affine=0.09, speed=3.79e+07 dof/s
+TMdDSTMdDS
+# points used: 8400/16800, quantile: 0.328947
+t: MIND=0.54, data=0.24, affine=0.07, speed=5.87e+07 dof/s
+TMdDSTMdDS
+# points used: 15600/31200, quantile: 0.354368
+t: MIND=0.27, data=0.15, affine=0.07, speed=6.89e+07 dof/s
+TMdDSTMdDS
+# points used: 34476/68952, quantile: 0.382506
+t: MIND=0.50, data=0.16, affine=0.06, speed=5.33e+07 dof/s
++0.996 | +0.090 | -0.009 | +0.000 
+-0.090 | +0.996 | -0.012 | +0.000 
++0.007 | +0.013 | +1.000 | +0.000 
++13.332 | -20.575 | +2.689 | +1.000 
+Finished. Total time: 3.59112 sec. (3.20677 sec. for MIND+data+affine+trans)
+Transforming Case23-MRI-landmarks.nii.gz into Case23-MRI-landmarks_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++0.996 | +0.090 | -0.009 | +0.000 
+-0.090 | +0.996 | -0.012 | +0.000 
++0.007 | +0.013 | +1.000 | +0.000 
++13.332 | -20.575 | +2.689 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case23/output/deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Transforming Case23-MRI_in_US.nii.gz into Case23-MRI_in_US_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++0.996 | +0.090 | -0.009 | +0.000 
+-0.090 | +0.996 | -0.012 | +0.000 
++0.007 | +0.013 | +1.000 | +0.000 
++13.332 | -20.575 | +2.689 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case23/output/deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Starting registration of Case23-US.nii.gz and Case23-MRI_in_US.nii.gz
+=============================================================
+Reading affine matrix file: affine_matrix.txt
++0.996 | +0.090 | -0.009 | +0.000 
+-0.090 | +0.996 | -0.012 | +0.000 
++0.007 | +0.013 | +1.000 | +0.000 
++13.332 | -20.575 | +2.689 | +1.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 18x21x14 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.54734, data=1.58363, MST-reg=0.537538, transf.=0.370443
+ speed=2.45144e+07 dof/s
+std(J)=0.93 (J<0)=0e-7  SSD before registration: 16119.7 and after 16119.7
+
+==========================================================
+Level 1 grid=7 with sizes: 21x24x17 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.273638, data=1.23124, MST-reg=0.589071, transf.=0.371964
+ speed=3.17714e+07 dof/s
+std(J)=1.11 (J<0)=0e-7  SSD before registration: 16119.7 and after 14711
+
+==========================================================
+Level 2 grid=6 with sizes: 24x28x19 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.539583, data=0.671265, MST-reg=0.534478, transf.=0.372281
+ speed=4.65295e+07 dof/s
+std(J)=1.15 (J<0)=0e-7  SSD before registration: 16119.7 and after 14264.2
+
+==========================================================
+Level 3 grid=5 with sizes: 29x33x23 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.270876, data=0.543471, MST-reg=0.495301, transf.=0.376163
+ speed=5.64063e+07 dof/s
+std(J)=1.12 (J<0)=0e-7  SSD before registration: 16119.7 and after 14334.5
+
+==========================================================
+Level 4 grid=4 with sizes: 37x42x29 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.537137, data=0.817374, MST-reg=0.5257, transf.=0.374238
+ speed=4.89223e+07 dof/s
+std(J)=1.02 (J<0)=0e-7  SSD before registration: 16119.7 and after 14370.1
+
+SSD before registration: 15438.9 and after 14187.9
+outputseg /vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case23/output/deeds/after/Case23-deeds_deformed_seg.nii.gz
+Finished. Total time: 11.6686 sec. (0 sec. for MIND+data+reg+trans)
+('landmark error (vox)', 6.27243136368034)
+Starting linear reg. of Case24-US.nii.gz and Case24-MRI_in_US.nii.gz
+=============================================================
+Searching only for rigid (6 parameter) transform
+TMdDSTMdDS
+# points used: 2496/4992, quantile: 0.273684
+t: MIND=0.32, data=0.23, affine=0.05, speed=4.41e+07 dof/s
+TMdDSTMdDS
+# points used: 4274/8550, quantile: 0.299874
+t: MIND=0.29, data=0.13, affine=0.04, speed=6.10e+07 dof/s
+TMdDSTMdDS
+# points used: 8664/17328, quantile: 0.331497
+t: MIND=0.14, data=0.08, affine=0.04, speed=7.25e+07 dof/s
+TMdDSTMdDS
+# points used: 18600/37200, quantile: 0.361811
+t: MIND=0.28, data=0.08, affine=0.03, speed=5.60e+07 dof/s
++0.994 | -0.097 | -0.057 | +0.000 
++0.094 | +0.994 | -0.050 | +0.000 
++0.061 | +0.044 | +0.997 | +0.000 
+-11.186 | +5.498 | +9.122 | +1.000 
+Finished. Total time: 1.93733 sec. (1.70952 sec. for MIND+data+affine+trans)
+Transforming Case24-MRI-landmarks.nii.gz into Case24-MRI-landmarks_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++0.994 | -0.097 | -0.057 | +0.000 
++0.094 | +0.994 | -0.050 | +0.000 
++0.061 | +0.044 | +0.997 | +0.000 
+-11.186 | +5.498 | +9.122 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case24/output/deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Transforming Case24-MRI_in_US.nii.gz into Case24-MRI_in_US_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++0.994 | -0.097 | -0.057 | +0.000 
++0.094 | +0.994 | -0.050 | +0.000 
++0.061 | +0.044 | +0.997 | +0.000 
+-11.186 | +5.498 | +9.122 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case24/output/deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Starting registration of Case24-US.nii.gz and Case24-MRI_in_US.nii.gz
+=============================================================
+Reading affine matrix file: affine_matrix.txt
++0.994 | -0.097 | -0.057 | +0.000 
++0.094 | +0.994 | -0.050 | +0.000 
++0.061 | +0.044 | +0.997 | +0.000 
+-11.186 | +5.498 | +9.122 | +1.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 13x17x14 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.321221, data=0.893901, MST-reg=0.319007, transf.=0.219937
+ speed=2.50651e+07 dof/s
+std(J)=0.74 (J<0)=0e-7  SSD before registration: 18797.7 and after 18797.7
+
+==========================================================
+Level 1 grid=7 with sizes: 15x19x16 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.140651, data=0.542831, MST-reg=0.318969, transf.=0.215782
+ speed=3.57159e+07 dof/s
+std(J)=1.05 (J<0)=0e-7  SSD before registration: 18797.7 and after 17422.8
+
+==========================================================
+Level 2 grid=6 with sizes: 18x22x18 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.282711, data=0.384193, MST-reg=0.302414, transf.=0.215585
+ speed=4.56163e+07 dof/s
+std(J)=1.1 (J<0)=0e-7  SSD before registration: 18797.7 and after 16815.4
+
+==========================================================
+Level 3 grid=5 with sizes: 22x27x22 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.139742, data=0.320189, MST-reg=0.300098, transf.=0.215322
+ speed=5.60821e+07 dof/s
+std(J)=1.08 (J<0)=0e-7  SSD before registration: 18797.7 and after 16661.5
+
+==========================================================
+Level 4 grid=4 with sizes: 27x34x28 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.290237, data=0.467175, MST-reg=0.290388, transf.=0.216215
+ speed=4.94697e+07 dof/s
+std(J)=1.01 (J<0)=0e-7  SSD before registration: 18797.7 and after 16679.3
+
+SSD before registration: 19094.7 and after 17065.5
+outputseg /vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case24/output/deeds/after/Case24-deeds_deformed_seg.nii.gz
+Finished. Total time: 6.46389 sec. (0 sec. for MIND+data+reg+trans)
+('landmark error (vox)', 6.770518036811855)
+Starting linear reg. of Case25-US.nii.gz and Case25-MRI_in_US.nii.gz
+=============================================================
+Searching only for rigid (6 parameter) transform
+TMdDSTMdDS
+# points used: 5814/11628, quantile: 0.314610
+t: MIND=0.62, data=0.50, affine=0.10, speed=4.11e+07 dof/s
+TMdDSTMdDS
+# points used: 9660/19320, quantile: 0.336538
+t: MIND=0.62, data=0.27, affine=0.08, speed=5.84e+07 dof/s
+TMdDSTMdDS
+# points used: 18200/36400, quantile: 0.361513
+t: MIND=0.30, data=0.20, affine=0.08, speed=6.30e+07 dof/s
+TMdDSTMdDS
+# points used: 39168/78336, quantile: 0.387764
+t: MIND=0.61, data=0.17, affine=0.06, speed=5.41e+07 dof/s
++0.970 | -0.241 | +0.043 | +0.000 
++0.243 | +0.969 | -0.048 | +0.000 
+-0.030 | +0.057 | +0.998 | +0.000 
+-15.743 | +36.216 | +0.604 | +1.000 
+Finished. Total time: 4.04409 sec. (3.61236 sec. for MIND+data+affine+trans)
+Transforming Case25-MRI-landmarks.nii.gz into Case25-MRI-landmarks_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++0.970 | -0.241 | +0.043 | +0.000 
++0.243 | +0.969 | -0.048 | +0.000 
+-0.030 | +0.057 | +0.998 | +0.000 
+-15.743 | +36.216 | +0.604 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case25/output/deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Transforming Case25-MRI_in_US.nii.gz into Case25-MRI_in_US_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++0.970 | -0.241 | +0.043 | +0.000 
++0.243 | +0.969 | -0.048 | +0.000 
+-0.030 | +0.057 | +0.998 | +0.000 
+-15.743 | +36.216 | +0.604 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case25/output/deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Starting registration of Case25-US.nii.gz and Case25-MRI_in_US.nii.gz
+=============================================================
+Reading affine matrix file: affine_matrix.txt
++0.970 | -0.241 | +0.043 | +0.000 
++0.243 | +0.969 | -0.048 | +0.000 
+-0.030 | +0.057 | +0.998 | +0.000 
+-15.743 | +36.216 | +0.604 | +1.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 17x18x19 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.621836, data=1.82255, MST-reg=0.573248, transf.=0.443682
+ speed=2.38453e+07 dof/s
+std(J)=1.03 (J<0)=0e-7  SSD before registration: 20901.9 and after 20901.9
+
+==========================================================
+Level 1 grid=7 with sizes: 20x21x22 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.307589, data=1.26, MST-reg=0.672925, transf.=0.445264
+ speed=3.22672e+07 dof/s
+std(J)=1.12 (J<0)=0e-7  SSD before registration: 20901.9 and after 19250.2
+
+==========================================================
+Level 2 grid=6 with sizes: 23x24x26 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.605706, data=0.77739, MST-reg=0.601199, transf.=0.451043
+ speed=4.57444e+07 dof/s
+std(J)=1.12 (J<0)=0e-7  SSD before registration: 20901.9 and after 18795.2
+
+==========================================================
+Level 3 grid=5 with sizes: 28x29x31 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.307273, data=0.597727, MST-reg=0.570449, transf.=0.446959
+ speed=5.73611e+07 dof/s
+std(J)=1.11 (J<0)=0e-7  SSD before registration: 20901.9 and after 18698.1
+
+==========================================================
+Level 4 grid=4 with sizes: 35x37x39 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.604283, data=0.874359, MST-reg=0.57513, transf.=0.44754
+ speed=5.08016e+07 dof/s
+std(J)=0.98 (J<0)=0e-7  SSD before registration: 20901.9 and after 18712.6
+
+SSD before registration: 21372 and after 19985.7
+outputseg /vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case25/output/deeds/after/Case25-deeds_deformed_seg.nii.gz
+Finished. Total time: 13.1245 sec. (0 sec. for MIND+data+reg+trans)
+('landmark error (vox)', 5.557723930625369)
+Starting linear reg. of Case27-US.nii.gz and Case27-MRI_in_US.nii.gz
+=============================================================
+Searching only for rigid (6 parameter) transform
+TMdDSTMdDS
+# points used: 3136/6272, quantile: 0.285558
+t: MIND=0.39, data=0.33, affine=0.06, speed=3.73e+07 dof/s
+TMdDSTMdDS
+# points used: 5490/10982, quantile: 0.311989
+t: MIND=0.35, data=0.14, affine=0.05, speed=6.54e+07 dof/s
+TMdDSTMdDS
+# points used: 10584/21168, quantile: 0.340278
+t: MIND=0.18, data=0.10, affine=0.05, speed=7.51e+07 dof/s
+TMdDSTMdDS
+# points used: 24304/48608, quantile: 0.371917
+t: MIND=0.34, data=0.10, affine=0.04, speed=5.65e+07 dof/s
++0.998 | +0.042 | +0.042 | +0.000 
+-0.041 | +0.999 | -0.027 | +0.000 
+-0.043 | +0.025 | +0.999 | +0.000 
++3.955 | +9.562 | -6.046 | +1.000 
+Finished. Total time: 2.3948 sec. (2.13097 sec. for MIND+data+affine+trans)
+Transforming Case27-MRI-landmarks.nii.gz into Case27-MRI-landmarks_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++0.998 | +0.042 | +0.042 | +0.000 
+-0.041 | +0.999 | -0.027 | +0.000 
+-0.043 | +0.025 | +0.999 | +0.000 
++3.954 | +9.562 | -6.046 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case27/output/deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Transforming Case27-MRI_in_US.nii.gz into Case27-MRI_in_US_linear.nii.gz
+Reading affine matrix file: affine_matrix.txt
++0.998 | +0.042 | +0.042 | +0.000 
+-0.041 | +0.999 | -0.027 | +0.000 
+-0.043 | +0.025 | +0.999 | +0.000 
++3.954 | +9.562 | -6.046 | +1.000 
+Reading displacements from:
+/vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case27/output/deeds/after/zero_displacements.dat
+=============================================================
+grid step 4
+Starting registration of Case27-US.nii.gz and Case27-MRI_in_US.nii.gz
+=============================================================
+Reading affine matrix file: affine_matrix.txt
++0.998 | +0.042 | +0.042 | +0.000 
+-0.041 | +0.999 | -0.027 | +0.000 
+-0.043 | +0.025 | +0.999 | +0.000 
++3.954 | +9.562 | -6.046 | +1.000 
+MIND STEPS, 3, 3, 2, 2, 1 
+==========================================================
+Level 0 grid=8 with sizes: 15x17x15 hw=8 quant=5
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.384433, data=1.11753, MST-reg=0.392367, transf.=0.268851
+ speed=2.48921e+07 dof/s
+std(J)=1.22 (J<0)=0e-7  SSD before registration: 17861.2 and after 17861.2
+
+==========================================================
+Level 1 grid=7 with sizes: 17x19x17 hw=7 quant=4
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.193216, data=0.794756, MST-reg=0.395944, transf.=0.269517
+ speed=3.11281e+07 dof/s
+std(J)=1.34 (J<0)=0e-7  SSD before registration: 17861.2 and after 15243.7
+
+==========================================================
+Level 2 grid=6 with sizes: 20x22x20 hw=6 quant=3
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.379329, data=0.472142, MST-reg=0.371916, transf.=0.269661
+ speed=4.58111e+07 dof/s
+std(J)=1.33 (J<0)=0e-7  SSD before registration: 17861.2 and after 14867.7
+
+==========================================================
+Level 3 grid=5 with sizes: 24x27x24 hw=5 quant=2
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.18779, data=0.358874, MST-reg=0.355485, transf.=0.268373
+ speed=5.79533e+07 dof/s
+std(J)=1.32 (J<0)=0e-7  SSD before registration: 17861.2 and after 14716.9
+
+==========================================================
+Level 4 grid=4 with sizes: 31x34x31 hw=4 quant=1
+==========================================================
+TMdDSTMdDS
+Time: MIND=0.342999, data=0.545286, MST-reg=0.368033, transf.=0.265354
+ speed=5.216e+07 dof/s
+std(J)=1.19 (J<0)=0e-7  SSD before registration: 17861.2 and after 14834.6
+
+SSD before registration: 17086.7 and after 16394.7
+outputseg /vol/bitbucket/mt3215/RESECT/RESECT/NIFTI/Case27/output/deeds/after/Case27-deeds_deformed_seg.nii.gz
+Finished. Total time: 8.08118 sec. (0 sec. for MIND+data+reg+trans)
+('landmark error (vox)', 6.409174616566407)

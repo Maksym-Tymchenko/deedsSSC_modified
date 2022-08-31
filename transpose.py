@@ -1,6 +1,12 @@
 import numpy as np
+import sys
 
-with open('bucket/RESECT/RESECT/NIFTI/Case1/output/affine1_matrix.txt') as f:
+
+input_matrix = sys.argv[1]
+output_matrix = sys.argv[2]
+ 
+
+with open(input_matrix) as f:
     
     matrix = []
     for line in f:
@@ -15,6 +21,6 @@ with open('bucket/RESECT/RESECT/NIFTI/Case1/output/affine1_matrix.txt') as f:
 
 # Write transposed matrix to file
 
-with open('bucket/RESECT/RESECT/NIFTI/Case1/output/affine1_matrix_t.txt', 'w') as f:
+with open(output_matrix, 'w') as f:
     for line in np_matrix:
         np.savetxt(f, line, fmt='%.8f')
